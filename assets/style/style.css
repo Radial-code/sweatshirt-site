@@ -1,0 +1,13 @@
+:root {
+    /* FONT SIZE */
+    --font-xs: 11px;
+    --font-sm: 13px;
+    --font-sub-md: 17px;
+    --font-lg: 21px;
+    --font-md: 16px;
+
+    /* COLOR  */
+    --bg-black: #000000;
+    --bg-gray-76: #c2c2c2;
+    --bg-Hawkes-blue: #d8d9db;
+}
