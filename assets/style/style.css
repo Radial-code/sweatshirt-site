@@ -141,3 +141,71 @@
   opacity: 1;
   background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='black'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
 }
+
+.modal-backdrop.show {
+  opacity: 0;
+}
+
+.mw-200 {
+  max-width: 200px;
+}
+
+.discover-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 32px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.basket-heading {
+  font-size: 17px;
+  font-weight: 500;
+  color: black;
+}
+
+.basket-para {
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+}
+
+.my-basket {
+  font-size: 25px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.facebook-btn {
+  background-color: #4267b2;
+  padding: 8px 32px 10px;
+  width: 100%;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.login-heading {
+  font-size: 21px;
+  font-weight: 500;
+  color: black;
+}
+
+.login-small-text {
+  font-size: 11px;
+  color: black;
+  font-weight: 400;
+}
+
+.bold-text {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-para {
+  font-size: 13px;
+  font-weight: 400;
+  color: #000000;
+}
