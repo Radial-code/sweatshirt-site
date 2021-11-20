@@ -1,13 +1,40 @@
 :root {
-    /* FONT SIZE */
-    --font-xs: 11px;
-    --font-sm: 13px;
-    --font-sub-md: 17px;
-    --font-lg: 21px;
-    --font-md: 16px;
+  /* FONT SIZE */
+  --font-xs: 11px;
+  --font-sm: 13px;
+  --font-sub-md: 17px;
+  --font-lg: 21px;
+  --font-md: 16px;
 
-    /* COLOR  */
-    --bg-black: #000000;
-    --bg-gray-76: #c2c2c2;
-    --bg-Hawkes-blue: #d8d9db;
+  /* COLOR  */
+  --bg-black: #000000;
+  --bg-gray-76: #c2c2c2;
+  --bg-Hawkes-blue: #d8d9db;
 }
+.navbar-input {
+  border-bottom: 1px solid var(--bg-black);
+  width: 300px;
+}
+
+.hover-sidebar {
+  width: 300px !important;
+  z-index: 13 !important;
+  position: fixed;
+  left: 0px !important;
+  height: 100vh !important;
+  transition: 0.4s !important;
+  background-color: red !important;
+}
+.hover-sidebar1 {
+  width: 300px;
+  z-index: 13;
+  position: fixed;
+  left: -300px;
+  height: 100vh;
+  transition: 0.2s;
+  background-color: red;
+}
+
+/* .hover-sidebar {
+  left: 0px;
+} */
