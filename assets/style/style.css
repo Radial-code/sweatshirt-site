@@ -34,7 +34,19 @@
   transition: 0.2s;
   background-color: red;
 }
-
-/* .hover-sidebar {
-  left: 0px;
-} */
+.width {
+  width: 300px;
+}
+.navbar {
+  height: 56px;
+}
+.result {
+  background-color: pink;
+  height: 400px;
+  width: 100%;
+  top: 0px;
+  position: absolute;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
