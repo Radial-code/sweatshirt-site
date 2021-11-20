@@ -24,7 +24,7 @@
   left: 0px !important;
   height: 100vh !important;
   transition: 0.4s !important;
-  /* background-color: red !important; */
+  background-color: white !important;
 }
 
 .hover-sidebar1 {
@@ -112,6 +112,16 @@
   color: gray;
 }
 
+.hover-sidebar-text:hover {
+  transform: translate(5px, 0);
+  transition: all .3s ease-in-out;
+}
+
+.hover-sidebar-para:hover {
+  transform: translate(5px, 0);
+  transition: all .3s ease-in-out;
+}
+
 .top-sidebar-heading {
   font-size: 20px;
   font-weight: 500;
@@ -120,8 +130,13 @@
 
 .hover-sidebar-text {
   font-size: 21px;
-  font-weight: 400;
+  font-weight: 600;
   color: black;
+  transition: all .3s ease-in-out;
+}
+
+.text-red {
+  color: red;
 }
 
 .hover-sidebar-para {
@@ -130,6 +145,7 @@
   color: #000000;
   /* margin-top: 10px; */
   margin-bottom: 9px;
+  transition: all .3s ease-in-out;
 }
 
 .carousel-control-next-icon {
@@ -156,6 +172,14 @@
   padding: 10px 32px;
   border: 1px solid transparent;
   border-radius: 5px;
+  transition: all .3s ease-in-out;
+}
+
+.discover-btn:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  transition: all .3s ease-in-out;
 }
 
 .basket-heading {
@@ -178,7 +202,7 @@
 
 .facebook-btn {
   background-color: #4267b2;
-  padding: 8px 32px 10px;
+  padding: 10px 32px 10px;
   width: 100%;
   color: white;
   border: 1px solid transparent;
@@ -208,4 +232,55 @@
   font-size: 13px;
   font-weight: 400;
   color: #000000;
+}
+
+.login-input {
+  border: 1px solid #c2c2c2;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+
+}
+
+.login-input::placeholder {
+  color: #c2c2c2;
+}
+
+.lable-para {
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000;
+  cursor: pointer;
+}
+
+.forgot-text {
+  font-size: 12px;
+  color: black;
+  font-weight: 600;
+}
+
+.login-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 32px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all .3s ease-in-out;
+}
+
+.login-btn:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  transition: all .3s ease-in-out;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  background-color: black;
+  border-radius: 50%;
 }
