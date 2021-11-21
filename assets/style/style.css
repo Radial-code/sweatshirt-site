@@ -541,3 +541,16 @@ svg:hover {
   left: 50px;
   z-index: 11;
 }
+
+/* bootsrtap */
+@media (min-width: 768px) {
+  .bootstrap-carousel .carousel-control-next {
+    right: -182px;
+  }
+  .bootstrap-carousel .carousel-control-prev {
+    left: -182px;
+  }
+}
+.carousel-text {
+  font-size: 20px;
+}
