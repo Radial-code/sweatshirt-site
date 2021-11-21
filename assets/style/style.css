@@ -44,7 +44,14 @@
   background-color: white !important;
   box-shadow: 0 3px 5px 0 rgb(0 0 0 / 5%);
 }
-
+.navbar-button {
+  color: var(--bg-black);
+}
+.navbar-button:hover {
+  background-color: var(--bg-black);
+  color: white;
+  border-radius: 5px;
+}
 .hover-sidebar1 {
   width: 555px;
   z-index: 13;
