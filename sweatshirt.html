@@ -12,6 +12,11 @@
     />
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
       integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
       crossorigin="anonymous"
@@ -29,7 +34,7 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
       <div class="container-fluid mx-3">
         <a class="navbar-brand logo cursor-pointer">Bershka</a>
         <button
@@ -93,7 +98,7 @@
             >Search</span
           >
           <span
-            class="px-2 cursor-pointer navbar-icon"
+            class="mx-3 cursor-pointer navbar-icon"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasRight"
             aria-controls="offcanvasRight"
@@ -159,49 +164,294 @@
     </nav>
     <!-- SECOND NAVBAR -->
     <div class="position-relative">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container-fluid mx-3">
-          <a class="navbar-brand" id="logo">New</a>
+          <a class="navbar-brand fw-bold" id="logo">New</a>
           <div>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-            <span>View</span>
-            <span class="px-3 cursor-pointer">2 </span>
-            <span class="px-2">4</span>
-            <span class="px-2 cursor-pointer" id="left-right">icon</span>
+            <span class="view-text">View</span>
+            <span
+              class="mx-2 cursor-pointer number-text d-inline-block text-center"
+              >2
+            </span>
+            <span
+              class="mx-2 number-text cursor-pointer d-inline-block text-center"
+              >4</span
+            >
+            <span
+              class="
+                mx-2
+                cursor-pointer
+                left-right-arrow
+                cursor-pointer
+                d-inline-block
+                text-center
+              "
+              id="left-right"
+              ><svg
+                aria-hidden="true"
+                role="img"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <g fill="none">
+                  <path
+                    d="M18 2l3 3l-3 3"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M6 22l-3-3l3-3"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M21 5H10a7 7 0 0 0-7 7"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M3 19h11a7 7 0 0 0 7-7"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+              </svg>
+            </span>
           </div>
         </div>
       </nav>
+      <ul class="d-flex mb-2 mb-lg-0">
+        <li class="header-text">All</li>
+        <li class="header-text mx-4">Street</li>
+        <li class="header-text">Casual</li>
+      </ul>
       <div class="result d-none">
         <div class="text-end cursor-pointer" id="close-result">
-          <svg
-            aria-hidden="true"
-            role="img"
-            width="3em"
-            height="3em"
-            preserveAspectRatio="xMidYMid meet"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M17.705 7.705l-1.41-1.41L12 10.59L7.705 6.295l-1.41 1.41L10.59 12l-4.295 4.295l1.41 1.41L12 13.41l4.295 4.295l1.41-1.41L13.41 12l4.295-4.295z"
-              fill="black"
-            />
-          </svg>
+          <span class="cross-icon d-inline-block text-center mx-4 my-3">
+            <svg
+              aria-hidden="true"
+              role="img"
+              width="20px"
+              height="20px"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 21 21"
+            >
+              <g
+                fill="none"
+                fill-rule="evenodd"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M15.5 15.5l-10-10z" />
+                <path d="M15.5 5.5l-10 10" />
+              </g>
+            </svg>
+          </span>
         </div>
         <div class="container">
-          <div class="round">
-            <input type="checkbox" id="checkbox" />
-            <label for="checkbox"></label>
+          <div class="d-flex justify-content-around my-5">
+            <div>
+              <p class="fw-bold mx-2">Type</p>
+
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox"
+                /></span>
+                Hoodies
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >Collbration
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >Printed
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >Zip-up
+              </p>
+            </div>
+            <div>
+              <p class="mx-2 fw-bold">Color</p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >Red <span class="d-inline-block rectangle-red my-1"></span>
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >White <span class="d-inline-block rectangle-white my-1"></span>
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >Brown <span class="d-inline-block rectangle-brown my-1"></span>
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >Blue <span class="d-inline-block rectangle-blue my-1"></span>
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >Black <span class="d-inline-block rectangle-black my-1"></span>
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >Grey <span class="d-inline-block rectangle-grey my-1"></span>
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >Pink <span class="d-inline-block rectangle-pink my-1"></span>
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >Violet
+                <span class="d-inline-block rectangle-violet my-1"></span>
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >Orange
+                <span class="d-inline-block rectangle-orange my-1"></span>
+              </p>
+            </div>
+            <div>
+              <p>size</p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >XXS
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >XS
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >S
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >M
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >XL
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >XXL
+              </p>
+            </div>
+            <div>
+              <p>Price</p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >Up to $30
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >Up to $40
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >Up to $50
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >Up to $60
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <input type="checkbox" id="checkbox" /></span
+                >Up to $70
+              </p>
+              <div class="mt-5">
+                <p class="fw-bold">
+                  <span class="mx-2">
+                    <input type="checkbox" id="checkbox" /></span
+                  >New In
+                </p>
+                <p class="fw-bold">
+                  <span class="mx-2">
+                    <input type="checkbox" id="checkbox" /></span
+                  >Join Life
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      aria-hidden="true"
+                      role="img"
+                      width="1em"
+                      height="1em"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 48 48"
+                    >
+                      <g
+                        fill="none"
+                        stroke="#52a852"
+                        stroke-width="4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M31 43s-13 1-20-7S4 4 4 4s24-1 32 5s6 23 6 23"
+                        />
+                        <path
+                          d="M44 44s-11.18-8.449-18-16c-6.82-7.552-10-15-10-15M26 28l1-13M26 28l-10-1"
+                        />
+                      </g>
+                    </svg>
+                  </span>
+                </p>
+              </div>
+            </div>
           </div>
+        </div>
+        <div class="d-flex justify-content-end my-5 mx-4">
+          <button class="discover-btn">SEE RESULT</button>
         </div>
       </div>
     </div>
+
     <!-- HOVER SIDE BAR -->
     <div class="hover-sidebar1 px-3">
       <div class="container-fluid">
         <div class="row">
           <div class="col-7 pe-0">
             <h3 class="hover-sidebar-text mt-2">New</h3>
-            <h3 class="hover-sidebar-text my-3">Sale up to 40% off</h3>
+            <h3 class="hover-sidebar-text-red my-3">Sale up to 40% off</h3>
             <h3 class="hover-sidebar-text mt-4 pt-3">
               Clothes<svg
                 class="mx-3"
@@ -219,7 +469,34 @@
             <h3 class="hover-sidebar-text my-3">Collaborations®</h3>
             <h3 class="hover-sidebar-text my-3">Squid Game</h3>
             <h3 class="hover-sidebar-text my-3">Leather-effect</h3>
-            <h3 class="hover-sidebar-text my-3">Join Life</h3>
+            <h3 class="hover-sidebar-text my-3">
+              Join Life
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  aria-hidden="true"
+                  role="img"
+                  width="1em"
+                  height="1em"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 48 48"
+                >
+                  <g
+                    fill="none"
+                    stroke="#52a852"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M31 43s-13 1-20-7S4 4 4 4s24-1 32 5s6 23 6 23" />
+                    <path
+                      d="M44 44s-11.18-8.449-18-16c-6.82-7.552-10-15-10-15M26 28l1-13M26 28l-10-1"
+                    />
+                  </g>
+                </svg>
+              </span>
+            </h3>
             <h3 class="hover-sidebar-text mt-4 pt-3">#bershkastyle Gallery</h3>
             <h3 class="hover-sidebar-text my-3">Bershka Creators</h3>
           </div>
@@ -327,7 +604,12 @@
           account in accordance with the
           <span class="bold-text"> Privacy Policy </span>
         </p>
-        <p>or</p>
+        <div class="d-flex align-items-center">
+          <span class="line d-inline-block"></span>
+          <span class="d-inline-block mx-2">OR</span>
+          <span class="line d-inline-block"></span>
+        </div>
+        <TextField id="outlined-basic" label="Outlined" variant="outlined" />
       </div>
     </div>
     <!-- SECOND RIGHT SIDE BAR -->
@@ -377,6 +659,8 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src=" https://unpkg.com/@mui/material@latest/umd/material-ui.development.js"></script>
+    <script src=" https://unpkg.com/@mui/material@latest/umd/material-ui.production.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- 
     <script
