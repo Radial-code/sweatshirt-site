@@ -433,3 +433,50 @@ input:focus {
   width: 16px;
   height: 4px;
 }
+
+/* footer */
+.footer-link {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer-link:hover {
+  color: black;
+  opacity: 0.8;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-heading {
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+}
+
+.footer-para {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+svg {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+svg:hover {
+  transform: translate(0, -5px);
+  transition: all 0.3s ease-in-out;
+}
+
+.text-orange {
+  color: orange;
+}
+
+.text-gray {
+  color: gray;
+}
