@@ -40,6 +40,7 @@
   left: 0px !important;
   height: 100vh !important;
   transition: 0.4s !important;
+  transition: 1s;
   background-color: white !important;
   box-shadow: 0 3px 5px 0 rgb(0 0 0 / 5%);
 }
@@ -50,7 +51,7 @@
   position: fixed;
   left: -555px;
   height: 100vh;
-  transition: 0.2s;
+  transition: 0.3s;
   /* background-color: red;    */
 }
 
@@ -543,12 +544,24 @@ svg:hover {
 }
 
 /* bootsrtap */
-@media (min-width: 768px) {
+@media (min-width: 991px) {
   .bootstrap-carousel .carousel-control-next {
-    right: -182px;
+    right: -229px;
   }
   .bootstrap-carousel .carousel-control-prev {
-    left: -182px;
+    left: -229px;
+  }
+}
+.carousel-text {
+  font-size: 20px;
+}
+
+@media (max-width: 990px) {
+  .bootstrap-carousel .carousel-control-next {
+    right: 0px;
+  }
+  .bootstrap-carousel .carousel-control-prev {
+    left: 0px;
   }
 }
 .carousel-text {
