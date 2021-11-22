@@ -22,7 +22,6 @@
   src: url("../fonts/Apercu\ Pro\ Bold.otf");
 }
 
-
 @font-face {
   font-family: "Apercu";
   src: url("../fonts/Apercu\ Pro\ Light.otf");
@@ -56,17 +55,20 @@ body {
   font-weight: 400;
   cursor: pointer;
 }
+@media (max-width: 567px) {
+  .header-text {
+    font-size: 14px;
+  }
+}
 
 .header-text.active {
   font-weight: 700;
-  color: var(--bg-black)
+  color: var(--bg-black);
 }
 
 .header-text:hover {
   color: var(--bg-black);
 }
-
-
 
 .navbar-button {
   color: var(--bg-black);
@@ -179,12 +181,12 @@ body {
   display: none;
 }
 
-.round input[type="checkbox"]:checked+label {
+.round input[type="checkbox"]:checked + label {
   background-color: #66bb6a;
   border-color: #66bb6a;
 }
 
-.round input[type="checkbox"]:checked+label:after {
+.round input[type="checkbox"]:checked + label:after {
   opacity: 1;
 }
 
@@ -316,7 +318,12 @@ input:focus {
   font-weight: 500;
   color: #000000;
 }
-
+.sweat-shirt-text {
+  white-space: nowrap;
+  width: 170px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .facebook-btn {
   background-color: #4267b2;
   padding: 10px 32px 10px;
@@ -642,7 +649,6 @@ svg {
   font-size: 20px;
 }
 
-
 /* HEADER CSS */
 .anim-menu {
   display: none;
@@ -652,13 +658,12 @@ svg {
   position: sticky;
   top: 0px;
   z-index: 9;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .fixed:hover {
   background-color: #fff;
 }
-
 
 .isScroll .brand-name,
 .isScroll .anim-link {
@@ -670,7 +675,7 @@ svg {
 }
 
 .sec-navbar .navbar-brand {
-  transition: .2s ease-out;
+  transition: 0.2s ease-out;
   transform: translate(0px, 0px);
 }
 
@@ -680,7 +685,7 @@ svg {
 }
 
 .sec-navbar .animated-list {
-  transition: .4s ease-out;
+  transition: 0.4s ease-out;
   transform: translate(0px, 0px);
 }
 
@@ -689,21 +694,15 @@ svg {
 }
 
 .Carousel-section {
-  transition: .3s ease-out;
+  transition: 0.3s ease-out;
   transform: translateY(0px);
 }
 
 .Carousel-section.isCarousel {
   transform: translateY(-100px) !important;
-
 }
 
-
-
 /* SIDEBAR  */
-
-
-
 
 @media (max-width: 992px) {
   .anim-menu {
