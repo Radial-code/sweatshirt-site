@@ -235,6 +235,7 @@ input:focus {
 .hover-sidebar-text {
   font-size: 21px;
   font-weight: 600;
+  cursor: pointer;
   color: black;
   transition: all 0.3s ease-in-out;
 }
@@ -250,6 +251,10 @@ input:focus {
   /* margin-top: 10px; */
   margin-bottom: 9px;
   transition: all 0.3s ease-in-out;
+}
+.hover-sidebar-para:hover {
+  color: #63636354;
+  cursor: pointer;
 }
 
 .carousel-control-next-icon {
@@ -527,8 +532,15 @@ input:focus {
 
 .hover-sidebar-text-red {
   color: red;
-}
 
+  cursor: pointer;
+}
+.hover-sidebar-text-red:hover {
+  color: red;
+  transform: translate(8px, 0);
+  transition: all 0.3s ease-in-out;
+  opacity: 0.2;
+}
 .rectangle-pink {
   background-color: rgb(246, 125, 146);
   border: 0.8px solid transparent;
