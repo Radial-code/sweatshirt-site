@@ -66,17 +66,7 @@ body {
   color: var(--bg-black);
 }
 
-.hover-sidebar {
-  width: 555px !important;
 
-  position: fixed;
-  left: 0px !important;
-  height: 100vh !important;
-  transition: 0.4s !important;
-  transition: 1s;
-  background-color: white !important;
-  box-shadow: 0 3px 5px 0 rgb(0 0 0 / 5%);
-}
 
 .navbar-button {
   color: var(--bg-black);
@@ -93,10 +83,23 @@ body {
   z-index: 9999;
   position: fixed;
   top: 56px;
-  left: -555px;
+  left: -50px;
   height: 100vh;
   padding-top: 80px;
-  transition: 0.3s;
+  transition: 0.5s;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.hover-sidebar {
+  pointer-events: all;
+  width: 555px !important;
+  position: fixed;
+  left: 0px !important;
+  height: 100vh !important;
+  opacity: 1 !important;
+  background-color: white !important;
+  box-shadow: 0 3px 5px 0 rgb(0 0 0 / 5%);
 }
 
 .side-overlay {
