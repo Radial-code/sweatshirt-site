@@ -318,12 +318,15 @@ input:focus {
   font-weight: 500;
   color: #000000;
 }
-.sweat-shirt-text {
-  white-space: nowrap;
-  width: 170px;
-  overflow: hidden;
-  text-overflow: ellipsis;
+@media (max-width: 991px) {
+  .sweat-shirt-text {
+    white-space: nowrap;
+    width: 170px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
+
 .facebook-btn {
   background-color: #4267b2;
   padding: 10px 32px 10px;
