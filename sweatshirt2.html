@@ -21,82 +21,69 @@
 </head>
 
 <body>
-  <div class="side-overlay"></div>
-  <div class="fixed">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
+    <div class="container-fluid mx-3">
+      <a class="navbar-brand  logo cursor-pointer d-lg-flex d-none">Bershka</a>
+      <a class="+ " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+        <a class="nav-link navbar-button logo d-lg-flex d-none" href="#" tabindex="-1">Men</a>
+      </a>
+      <a class=" d-lg-flex d-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+        aria-controls="offcanvasExample">
+        <a class="nav-link navbar-button logo d-lg-flex d-none" href="#" tabindex="-1">Women</a>
+      </a>
 
-    <nav class="navbar  navbar-expand-lg navbar-light top-header ">
-      <div class="container-fluid mx-sm-3">
-        <a class="navbar-brand brand-name  logo cursor-pointer d-lg-flex d-none">Bershka</a>
-        <div class="anim-menu">
-          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="30" style=" fill:#000000;">
-            <path
-              d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z">
-            </path>
-          </svg>
+      <div class="d-flex justify-content-between align-items-center w-100">
+        <div>
+          <a class="navbar-brand logo cursor-pointer d-lg-none d-block "><svg aria-hidden="true" role="img" width="1em"
+              height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+              <g fill="black">
+                <rect x="3" y="11" width="18" height="2" rx=".95" ry=".95" />
+                <rect x="3" y="16" width="18" height="2" rx=".95" ry=".95" />
+                <rect x="3" y="6" width="18" height="2" rx=".95" ry=".95" />
+              </g>
+            </svg></a>
+
         </div>
-        <a class="z-999" class="+ " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-          aria-controls="offcanvasExample">
-          <a class="nav-link anim-link navbar-button logo d-lg-flex d-none" href="#" tabindex="-1">Men</a>
-        </a>
-        <a class=" d-lg-flexcz-999 d-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-          aria-controls="offcanvasExample">
-          <a class="nav-link anim-link navbar-button logo d-lg-flex d-none" href="#" tabindex="-1">Women</a>
-        </a>
-
-        <div class="d-flex justify-content-between align-items-center w-100">
-          <div>
-            <a class="navbar-brand  logo cursor-pointer d-lg-none d-block ">
-              <svg aria-hidden="true" role="img" width="1.4em" height="1.2em" preserveAspectRatio="xMidYMid meet"
-                viewBox="0 0 24 24">
-                <g fill="black">
-                  <rect x="3" y="11" width="18" height="2" rx=".95" ry=".95" />
-                  <rect x="3" y="16" width="18" height="2" rx=".95" ry=".95" />
-                  <rect x="3" y="6" width="18" height="2" rx=".95" ry=".95" />
-                </g>
-              </svg>
-            </a>
-
-          </div>
-          <div>
-            <span class=" d-lg-none">
-              <svg aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
-                viewBox="0 0 20 20">
-                <g fill="none">
-                  <path
-                    d="M8.5 3a5.5 5.5 0 0 1 4.383 8.823l4.147 4.147a.75.75 0 0 1-.976 1.133l-.084-.073l-4.147-4.147A5.5 5.5 0 1 1 8.5 3zm0 1.5a4 4 0 1 0 0 8a4 4 0 0 0 0-8z"
-                    fill="black" />
-                </g>
-              </svg>
-            </span>
-            <span class=" cursor-pointer navbar-icon d-lg-none mx-sm-3 mx-1" data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><svg aria-hidden="true" role="img"
-                width="25px" height="25px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
+        <div>
+          <span class=" d-lg-none">
+            <svg aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 20 20">
+              <g fill="none">
                 <path
-                  d="M858.5 763.6a374 374 0 0 0-80.6-119.5a375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1c-.4.2-.8.3-1.2.5c-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 0 0-80.6 119.5A371.7 371.7 0 0 0 136 901.8a8 8 0 0 0 8 8.2h60c4.4 0 7.9-3.5 8-7.8c2-77.2 33-149.5 87.8-204.3c56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 0 0 8-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"
+                  d="M8.5 3a5.5 5.5 0 0 1 4.383 8.823l4.147 4.147a.75.75 0 0 1-.976 1.133l-.084-.073l-4.147-4.147A5.5 5.5 0 1 1 8.5 3zm0 1.5a4 4 0 1 0 0 8a4 4 0 0 0 0-8z"
                   fill="black" />
-              </svg>
-            </span>
-            <span class=" navbar-icon d-lg-none">
-              <svg aria-hidden="true" role="img" width="25px" height="25px" preserveAspectRatio="xMidYMid meet"
-                viewBox="0 0 24 24">
-                <g fill="none">
-                  <path
-                    d="M7 3C4.239 3 2 5.216 2 7.95c0 2.207.875 7.445 9.488 12.74a.985.985 0 0 0 1.024 0C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3s-5 3-5 3s-2.239-3-5-3z"
-                    stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                </g>
-              </svg>
-            </span>
-          </div>
+              </g>
+            </svg>
+          </span>
+          <span class=" cursor-pointer navbar-icon d-lg-none mx-3" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><svg aria-hidden="true" role="img"
+              width="25px" height="25px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
+              <path
+                d="M858.5 763.6a374 374 0 0 0-80.6-119.5a375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1c-.4.2-.8.3-1.2.5c-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 0 0-80.6 119.5A371.7 371.7 0 0 0 136 901.8a8 8 0 0 0 8 8.2h60c4.4 0 7.9-3.5 8-7.8c2-77.2 33-149.5 87.8-204.3c56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 0 0 8-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"
+                fill="black" />
+            </svg>
+          </span>
+          <span class=" navbar-icon d-lg-none">
+            <svg aria-hidden="true" role="img" width="25px" height="25px" preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24">
+              <g fill="none">
+                <path
+                  d="M7 3C4.239 3 2 5.216 2 7.95c0 2.207.875 7.445 9.488 12.74a.985.985 0 0 0 1.024 0C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3s-5 3-5 3s-2.239-3-5-3z"
+                  stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </g>
+            </svg>
+          </span>
         </div>
-        <button class="navbar-toggler d-none " type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      </div>
+      <button class="navbar-toggler d-none " type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 pt-lg-0 pt-4">
-            <!-- <li
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 pt-lg-0 pt-4">
+          <!-- <li
               class="nav-item mx-lg-4"
               data-bs-toggle="offcanvas"
               href="#offcanvasExample"
@@ -107,7 +94,7 @@
                 >Women</a
               >
             </li> -->
-            <!-- <li
+          <!-- <li
               class="nav-item"
               data-bs-toggle="offcanvas"
               href="#offcanvasExample2"
@@ -116,64 +103,64 @@
             >
               <a class="nav-link navbar-button logo"> Men</a>
             </li> -->
-          </ul>
+        </ul>
 
-          <span class="pe-3">
-            <svg aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 20 20">
-              <g fill="none">
-                <path
-                  d="M8.5 3a5.5 5.5 0 0 1 4.383 8.823l4.147 4.147a.75.75 0 0 1-.976 1.133l-.084-.073l-4.147-4.147A5.5 5.5 0 1 1 8.5 3zm0 1.5a4 4 0 1 0 0 8a4 4 0 0 0 0-8z"
-                  fill="black" />
-              </g>
-            </svg>
-          </span>
-
-          <span class="navbar-input d-inline-block" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
-            aria-controls="offcanvasTop">Search</span>
-          <span class="mx-lg-3 cursor-pointer navbar-icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-            aria-controls="offcanvasRight"><svg aria-hidden="true" role="img" width="25px" height="25px"
-              preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
+        <span class="pe-3">
+          <svg aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 20 20">
+            <g fill="none">
               <path
-                d="M858.5 763.6a374 374 0 0 0-80.6-119.5a375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1c-.4.2-.8.3-1.2.5c-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 0 0-80.6 119.5A371.7 371.7 0 0 0 136 901.8a8 8 0 0 0 8 8.2h60c4.4 0 7.9-3.5 8-7.8c2-77.2 33-149.5 87.8-204.3c56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 0 0 8-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"
+                d="M8.5 3a5.5 5.5 0 0 1 4.383 8.823l4.147 4.147a.75.75 0 0 1-.976 1.133l-.084-.073l-4.147-4.147A5.5 5.5 0 1 1 8.5 3zm0 1.5a4 4 0 1 0 0 8a4 4 0 0 0 0-8z"
                 fill="black" />
-            </svg>
-          </span>
-          <span class="px-lg-2 px-1 navbar-icon">
-            <svg aria-hidden="true" role="img" width="25px" height="25px" preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 24 24">
-              <g fill="none">
-                <path
-                  d="M7 3C4.239 3 2 5.216 2 7.95c0 2.207.875 7.445 9.488 12.74a.985.985 0 0 0 1.024 0C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3s-5 3-5 3s-2.239-3-5-3z"
-                  stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-              </g>
-            </svg>
-          </span>
+            </g>
+          </svg>
+        </span>
 
-          <span class="px-2 navbar-icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2"
-            aria-controls="offcanvasRight">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
-              role="img" width="25px" height="25px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 576 512">
+        <span class="navbar-input d-inline-block" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+          aria-controls="offcanvasTop">Search</span>
+        <span class="mx-lg-3 cursor-pointer navbar-icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight"><svg aria-hidden="true" role="img" width="25px" height="25px"
+            preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
+            <path
+              d="M858.5 763.6a374 374 0 0 0-80.6-119.5a375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1c-.4.2-.8.3-1.2.5c-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 0 0-80.6 119.5A371.7 371.7 0 0 0 136 901.8a8 8 0 0 0 8 8.2h60c4.4 0 7.9-3.5 8-7.8c2-77.2 33-149.5 87.8-204.3c56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 0 0 8-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"
+              fill="black" />
+          </svg>
+        </span>
+        <span class="px-lg-2 px-1 navbar-icon">
+          <svg aria-hidden="true" role="img" width="25px" height="25px" preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24">
+            <g fill="none">
               <path
-                d="M576 216v16c0 13.255-10.745 24-24 24h-8l-26.113 182.788C514.509 462.435 494.257 480 470.37 480H105.63c-23.887 0-44.139-17.565-47.518-41.212L32 256h-8c-13.255 0-24-10.745-24-24v-16c0-13.255 10.745-24 24-24h67.341l106.78-146.821c10.395-14.292 30.407-17.453 44.701-7.058c14.293 10.395 17.453 30.408 7.058 44.701L170.477 192h235.046L326.12 82.821c-10.395-14.292-7.234-34.306 7.059-44.701c14.291-10.395 34.306-7.235 44.701 7.058L484.659 192H552c13.255 0 24 10.745 24 24zM312 392V280c0-13.255-10.745-24-24-24s-24 10.745-24 24v112c0 13.255 10.745 24 24 24s24-10.745 24-24zm112 0V280c0-13.255-10.745-24-24-24s-24 10.745-24 24v112c0 13.255 10.745 24 24 24s24-10.745 24-24zm-224 0V280c0-13.255-10.745-24-24-24s-24 10.745-24 24v112c0 13.255 10.745 24 24 24s24-10.745 24-24z"
-                fill="black" />
-            </svg>
-          </span>
-        </div>
+                d="M7 3C4.239 3 2 5.216 2 7.95c0 2.207.875 7.445 9.488 12.74a.985.985 0 0 0 1.024 0C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3s-5 3-5 3s-2.239-3-5-3z"
+                stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </g>
+          </svg>
+        </span>
+
+        <span class="px-2 navbar-icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2"
+          aria-controls="offcanvasRight">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+            role="img" width="25px" height="25px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 576 512">
+            <path
+              d="M576 216v16c0 13.255-10.745 24-24 24h-8l-26.113 182.788C514.509 462.435 494.257 480 470.37 480H105.63c-23.887 0-44.139-17.565-47.518-41.212L32 256h-8c-13.255 0-24-10.745-24-24v-16c0-13.255 10.745-24 24-24h67.341l106.78-146.821c10.395-14.292 30.407-17.453 44.701-7.058c14.293 10.395 17.453 30.408 7.058 44.701L170.477 192h235.046L326.12 82.821c-10.395-14.292-7.234-34.306 7.059-44.701c14.291-10.395 34.306-7.235 44.701 7.058L484.659 192H552c13.255 0 24 10.745 24 24zM312 392V280c0-13.255-10.745-24-24-24s-24 10.745-24 24v112c0 13.255 10.745 24 24 24s24-10.745 24-24zm112 0V280c0-13.255-10.745-24-24-24s-24 10.745-24 24v112c0 13.255 10.745 24 24 24s24-10.745 24-24zm-224 0V280c0-13.255-10.745-24-24-24s-24 10.745-24 24v112c0 13.255 10.745 24 24 24s24-10.745 24-24z"
+              fill="black" />
+          </svg>
+        </span>
       </div>
-    </nav>
-    <!-- SECOND NAVBAR -->
-    <div class="position-relative  sec-navbar" style="top:-1px">
-      <nav class="navbar navbar-expand-lg navbar-light ">
-        <div class="container-fluid mx-sm-3">
-          <a class="navbar-brand fw-bold sweat-shirt-text" id="logo">Sweatshirts & Hoodies</a>
-          <div class="d-flex">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-            <span class="view-text d-lg-block d-none">View</span>
-            <span class="mx-2 cursor-pointer number-text d-inline-block text-center d-lg-block d-none">2
-            </span>
-            <span class="mx-2 number-text cursor-pointer d-inline-block text-center d-lg-block d-none">4</span>
-            <span class="
+    </div>
+  </nav>
+  <!-- SECOND NAVBAR -->
+  <div class="position-relative">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid mx-3">
+        <a class="navbar-brand fw-bold" id="logo">New</a>
+        <div class="d-flex">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+          <span class="view-text d-lg-block d-none">View</span>
+          <span class="mx-2 cursor-pointer number-text d-inline-block text-center d-lg-block d-none">2
+          </span>
+          <span class="mx-2 number-text cursor-pointer d-inline-block text-center d-lg-block d-none">4</span>
+          <span class="
                 mx-2
                 cursor-pointer
                 left-right-arrow
@@ -181,335 +168,323 @@
                 d-inline-block
                 text-center
               " id="left-right"><svg aria-hidden="true" role="img" width="1em" height="1em"
-                preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
-                <g fill="none">
-                  <path d="M18 2l3 3l-3 3" stroke="black" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                  <path d="M6 22l-3-3l3-3" stroke="black" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                  <path d="M21 5H10a7 7 0 0 0-7 7" stroke="black" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                  <path d="M3 19h11a7 7 0 0 0 7-7" stroke="black" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                </g>
-              </svg>
-            </span>
-          </div>
-        </div>
-      </nav>
-      <ul class="d-md-flex d-none align-items-center animated-list px-1 flex-wrap justify-content-start  mx-4">
-        <li class="header-text mb-2 active">All</li>
-        <li class="header-text mb-2 mx-4">Basic</li>
-        <li class="header-text mb-2">Hoodie</li>
-        <li class="header-text mb-2 mx-4">Collaborations</li>
-        <li class="header-text mb-2">Printed</li>
-        <li class="header-text mb-2 mx-4">Zip-up</li>
-      </ul>
-     
-       <ul class="d-flex d-md-none  align-items-center animated-list px-1 flex-wrap justify-content-start  mx-sm-4 mx-2">
-        <li class="header-text pt-2 active">All</li>
-        <li class="header-text  pt-2 mx-4">Basic</li>
-        <li class="header-text pt-2 ">Hoodie</li>
-        <li class="header-text  pt-2 mx-4">Collaborations</li>
-       
-      </ul>
-      <div class="result d-none">
-        <h2 class="fw-bold ps-4">New</h2>
-        <div class="text-end cursor-pointer" id="close-result">
-          <span class="cross-icon d-inline-block text-center mx-4 my-3">
-            <svg aria-hidden="true" role="img" width="20px" height="20px" preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 21 21">
-              <g fill="none" fill-rule="evenodd" stroke="black" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M15.5 15.5l-10-10z" />
-                <path d="M15.5 5.5l-10 10" />
+              preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+              <g fill="none">
+                <path d="M18 2l3 3l-3 3" stroke="black" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M6 22l-3-3l3-3" stroke="black" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M21 5H10a7 7 0 0 0-7 7" stroke="black" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M3 19h11a7 7 0 0 0 7-7" stroke="black" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
               </g>
             </svg>
           </span>
         </div>
-        <div class="container">
-          <div
-            class="d-flex flex-sm-row flex-column  justify-content-sm-around justify-content-center align-items-sm-start align-items-center my-5">
-            <div>
-              <p class="fw-bold mx-2">Type</p>
+      </div>
+    </nav>
+    <ul class="d-flex justify-content-start  mx-4">
+      <li class="header-text">All</li>
+      <li class="header-text mx-4">Street</li>
+      <li class="header-text">Casual</li>
+    </ul>
+    <div class="result d-none">
+      <h2 class="fw-bold ps-4">New</h2>
+      <div class="text-end cursor-pointer" id="close-result">
+        <span class="cross-icon d-inline-block text-center mx-4 my-3">
+          <svg aria-hidden="true" role="img" width="20px" height="20px" preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 21 21">
+            <g fill="none" fill-rule="evenodd" stroke="black" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M15.5 15.5l-10-10z" />
+              <path d="M15.5 5.5l-10 10" />
+            </g>
+          </svg>
+        </span>
+      </div>
+      <div class="container">
+        <div
+          class="d-flex flex-sm-row flex-column  justify-content-sm-around justify-content-center align-items-sm-start align-items-center my-5">
+          <div>
+            <p class="fw-bold mx-2">Type</p>
 
-              <p class="new-text">
+            <p class="new-text">
+              <span>
+                <span class="round me-4">
+                  <input type="checkbox" id="checkbox" />
+                  <label for="checkbox"></label>
+                </span>
+              </span>
+              Hoodies
+            </p>
+            <p class="new-text">
+              <span>
+                <span class="round me-4">
+                  <input type="checkbox" id="checkbox" />
+                  <label for="checkbox"></label>
+                </span>
+              </span>
+              Collbration
+            </p>
+            <p class="new-text">
+              <span>
+                <span class="round me-4">
+                  <input type="checkbox" id="checkbox" />
+                  <label for="checkbox"></label>
+                </span>
+              </span>
+              Printed
+            </p>
+            <p class="new-text">
+              <span>
+                <span class="round me-4">
+                  <input type="checkbox" id="checkbox" />
+                  <label for="checkbox"></label>
+                </span>
+              </span>
+              Zip-up
+            </p>
+          </div>
+          <div>
+            <p class="mx-2 fw-bold">Color</p>
+            <p class="new-text">
+              <span class="mx-2">
                 <span>
                   <span class="round me-4">
                     <input type="checkbox" id="checkbox" />
                     <label for="checkbox"></label>
                   </span>
                 </span>
-                Hoodies
-              </p>
-              <p class="new-text">
+                Red <span class="d-inline-block rectangle-red my-1"></span>
+            </p>
+            <p class="new-text">
+              <span class="mx-2">
                 <span>
                   <span class="round me-4">
                     <input type="checkbox" id="checkbox" />
                     <label for="checkbox"></label>
                   </span>
                 </span>
-                Collbration
-              </p>
-              <p class="new-text">
+                White <span class="d-inline-block rectangle-white my-1"></span>
+            </p>
+            <p class="new-text">
+              <span class="mx-2">
                 <span>
                   <span class="round me-4">
                     <input type="checkbox" id="checkbox" />
                     <label for="checkbox"></label>
                   </span>
                 </span>
-                Printed
-              </p>
-              <p class="new-text">
+                Brown <span class="d-inline-block rectangle-brown my-1"></span>
+            </p>
+            <p class="new-text">
+              <span class="mx-2">
                 <span>
                   <span class="round me-4">
                     <input type="checkbox" id="checkbox" />
                     <label for="checkbox"></label>
                   </span>
                 </span>
-                Zip-up
-              </p>
-            </div>
-            <div>
-              <p class="mx-2 fw-bold">Color</p>
-              <p class="new-text">
-                <span class="mx-2">
-                  <span>
-                    <span class="round me-4">
-                      <input type="checkbox" id="checkbox" />
-                      <label for="checkbox"></label>
-                    </span>
-                  </span>
-                  Red <span class="d-inline-block rectangle-red my-1"></span>
-              </p>
-              <p class="new-text">
-                <span class="mx-2">
-                  <span>
-                    <span class="round me-4">
-                      <input type="checkbox" id="checkbox" />
-                      <label for="checkbox"></label>
-                    </span>
-                  </span>
-                  White <span class="d-inline-block rectangle-white my-1"></span>
-              </p>
-              <p class="new-text">
-                <span class="mx-2">
-                  <span>
-                    <span class="round me-4">
-                      <input type="checkbox" id="checkbox" />
-                      <label for="checkbox"></label>
-                    </span>
-                  </span>
-                  Brown <span class="d-inline-block rectangle-brown my-1"></span>
-              </p>
-              <p class="new-text">
-                <span class="mx-2">
-                  <span>
-                    <span class="round me-4">
-                      <input type="checkbox" id="checkbox" />
-                      <label for="checkbox"></label>
-                    </span>
-                  </span>
-                  Blue <span class="d-inline-block rectangle-blue my-1"></span>
-              </p>
-              <p class="new-text">
-                <span class="mx-2">
-                  <span>
-                    <span class="round me-4">
-                      <input type="checkbox" id="checkbox" />
-                      <label for="checkbox"></label>
-                    </span>
-                  </span>
-                  Black <span class="d-inline-block rectangle-black my-1"></span>
-              </p>
-              <p class="new-text">
-                <span class="mx-2">
-                  <span>
-                    <span class="round me-4">
-                      <input type="checkbox" id="checkbox" />
-                      <label for="checkbox"></label>
-                    </span>
-                  </span>
-                  Grey <span class="d-inline-block rectangle-grey my-1"></span>
-              </p>
-              <p class="new-text">
-                <span class="mx-2">
-                  <span>
-                    <span class="round me-4">
-                      <input type="checkbox" id="checkbox" />
-                      <label for="checkbox"></label>
-                    </span>
-                  </span>
-                  Pink <span class="d-inline-block rectangle-pink my-1"></span>
-              </p>
-              <p class="new-text">
-                <span class="mx-2">
-                  <span>
-                    <span class="round me-4">
-                      <input type="checkbox" id="checkbox" />
-                      <label for="checkbox"></label>
-                    </span>
-                  </span>
-                  Violet
-                  <span class="d-inline-block rectangle-violet my-1"></span>
-              </p>
-              <p class="new-text">
-                <span class="mx-2">
-                  <span>
-                    <span class="round me-4">
-                      <input type="checkbox" id="checkbox" />
-                      <label for="checkbox"></label>
-                    </span>
-                  </span>
-                  Orange
-                  <span class="d-inline-block rectangle-orange my-1"></span>
-              </p>
-            </div>
-            <div>
-              <p class="mx-2 fw-bold">Size</p>
-              <p class="new-text">
-                <span class="mx-2">
-                  <span>
-                    <span class="round me-4">
-                      <input type="checkbox" id="checkbox" />
-                      <label for="checkbox"></label>
-                    </span>
-                  </span>
-                  XXS
-              </p>
-              <p class="new-text">
-                <span class="mx-2">
-                  <span>
-                    <span class="round me-4">
-                      <input type="checkbox" id="checkbox" />
-                      <label for="checkbox"></label>
-                    </span>
-                  </span>
-                  XS
-              </p>
-              <p class="new-text">
-                <span class="mx-2">
-                  <span>
-                    <span class="round me-4">
-                      <input type="checkbox" id="checkbox" />
-                      <label for="checkbox"></label>
-                    </span>
-                  </span>
-                  S
-              </p>
-              <p class="new-text">
-                <span class="mx-2">
-                  <span>
-                    <span class="round me-4">
-                      <input type="checkbox" id="checkbox" />
-                      <label for="checkbox"></label>
-                    </span>
-                  </span>
-                  M
-              </p>
-              <p class="new-text">
-                <span class="mx-2">
-                  <span>
-                    <span class="round me-4">
-                      <input type="checkbox" id="checkbox" />
-                      <label for="checkbox"></label>
-                    </span>
-                  </span>
-                  XL
-              </p>
-              <p class="new-text">
-                <span class="mx-2">
-                  <span>
-                    <span class="round me-4">
-                      <input type="checkbox" id="checkbox" />
-                      <label for="checkbox"></label>
-                    </span>
-                  </span>
-                  XXL
-              </p>
-            </div>
-            <div>
-              <p class="mx-2 fw-bold ">Price</p>
-              <p class="new-text">
+                Blue <span class="d-inline-block rectangle-blue my-1"></span>
+            </p>
+            <p class="new-text">
+              <span class="mx-2">
                 <span>
                   <span class="round me-4">
                     <input type="checkbox" id="checkbox" />
                     <label for="checkbox"></label>
                   </span>
                 </span>
-                Up to $30
-              </p>
-              <p class="new-text">
+                Black <span class="d-inline-block rectangle-black my-1"></span>
+            </p>
+            <p class="new-text">
+              <span class="mx-2">
+                <span>
+                  <span class="round me-4">
+                    <input type="checkbox" id="checkbox" />
+                    <label for="checkbox"></label>
+                  </span>
+                </span>
+                Grey <span class="d-inline-block rectangle-grey my-1"></span>
+            </p>
+            <p class="new-text">
+              <span class="mx-2">
+                <span>
+                  <span class="round me-4">
+                    <input type="checkbox" id="checkbox" />
+                    <label for="checkbox"></label>
+                  </span>
+                </span>
+                Pink <span class="d-inline-block rectangle-pink my-1"></span>
+            </p>
+            <p class="new-text">
+              <span class="mx-2">
+                <span>
+                  <span class="round me-4">
+                    <input type="checkbox" id="checkbox" />
+                    <label for="checkbox"></label>
+                  </span>
+                </span>
+                Violet
+                <span class="d-inline-block rectangle-violet my-1"></span>
+            </p>
+            <p class="new-text">
+              <span class="mx-2">
+                <span>
+                  <span class="round me-4">
+                    <input type="checkbox" id="checkbox" />
+                    <label for="checkbox"></label>
+                  </span>
+                </span>
+                Orange
+                <span class="d-inline-block rectangle-orange my-1"></span>
+            </p>
+          </div>
+          <div>
+            <p class="mx-2 fw-bold">Size</p>
+            <p class="new-text">
+              <span class="mx-2">
+                <span>
+                  <span class="round me-4">
+                    <input type="checkbox" id="checkbox" />
+                    <label for="checkbox"></label>
+                  </span>
+                </span>
+                XXS
+            </p>
+            <p class="new-text">
+              <span class="mx-2">
+                <span>
+                  <span class="round me-4">
+                    <input type="checkbox" id="checkbox" />
+                    <label for="checkbox"></label>
+                  </span>
+                </span>
+                XS
+            </p>
+            <p class="new-text">
+              <span class="mx-2">
+                <span>
+                  <span class="round me-4">
+                    <input type="checkbox" id="checkbox" />
+                    <label for="checkbox"></label>
+                  </span>
+                </span>
+                S
+            </p>
+            <p class="new-text">
+              <span class="mx-2">
+                <span>
+                  <span class="round me-4">
+                    <input type="checkbox" id="checkbox" />
+                    <label for="checkbox"></label>
+                  </span>
+                </span>
+                M
+            </p>
+            <p class="new-text">
+              <span class="mx-2">
+                <span>
+                  <span class="round me-4">
+                    <input type="checkbox" id="checkbox" />
+                    <label for="checkbox"></label>
+                  </span>
+                </span>
+                XL
+            </p>
+            <p class="new-text">
+              <span class="mx-2">
+                <span>
+                  <span class="round me-4">
+                    <input type="checkbox" id="checkbox" />
+                    <label for="checkbox"></label>
+                  </span>
+                </span>
+                XXL
+            </p>
+          </div>
+          <div>
+            <p class="mx-2 fw-bold ">Price</p>
+            <p class="new-text">
+              <span>
+                <span class="round me-4">
+                  <input type="checkbox" id="checkbox" />
+                  <label for="checkbox"></label>
+                </span>
+              </span>
+              Up to $30
+            </p>
+            <p class="new-text">
 
+              <span>
+                <span class="round me-4">
+                  <input type="checkbox" id="checkbox" />
+                  <label for="checkbox"></label>
+                </span>
+              </span>
+              Up to $40
+            </p>
+            <p class="new-text">
+              <span>
+                <span class="round me-4">
+                  <input type="checkbox" id="checkbox" />
+                  <label for="checkbox"></label>
+                </span>
+              </span>
+              Up to $50
+            </p>
+            <p class="new-text">
+              <span>
+                <span class="round me-4">
+                  <input type="checkbox" id="checkbox" />
+                  <label for="checkbox"></label>
+                </span>
+              </span>
+              Up to $60
+            </p>
+            <p class="new-text">
+              <span>
+                <span class="round me-4">
+                  <input type="checkbox" id="checkbox" />
+                  <label for="checkbox"></label>
+                </span>
+              </span>
+              Up to $70
+            </p>
+            <div class="mt-5">
+              <p class="fw-bold">
                 <span>
                   <span class="round me-4">
                     <input type="checkbox" id="checkbox" />
                     <label for="checkbox"></label>
                   </span>
                 </span>
-                Up to $40
+                New In
               </p>
-              <p class="new-text">
+              <p class="fw-bold">
                 <span>
                   <span class="round me-4">
                     <input type="checkbox" id="checkbox" />
                     <label for="checkbox"></label>
                   </span>
                 </span>
-                Up to $50
-              </p>
-              <p class="new-text">
-                <span>
-                  <span class="round me-4">
-                    <input type="checkbox" id="checkbox" />
-                    <label for="checkbox"></label>
-                  </span>
+                Join Life
+                <span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 48 48">
+                    <g fill="none" stroke="#52a852" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M31 43s-13 1-20-7S4 4 4 4s24-1 32 5s6 23 6 23" />
+                      <path d="M44 44s-11.18-8.449-18-16c-6.82-7.552-10-15-10-15M26 28l1-13M26 28l-10-1" />
+                    </g>
+                  </svg>
                 </span>
-                Up to $60
               </p>
-              <p class="new-text">
-                <span>
-                  <span class="round me-4">
-                    <input type="checkbox" id="checkbox" />
-                    <label for="checkbox"></label>
-                  </span>
-                </span>
-                Up to $70
-              </p>
-              <div class="mt-5">
-                <p class="fw-bold">
-                  <span>
-                    <span class="round me-4">
-                      <input type="checkbox" id="checkbox" />
-                      <label for="checkbox"></label>
-                    </span>
-                  </span>
-                  New In
-                </p>
-                <p class="fw-bold">
-                  <span>
-                    <span class="round me-4">
-                      <input type="checkbox" id="checkbox" />
-                      <label for="checkbox"></label>
-                    </span>
-                  </span>
-                  Join Life
-                  <span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                      aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
-                      viewBox="0 0 48 48">
-                      <g fill="none" stroke="#52a852" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M31 43s-13 1-20-7S4 4 4 4s24-1 32 5s6 23 6 23" />
-                        <path d="M44 44s-11.18-8.449-18-16c-6.82-7.552-10-15-10-15M26 28l1-13M26 28l-10-1" />
-                      </g>
-                    </svg>
-                  </span>
-                </p>
-              </div>
             </div>
           </div>
         </div>
-        <div class="d-flex justify-content-sm-end justify-content-center flex-sm-row flex-column  my-5 mx-4 ">
-          <button class="discover-btn ">SEE RESULT</button>
-        </div>
+      </div>
+      <div class="d-flex justify-content-sm-end justify-content-center flex-sm-row flex-column  my-5 mx-4 ">
+        <button class="discover-btn ">SEE RESULT</button>
       </div>
     </div>
   </div>
@@ -571,68 +546,66 @@
   <!--==================================== CAROUSEL-SECTION ====================================-->
 
 
-  <section class=" Carousel-section">
-    <div class="container  ">
-      <div class="row justify-content-center">
-        <div class="col-lg-7 col-md-10 col-sm-12 bootstrap-carousel">
-          <div id="carouselExampleControls" class="carousel " data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  src="https://static.bershka.net/4/photos2/2021/I/0/2/p/2221/538/629/2221538629_1_1_3.jpg?t=1637229870856"
-                  class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="https://static.bershka.net/4/photos2/2021/I/0/2/p/2221/538/629/2221538629_2_1_3.jpg?t=1637229870856"
-                  class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="https://static.bershka.net/4/photos2/2021/I/0/2/p/2221/538/629/2221538629_2_2_3.jpg?t=1637229870856"
-                  class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="https://static.bershka.net/4/photos2/2021/I/0/2/p/2221/538/629/2221538629_2_3_3.jpg?t=1637229870856"
-                  class="d-block w-100" alt="...">
-              </div>
+  <div class="container mt-5 pt-lg-5">
+    <div class="row justify-content-center ">
+      <div class="col-lg-7 col-md-10 col-sm-12 bootstrap-carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/2221/538/629/2221538629_1_1_3.jpg?t=1637229870856"
+                class="d-block w-100" alt="...">
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <div class="carousel-item">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/2221/538/629/2221538629_2_1_3.jpg?t=1637229870856"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/2221/538/629/2221538629_2_2_3.jpg?t=1637229870856"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/2221/538/629/2221538629_2_3_3.jpg?t=1637229870856"
+                class="d-block w-100" alt="...">
+            </div>
           </div>
-          <div class="row py-3">
-            <div class="col-8 flex-column  d-flex ">
-              <p class="mb-1 carousel-text text-sm-end text-start ">Printed Hoodies</p>
-              <p class="fw-bold mb-1 carousel-text text-sm-end me-5 text-start">49.00$</p>
-            </div>
-            <div class="col-4 d-flex justify-content-end">
-              <svg aria-hidden="true" role="img" width="3em" height="3em" preserveAspectRatio="xMidYMid meet"
-                viewBox="0 0 1024 1024">
-                <path
-                  d="M923 283.6a260.04 260.04 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.34 265.34 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39c-10 6.1-19.5 12.8-28.5 20.1c-9-7.3-18.5-14-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9zM512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3z"
-                  fill="black" /></svg>
-            </div>
-
-          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
+        <div class="row py-3 ">
+          <div class="col-8 flex-column  d-flex ">
+            <p class="mb-1 carousel-text  text-start ">Printed Hoodies</p>
+            <p class="fw-bold mb-1 carousel-text  me-5 text-start">49.00$</p>
+          </div>
+          <div class="col-4 d-flex justify-content-end">
+            <svg aria-hidden="true" role="img" width="3em" height="3em" preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 1024 1024">
+              <path
+                d="M923 283.6a260.04 260.04 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.34 265.34 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39c-10 6.1-19.5 12.8-28.5 20.1c-9-7.3-18.5-14-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9zM512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3z"
+                fill="black" /></svg>
+          </div>
 
+        </div>
       </div>
 
     </div>
-  </section>
-  <div class="container mt-sm-5 pt-sm-5">
+
+  </div>
+  <div class="container mt-lg-5 pt-sm-5">
     <div class="row justify-content-center">
-      <div class="col-md-6 col-sm-12 ">
-        <div id="carouselExampleControls2" class="carousel " data-bs-ride="carousel">
+      <div class="col-sm-6 col-12 mt-4 mt-sm-0">
+        <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
@@ -682,8 +655,8 @@
 
         </div>
       </div>
-      <div class="col-md-6 col-sm-12">
-        <div id="carouselExampleControls3" class="carousel " data-bs-ride="carousel">
+      <div class="col-sm-6 col-12 mt-4 mt-sm-0">
+        <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
@@ -735,10 +708,10 @@
       </div>
     </div>
   </div>
-  <div class="container mt-5 pt-5">
+  <div class="container mt-4 pt-lg-5">
     <div class="row justify-content-center">
       <div class="col-lg-7 col-md-10 col-sm-12 bootstrap-carousel">
-        <div id="carouselExampleControls4" class="carousel " data-bs-ride="carousel">
+        <div id="carouselExampleControls4" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
@@ -774,8 +747,8 @@
         </div>
         <div class="row py-3">
           <div class="col-8 flex-column  d-flex ">
-            <p class="mb-1 carousel-text text-sm-end text-start ">Printed Hoodies</p>
-            <p class="fw-bold mb-1 carousel-text text-sm-end me-5 text-start">49.00$</p>
+            <p class="mb-1 carousel-text  text-start ">Printed Hoodies</p>
+            <p class="fw-bold mb-1 carousel-text  me-5 text-start">49.00$</p>
           </div>
           <div class="col-4 d-flex justify-content-end">
             <svg aria-hidden="true" role="img" width="3em" height="3em" preserveAspectRatio="xMidYMid meet"
@@ -791,10 +764,10 @@
     </div>
 
   </div>
-  <div class="container mt-sm-5 pt-sm-5">
+  <div class="container mt-lg-5 pt-sm-5">
     <div class="row justify-content-center">
-      <div class="col-md-6 col-sm-12 ">
-        <div id="carouselExampleControls5" class="carousel " data-bs-ride="carousel">
+      <div class="col-sm-6 col-12 mt-4 mt-sm-0">
+        <div id="carouselExampleControls5" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
@@ -844,8 +817,8 @@
 
         </div>
       </div>
-      <div class="col-md-6 col-sm-12">
-        <div id="carouselExampleControls3" class="carousel " data-bs-ride="carousel">
+      <div class="col-sm-6 col-12 mt-4 mt-sm-0">
+        <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
@@ -1284,61 +1257,61 @@
       </div>
       <div class="text-white">
         <div class="my-4">
-          
-          <a class="footer-link" href="https://www.instagram.com/?hl=en" target="blank">
-            <svg class="me-2 my-2" width="25" height="25" viewBox="0 0 800 800" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M400 266.7C326.6 266.7 266.7 326.6 266.7 400C266.7 473.4 326.6 533.3 400 533.3C473.4 533.3 533.3 473.4 533.3 400C533.3 326.6 473.4 266.7 400 266.7ZM799.8 400C799.8 344.8 800.3 290.1 797.2 235C794.1 171 779.5 114.2 732.7 67.4002C685.8 20.5002 629.1 6.00025 565.1 2.90025C509.9 -0.199749 455.2 0.300252 400.1 0.300252C344.9 0.300252 290.2 -0.199749 235.1 2.90025C171.1 6.00025 114.3 20.6002 67.4999 67.4002C20.5999 114.3 6.09986 171 2.99986 235C-0.10014 290.2 0.399862 344.9 0.399862 400C0.399862 455.1 -0.10014 509.9 2.99986 565C6.09986 629 20.6999 685.8 67.4999 732.6C114.4 779.5 171.1 794 235.1 797.1C290.3 800.2 345 799.7 400.1 799.7C455.3 799.7 510 800.2 565.1 797.1C629.1 794 685.9 779.4 732.7 732.6C779.6 685.7 794.1 629 797.2 565C800.4 509.9 799.8 455.2 799.8 400V400ZM400 605.1C286.5 605.1 194.9 513.5 194.9 400C194.9 286.5 286.5 194.9 400 194.9C513.5 194.9 605.1 286.5 605.1 400C605.1 513.5 513.5 605.1 400 605.1ZM613.5 234.4C587 234.4 565.6 213 565.6 186.5C565.6 160 587 138.6 613.5 138.6C640 138.6 661.4 160 661.4 186.5C661.408 192.793 660.174 199.025 657.77 204.84C655.365 210.655 651.837 215.939 647.388 220.388C642.938 224.838 637.655 228.366 631.84 230.77C626.025 233.175 619.792 234.408 613.5 234.4V234.4Z"
-                fill="white" />
-            </svg>
-          </a>
-           <a class="footer-link" href="https://www.facebook.com/" target="blank">
-            <svg class="mx-2 my-2" width="25" height="25" viewBox="0 0 24 24" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M0 12.067C0 18.033 4.333 22.994 10 24V15.333H7V12H10V9.333C10 6.333 11.933 4.667 14.667 4.667C15.533 4.667 16.467 4.8 17.333 4.933V8H15.8C14.333 8 14 8.733 14 9.667V12H17.2L16.667 15.333H14V24C19.667 22.994 24 18.034 24 12.067C24 5.43 18.6 0 12 0C5.4 0 0 5.43 0 12.067Z"
-                fill="white" />
-            </svg>
-          </a>
-          <a class="footer-link" href="https://twitter.com/" target="blank">
-            <svg class="mx-2 my-2" width="25" height="25" viewBox="0 0 896 896" fill="none"
+          <a class="footer-link">
+            <svg class="mx-3 my-2" width="25" height="25" viewBox="0 0 896 896" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M448 0C200.6 0 0 200.6 0 448C0 695.4 200.6 896 448 896C695.4 896 896 695.4 896 448C896 200.6 695.4 0 448 0ZM663.3 337.7C663.6 342.4 663.6 347.3 663.6 352.1C663.6 498.9 551.8 668 347.5 668C284.5 668 226.1 649.7 176.9 618.2C185.9 619.2 194.5 619.6 203.7 619.6C255.7 619.6 303.5 602 341.6 572.2C292.8 571.2 251.8 539.2 237.8 495.2C254.9 497.7 270.3 497.7 287.9 493.2C262.773 488.095 240.188 474.448 223.982 454.578C207.776 434.708 198.949 409.841 199 384.2V382.8C213.7 391.1 231 396.2 249.1 396.9C233.884 386.759 221.406 373.021 212.771 356.903C204.136 340.785 199.612 322.785 199.6 304.5C199.6 283.8 205 264.9 214.7 248.5C242.59 282.834 277.393 310.914 316.846 330.917C356.3 350.919 399.521 362.395 443.7 364.6C428 289.1 484.4 228 552.2 228C584.2 228 613 241.4 633.3 263C658.4 258.3 682.4 248.9 703.8 236.3C695.5 262 678.1 283.7 655 297.4C677.4 295 699 288.8 719 280.1C703.9 302.3 685 322 663.3 337.7V337.7Z"
                 fill="white" />
             </svg>
           </a>
-          <a href="https://www.tiktok.com/login/" target="blank">
-            <img src="https://static.bershka.net/4/static/itxwebstandard/images/footer/tiktok.svg?ts=20211122025032" alt="">
+          <a class="footer-link" href="">
+            <svg class="mx-3 my-2" width="25" height="25" viewBox="0 0 800 800" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M400 266.7C326.6 266.7 266.7 326.6 266.7 400C266.7 473.4 326.6 533.3 400 533.3C473.4 533.3 533.3 473.4 533.3 400C533.3 326.6 473.4 266.7 400 266.7ZM799.8 400C799.8 344.8 800.3 290.1 797.2 235C794.1 171 779.5 114.2 732.7 67.4002C685.8 20.5002 629.1 6.00025 565.1 2.90025C509.9 -0.199749 455.2 0.300252 400.1 0.300252C344.9 0.300252 290.2 -0.199749 235.1 2.90025C171.1 6.00025 114.3 20.6002 67.4999 67.4002C20.5999 114.3 6.09986 171 2.99986 235C-0.10014 290.2 0.399862 344.9 0.399862 400C0.399862 455.1 -0.10014 509.9 2.99986 565C6.09986 629 20.6999 685.8 67.4999 732.6C114.4 779.5 171.1 794 235.1 797.1C290.3 800.2 345 799.7 400.1 799.7C455.3 799.7 510 800.2 565.1 797.1C629.1 794 685.9 779.4 732.7 732.6C779.6 685.7 794.1 629 797.2 565C800.4 509.9 799.8 455.2 799.8 400V400ZM400 605.1C286.5 605.1 194.9 513.5 194.9 400C194.9 286.5 286.5 194.9 400 194.9C513.5 194.9 605.1 286.5 605.1 400C605.1 513.5 513.5 605.1 400 605.1ZM613.5 234.4C587 234.4 565.6 213 565.6 186.5C565.6 160 587 138.6 613.5 138.6C640 138.6 661.4 160 661.4 186.5C661.408 192.793 660.174 199.025 657.77 204.84C655.365 210.655 651.837 215.939 647.388 220.388C642.938 224.838 637.655 228.366 631.84 230.77C626.025 233.175 619.792 234.408 613.5 234.4V234.4Z"
+                fill="white" />
+            </svg>
           </a>
-          <a class="footer-link" href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome" target="blank">
-           <svg class="mx-2" aria-hidden="true" role="img" width="25px" height="25px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 496 512"><path d="M248 8C111 8 0 119 0 256s111 248 248 248s248-111 248-248S385 8 248 8zm169.5 338.9c-3.5 8.1-18.1 14-44.8 18.2c-1.4 1.9-2.5 9.8-4.3 15.9c-1.1 3.7-3.7 5.9-8.1 5.9h-.2c-6.2 0-12.8-2.9-25.8-2.9c-17.6 0-23.7 4-37.4 13.7c-14.5 10.3-28.4 19.1-49.2 18.2c-21 1.6-38.6-11.2-48.5-18.2c-13.8-9.7-19.8-13.7-37.4-13.7c-12.5 0-20.4 3.1-25.8 3.1c-5.4 0-7.5-3.3-8.3-6c-1.8-6.1-2.9-14.1-4.3-16c-13.8-2.1-44.8-7.5-45.5-21.4c-.2-3.6 2.3-6.8 5.9-7.4c46.3-7.6 67.1-55.1 68-57.1c0-.1.1-.2.2-.3c2.5-5 3-9.2 1.6-12.5c-3.4-7.9-17.9-10.7-24-13.2c-15.8-6.2-18-13.4-17-18.3c1.6-8.5 14.4-13.8 21.9-10.3c5.9 2.8 11.2 4.2 15.7 4.2c3.3 0 5.5-.8 6.6-1.4c-1.4-23.9-4.7-58 3.8-77.1C183.1 100 230.7 96 244.7 96c.6 0 6.1-.1 6.7-.1c34.7 0 68 17.8 84.3 54.3c8.5 19.1 5.2 53.1 3.8 77.1c1.1.6 2.9 1.3 5.7 1.4c4.3-.2 9.2-1.6 14.7-4.2c4-1.9 9.6-1.6 13.6 0c6.3 2.3 10.3 6.8 10.4 11.9c.1 6.5-5.7 12.1-17.2 16.6c-1.4.6-3.1 1.1-4.9 1.7c-6.5 2.1-16.4 5.2-19 11.5c-1.4 3.3-.8 7.5 1.6 12.5c.1.1.1.2.2.3c.9 2 21.7 49.5 68 57.1c4 1 7.1 5.5 4.9 10.8z" 
-            fill="white"/></svg>
+          <a class="footer-link" href="">
+            <svg class="mx-3" width="25" height="25" viewBox="0 0 416 416" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M208 0C93.31 0 0 93.31 0 208C0 322.69 93.31 416 208 416C322.69 416 416 322.69 416 208C416 93.31 322.69 0 208 0ZM208 336C187.1 336 170.48 327.14 168.25 308.42C168.191 307.861 168.251 307.295 168.425 306.76C168.599 306.225 168.885 305.733 169.262 305.316C169.64 304.899 170.101 304.566 170.616 304.339C171.131 304.112 171.687 303.997 172.25 304H243.7C244.268 303.996 244.831 304.113 245.35 304.343C245.87 304.574 246.334 304.912 246.713 305.336C247.091 305.76 247.375 306.259 247.545 306.802C247.715 307.344 247.768 307.916 247.7 308.48C245.15 326.85 228.68 336 208 336ZM306 288H110C98.16 288 92 273 98.81 265C115.14 245.66 126.68 237.53 126.68 184.2C126.68 135.33 152.42 117.99 173.68 109.53C175.143 108.92 176.462 108.011 177.552 106.86C178.643 105.71 179.48 104.344 180.01 102.85C183.7 90.6 194.14 80 208 80C221.86 80 232.28 90.6 236 102.86C236.533 104.353 237.373 105.719 238.465 106.869C239.556 108.02 240.876 108.929 242.34 109.54C263.55 117.98 289.34 135.35 289.34 184.21C289.34 237.54 300.87 245.67 317.2 265.01C323.94 273 317.77 288 306 288V288Z"
+                fill="white" />
+            </svg>
           </a>
-         
-          <a class="footer-link" href="https://www.youtube.com/" target="blank">
-            <svg class="mx-2 my-2" width="25" height="25" viewBox="0 0 20 20" fill="none"
+          <a class="footer-link" href="">
+            <svg class="mx-3 my-2" width="25" height="25" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M0 12.067C0 18.033 4.333 22.994 10 24V15.333H7V12H10V9.333C10 6.333 11.933 4.667 14.667 4.667C15.533 4.667 16.467 4.8 17.333 4.933V8H15.8C14.333 8 14 8.733 14 9.667V12H17.2L16.667 15.333H14V24C19.667 22.994 24 18.034 24 12.067C24 5.43 18.6 0 12 0C5.4 0 0 5.43 0 12.067Z"
+                fill="white" />
+            </svg>
+          </a>
+          <a class="footer-link" href="">
+            <svg class="mx-3 my-2" width="25" height="25" viewBox="0 0 20 20" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M11.6034 9.83339L9.35739 8.78539C9.16139 8.69439 9.00039 8.79639 9.00039 9.01339V10.9874C9.00039 11.2044 9.16139 11.3064 9.35739 11.2154L11.6024 10.1674C11.7994 10.0754 11.7994 9.92539 11.6034 9.83339ZM10.0004 0.400391C4.69839 0.400391 0.400391 4.69839 0.400391 10.0004C0.400391 15.3024 4.69839 19.6004 10.0004 19.6004C15.3024 19.6004 19.6004 15.3024 19.6004 10.0004C19.6004 4.69839 15.3024 0.400391 10.0004 0.400391ZM10.0004 13.9004C5.08639 13.9004 5.00039 13.4574 5.00039 10.0004C5.00039 6.54339 5.08639 6.10039 10.0004 6.10039C14.9144 6.10039 15.0004 6.54339 15.0004 10.0004C15.0004 13.4574 14.9144 13.9004 10.0004 13.9004Z"
                 fill="white" />
             </svg>
           </a>
-        <a  href="https://in.pinterest.com/login/" target="blank">
-             <img class="me-2" src="https://static.bershka.net/4/static/itxwebstandard/images/footer/pinterest.svg?ts=20211122025032" alt="">
-        </a>
-          <!-- <a class="footer-link" href="">
-            <svg class="mx-2 my-2" width="25" height="25" viewBox="0 0 416 416" fill="none"
+          <a class="footer-link" href="">
+            <svg class="mx-3 my-2" width="25" height="25" viewBox="0 0 800 800" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M400 266.7C326.6 266.7 266.7 326.6 266.7 400C266.7 473.4 326.6 533.3 400 533.3C473.4 533.3 533.3 473.4 533.3 400C533.3 326.6 473.4 266.7 400 266.7ZM799.8 400C799.8 344.8 800.3 290.1 797.2 235C794.1 171 779.5 114.2 732.7 67.4002C685.8 20.5002 629.1 6.00025 565.1 2.90025C509.9 -0.199749 455.2 0.300252 400.1 0.300252C344.9 0.300252 290.2 -0.199749 235.1 2.90025C171.1 6.00025 114.3 20.6002 67.4999 67.4002C20.5999 114.3 6.09986 171 2.99986 235C-0.10014 290.2 0.399862 344.9 0.399862 400C0.399862 455.1 -0.10014 509.9 2.99986 565C6.09986 629 20.6999 685.8 67.4999 732.6C114.4 779.5 171.1 794 235.1 797.1C290.3 800.2 345 799.7 400.1 799.7C455.3 799.7 510 800.2 565.1 797.1C629.1 794 685.9 779.4 732.7 732.6C779.6 685.7 794.1 629 797.2 565C800.4 509.9 799.8 455.2 799.8 400V400ZM400 605.1C286.5 605.1 194.9 513.5 194.9 400C194.9 286.5 286.5 194.9 400 194.9C513.5 194.9 605.1 286.5 605.1 400C605.1 513.5 513.5 605.1 400 605.1ZM613.5 234.4C587 234.4 565.6 213 565.6 186.5C565.6 160 587 138.6 613.5 138.6C640 138.6 661.4 160 661.4 186.5C661.408 192.793 660.174 199.025 657.77 204.84C655.365 210.655 651.837 215.939 647.388 220.388C642.938 224.838 637.655 228.366 631.84 230.77C626.025 233.175 619.792 234.408 613.5 234.4V234.4Z"
+                fill="white" />
+            </svg>
+          </a>
+          <a class="footer-link" href="">
+            <svg class="mx-3 my-2" width="25" height="25" viewBox="0 0 416 416" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M208 0C93.31 0 0 93.31 0 208C0 322.69 93.31 416 208 416C322.69 416 416 322.69 416 208C416 93.31 322.69 0 208 0ZM208 336C187.1 336 170.48 327.14 168.25 308.42C168.191 307.861 168.251 307.295 168.425 306.76C168.599 306.225 168.885 305.733 169.262 305.316C169.64 304.899 170.101 304.566 170.616 304.339C171.131 304.112 171.687 303.997 172.25 304H243.7C244.268 303.996 244.831 304.113 245.35 304.343C245.87 304.574 246.334 304.912 246.713 305.336C247.091 305.76 247.375 306.259 247.545 306.802C247.715 307.344 247.768 307.916 247.7 308.48C245.15 326.85 228.68 336 208 336ZM306 288H110C98.16 288 92 273 98.81 265C115.14 245.66 126.68 237.53 126.68 184.2C126.68 135.33 152.42 117.99 173.68 109.53C175.143 108.92 176.462 108.011 177.552 106.86C178.643 105.71 179.48 104.344 180.01 102.85C183.7 90.6 194.14 80 208 80C221.86 80 232.28 90.6 236 102.86C236.533 104.353 237.373 105.719 238.465 106.869C239.556 108.02 240.876 108.929 242.34 109.54C263.55 117.98 289.34 135.35 289.34 184.21C289.34 237.54 300.87 245.67 317.2 265.01C323.94 273 317.77 288 306 288V288Z"
                 fill="white" />
             </svg>
-          </a> -->
-          <a class="footer-link"  href="https://accounts.spotify.com/en/login" target="blank">
-            <svg class="" aria-hidden="true" role="img" width="25" height="25" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path d="M16 4C9.371 4 4 9.371 4 16s5.371 12 12 12s12-5.371 12-12S22.629 4 16 4zm0 2a9.96 9.96 0 0 1 10 10a9.96 9.96 0 0 1-10 10A9.96 9.96 0 0 1 6 16A9.96 9.96 0 0 1 16 6zm-1.594 4.75c-1.945 0-3.64.18-5.25.688c-.426.085-.781.406-.781 1c0 .593.438 1.117 1.031 1.03c.254 0 .426-.093.594-.093c1.355-.34 2.883-.5 4.406-.5c2.961 0 6 .66 8.031 1.844c.254.086.34.187.594.187c.594 0 1.008-.437 1.094-1.031c0-.508-.254-.832-.594-1c-2.539-1.438-5.91-2.125-9.125-2.125zm-.281 3.719c-1.777 0-3.043.254-4.313.594c-.421.167-.656.43-.656.937c0 .422.336.844.844.844c.172 0 .246-.008.5-.094c.93-.254 2.207-.406 3.563-.406c2.792 0 5.222.68 7 1.781c.167.086.34.156.593.156c.508 0 .844-.43.844-.937c0-.34-.16-.676-.5-.844c-2.2-1.355-4.996-2.031-7.875-2.031zm.281 3.656c-1.437 0-2.8.16-4.156.5c-.34.086-.594.328-.594.75c0 .34.266.688.688.688c.086 0 .332-.094.5-.094a15.582 15.582 0 0 1 3.469-.407c2.113 0 4.046.508 5.656 1.438c.172.086.363.156.531.156c.34 0 .664-.254.75-.593c0-.426-.184-.583-.438-.75c-1.863-1.102-4.039-1.688-6.406-1.688z" 
-              fill="white"/></svg>
           </a>
         </div>
       </div>
@@ -1518,36 +1491,11 @@
     $(document).ready(function () {
       $(".logo").mouseover(function () {
         $(".hover-sidebar1").addClass("hover-sidebar");
-        $(".side-overlay").addClass("active");
-        document.body.style.overflow = 'hidden';
-        $(".fixed").addClass("bg-white")
       });
-      $(" .anim-menu").click(function () {
-        $(".hover-sidebar1").addClass("hover-sidebar");
-        $(".side-overlay").addClass("active");
-        $(".fixed").addClass("bg-white")
-        document.body.style.overflow = 'hidden';
-
-      });
-
-    });
-  </script>
-  <!-- hover-sidebar1 -->
-  <script>
-    $(document).ready(function () {
-      $(".hover-sidebar1").mouseover(function () {
-        $(".hover-sidebar1").addClass("hover-sidebar");
-        $(".fixed").addClass("bg-white")
-      });
-      $(".side-overlay").mouseover(function () {
+      $(".logo").mouseout(function () {
         $(".hover-sidebar1").removeClass("hover-sidebar");
-        $(".side-overlay").removeClass("active");
-        document.body.style.overflow = 'auto';
-        $(".fixed").removeClass("bg-white")
       });
     });
-
-    // side - overlay
   </script>
   <script>
     $(document).ready(function () {
@@ -1565,45 +1513,6 @@
         $(".result").addClass("d-none");
       });
     });
-  </script>
-  <script>
-    const secNavbar = document.querySelector(".sec-navbar")
-    const topHeader = document.querySelector(".top-header")
-    const carouselSec = document.querySelector(".Carousel-section")
-    const animMenu = document.querySelector(".anim-menu")
-
-    window.addEventListener("scroll", scrollHandler)
-    window.addEventListener("resize", resizeHandler)
-    let innerWidth = window.screen.availWidth;
-
-    function resizeHandler() {
-      innerWidth = window.screen.availWidth;
-
-    }
-
-    function scrollHandler() {
-      const pos = window.scrollY
-      if (pos > 5) {
-        topHeader.classList.add("isScroll")
-        secNavbar.classList.add("isAnimated")
-        carouselSec.classList.add("isCarousel")
-      } else {
-        topHeader.classList.remove("isScroll")
-        secNavbar.classList.remove("isAnimated")
-        carouselSec.classList.remove("isCarousel")
-      }
-
-      if (innerWidth < 992) {
-
-        animMenu.classList.add("d-none")
-        topHeader.classList.add("bg-white");
-        secNavbar.classList.add("bg-white")
-      } else {
-
-        topHeader.classList.remove("bg-white");
-        secNavbar.classList.remove("bg-white")
-      }
-    }
   </script>
 
 

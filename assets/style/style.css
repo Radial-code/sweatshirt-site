@@ -580,11 +580,10 @@ ul {
   color: #8c8c8c;
 }
 
-.max-width-200 {
+<<<<<<< HEAD .max-width-200 {
   max-width: 200px;
 }
-
-svg {
+=======>>>>>>>e2b342d09a07fe8326bfde0264757c61ad8880e5 svg {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
@@ -712,4 +711,120 @@ svg {
   .isScroll .anim-menu {
     display: none !important;
   }
+}
+/* ACCORDION-CSS */
+.bg-accordion-black .accordion-button:not(.collapsed) {
+  background-color: black;
+  color: white;
+  border: 1px solid transparent;
+  box-shadow: none;
+}
+
+.bg-accordion-black .accordion-item:first-of-type .accordion-button {
+  background-color: black;
+}
+
+.bg-accordion-black .accordion-button:not(.collapsed)::after {
+  background-image: url("../img/up-arrow.png");
+  background-repeat: no-repeat;
+  /* width: 10px; */
+  transition: none;
+  width: 10px;
+  height: 10px;
+  background-size: contain;
+}
+.bg-accordion-black a {
+  color: black !important;
+}
+.bg-accordion-black .accordion-button::after {
+  background-image: url("../img/down-arrow.png");
+  background-repeat: no-repeat;
+  transform: rotate(0);
+  transition: none;
+  width: 10px;
+  height: 10px;
+  background-size: contain;
+}
+
+.bg-accordion-black .accordion-button:not(.collapsed) {
+  border: none;
+}
+
+.bg-accordion-black .accordion-body {
+  background-color: black;
+}
+
+.bg-accordion-black .accordion-button {
+  transition: none;
+  color: white;
+  background-color: black;
+  box-shadow: none !important;
+  border: none;
+  border-color: transparent;
+  line-height: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0;
+}
+
+.bg-accordion-black .accordion-item {
+  border-top: 1px solid white !important;
+  border-bottom: 1px solid white !important;
+  background-color: black;
+}
+
+.bg-accordion-black .collapsing {
+  -webkit-transition: none;
+  transition: none;
+  display: none;
+}
+
+.bg-accordion-black {
+  background-color: black;
+}
+
+.bg-accordion-black a {
+  color: white;
+}
+
+.bg-accordion-black .footer-para {
+  color: white;
+}
+
+.bg-accordion-black .footer-link {
+  font-size: 13px;
+}
+
+.bg-accordion-black .footer-link:hover {
+  color: white;
+  opacity: 0.7;
+}
+
+.carousel-item {
+  transition: none;
+}
+
+@media (min-width: 1600px) {
+  .mw-xxl-200 {
+    max-width: 200px;
+  }
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.dot {
+  position: relative;
+  padding-left: 20px;
+}
+
+.dot::after {
+  position: absolute;
+  content: ".";
+  /* background-color: black; */
+  top: -3px;
+  left: 10px;
 }
