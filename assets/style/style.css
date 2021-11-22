@@ -16,6 +16,7 @@
   border-bottom: 1px solid var(--bg-black);
   width: 300px;
 }
+
 @media (max-width: 991px) {
   .navbar-input {
     width: 200px;
@@ -44,14 +45,17 @@
   background-color: white !important;
   box-shadow: 0 3px 5px 0 rgb(0 0 0 / 5%);
 }
+
 .navbar-button {
   color: var(--bg-black);
 }
+
 .navbar-button:hover {
   background-color: var(--bg-black);
   color: white;
   border-radius: 5px;
 }
+
 .hover-sidebar1 {
   width: 555px;
   z-index: 13;
@@ -122,14 +126,15 @@
   display: none;
 }
 
-.round input[type="checkbox"]:checked + label {
+.round input[type="checkbox"]:checked+label {
   background-color: #66bb6a;
   border-color: #66bb6a;
 }
 
-.round input[type="checkbox"]:checked + label:after {
+.round input[type="checkbox"]:checked+label:after {
   opacity: 1;
 }
+
 /* .offcanvas-backdrop.show {
   opacity: ;
 } */
@@ -209,12 +214,15 @@ input:focus {
 .mw-200 {
   max-width: 200px;
 }
+
 .border-top {
   border-top: 1px solid #e9e9e9;
 }
+
 .border-bottom {
   border-bottom: 1px solid #e9e9e9;
 }
+
 .discover-btn {
   background-color: black;
   color: white;
@@ -511,9 +519,8 @@ ul {
   font-weight: 400;
   color: #8c8c8c;
 }
-.max-width-200 {
-  max-width: 200px;
-}
+
+
 svg {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -555,10 +562,12 @@ svg:hover {
   .bootstrap-carousel .carousel-control-next {
     right: -229px;
   }
+
   .bootstrap-carousel .carousel-control-prev {
     left: -229px;
   }
 }
+
 .carousel-text {
   font-size: 20px;
 }
@@ -567,10 +576,130 @@ svg:hover {
   .bootstrap-carousel .carousel-control-next {
     right: 0px;
   }
+
   .bootstrap-carousel .carousel-control-prev {
     left: 0px;
   }
 }
+
 .carousel-text {
   font-size: 20px;
+}
+
+/* ACCORDION-CSS */
+.bg-accordion-black .accordion-button:not(.collapsed) {
+  background-color: black;
+  color: white;
+  border: 1px solid transparent;
+  box-shadow: none;
+}
+
+
+.bg-accordion-black .accordion-item:first-of-type .accordion-button {
+  background-color: black;
+}
+
+.bg-accordion-black .accordion-button:not(.collapsed)::after {
+  background-image: url('../img/up-arrow.png');
+  background-repeat: no-repeat;
+  /* width: 10px; */
+  transition: none;
+  width: 10px;
+  height: 10px;
+  background-size: contain;
+}
+
+.bg-accordion-black .accordion-button::after {
+  background-image: url('../img/down-arrow.png');
+  background-repeat: no-repeat;
+  transform: rotate(0);
+  transition: none;
+  width: 10px;
+  height: 10px;
+  background-size: contain;
+}
+
+.bg-accordion-black .accordion-button:not(.collapsed) {
+  border: none;
+}
+
+.bg-accordion-black .accordion-body {
+  background-color: black;
+}
+
+.bg-accordion-black .accordion-button {
+  transition: none;
+  color: white;
+  background-color: black;
+  box-shadow: none !important;
+  border: none;
+  border-color: transparent;
+  line-height: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0;
+}
+
+.bg-accordion-black .accordion-item {
+  border-top: 1px solid white !important;
+  border-bottom: 1px solid white !important;
+  background-color: black;
+}
+
+.bg-accordion-black .collapsing {
+  -webkit-transition: none;
+  transition: none;
+  display: none;
+}
+
+.bg-accordion-black {
+  background-color: black;
+}
+
+.bg-accordion-black a {
+  color: white;
+}
+
+.bg-accordion-black .footer-para {
+  color: white;
+}
+
+.bg-accordion-black .footer-link {
+  font-size: 13px;
+}
+
+.bg-accordion-black .footer-link:hover {
+  color: white;
+  opacity: .7;
+}
+
+.carousel-item {
+  transition: none;
+}
+
+@media (min-width:1600px) {
+  .mw-xxl-200 {
+    max-width: 200px;
+  }
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.dot {
+  position: relative;
+  padding-left: 20px;
+}
+
+.dot::after {
+  position: absolute;
+  content: '.';
+  /* background-color: black; */
+  top: -3px;
+  left: 10px;
+
+
 }
