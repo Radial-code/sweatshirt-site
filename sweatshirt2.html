@@ -1,142 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-    />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
-      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./assets/style/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
 
-    <title>Document</title>
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/style/style.css" />
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="side-overlay"></div>
+  <div class="fixed">
+
+    <nav class="navbar  navbar-expand-lg navbar-light top-header ">
       <div class="container-fluid mx-3">
-        <a class="navbar-brand  logo cursor-pointer d-lg-flex d-none">Bershka</a>
-         <a
-              class="+ "
-              data-bs-toggle="offcanvas"
-              href="#offcanvasExample"
-              role="button"
-              aria-controls="offcanvasExample"
-            >
-              <a class="nav-link navbar-button logo d-lg-flex d-none" href="#" tabindex="-1"
-                >Men</a
-              >
-      </a>
-         <a
-              class=" d-lg-flex d-none"
-              data-bs-toggle="offcanvas"
-              href="#offcanvasExample"
-              role="button"
-              aria-controls="offcanvasExample"
-            >
-              <a class="nav-link navbar-button logo d-lg-flex d-none" href="#" tabindex="-1"
-                >Women</a
-              >
-    </a>
-       
-       <div class="d-flex justify-content-between align-items-center w-100">
-           <div>
-            <a class="navbar-brand logo cursor-pointer d-lg-none d-block "><svg  aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="black"><rect x="3" y="11" width="18" height="2" rx=".95" ry=".95"/><rect x="3" y="16" width="18" height="2" rx=".95" ry=".95"/><rect x="3" y="6" width="18" height="2" rx=".95" ry=".95"/></g></svg></a>
+        <a class="navbar-brand brand-name  logo cursor-pointer d-lg-flex d-none">Bershka</a>
+        <div class="anim-menu">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="30" style=" fill:#000000;">
+            <path
+              d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z">
+            </path>
+          </svg>
+        </div>
+        <a class="z-999" class="+ " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+          aria-controls="offcanvasExample">
+          <a class="nav-link anim-link navbar-button logo d-lg-flex d-none" href="#" tabindex="-1">Men</a>
+        </a>
+        <a class=" d-lg-flexcz-999 d-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+          aria-controls="offcanvasExample">
+          <a class="nav-link anim-link navbar-button logo d-lg-flex d-none" href="#" tabindex="-1">Women</a>
+        </a>
 
-           </div>
+        <div class="d-flex justify-content-between align-items-center w-100">
+          <div>
+            <a class="navbar-brand  logo cursor-pointer d-lg-none d-block ">
+              <svg aria-hidden="true" role="img" width="1.4em" height="1.2em" preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24">
+                <g fill="black">
+                  <rect x="3" y="11" width="18" height="2" rx=".95" ry=".95" />
+                  <rect x="3" y="16" width="18" height="2" rx=".95" ry=".95" />
+                  <rect x="3" y="6" width="18" height="2" rx=".95" ry=".95" />
+                </g>
+              </svg>
+            </a>
+
+          </div>
           <div>
             <span class=" d-lg-none">
-            <svg
-              aria-hidden="true"
-              role="img"
-              width="1em"
-              height="1em"
-              preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 20 20"
-            >
-              <g fill="none">
+              <svg aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 20 20">
+                <g fill="none">
+                  <path
+                    d="M8.5 3a5.5 5.5 0 0 1 4.383 8.823l4.147 4.147a.75.75 0 0 1-.976 1.133l-.084-.073l-4.147-4.147A5.5 5.5 0 1 1 8.5 3zm0 1.5a4 4 0 1 0 0 8a4 4 0 0 0 0-8z"
+                    fill="black" />
+                </g>
+              </svg>
+            </span>
+            <span class=" cursor-pointer navbar-icon d-lg-none mx-3" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><svg aria-hidden="true" role="img"
+                width="25px" height="25px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
                 <path
-                  d="M8.5 3a5.5 5.5 0 0 1 4.383 8.823l4.147 4.147a.75.75 0 0 1-.976 1.133l-.084-.073l-4.147-4.147A5.5 5.5 0 1 1 8.5 3zm0 1.5a4 4 0 1 0 0 8a4 4 0 0 0 0-8z"
-                  fill="black"
-                />
-              </g>
-            </svg>
-          </span>
-             <span
-            class=" cursor-pointer navbar-icon d-lg-none mx-3"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasRight"
-            aria-controls="offcanvasRight"
-            ><svg
-              aria-hidden="true"
-              role="img"
-              width="25px"
-              height="25px"
-              preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 1024 1024"
-            >
-              <path
-                d="M858.5 763.6a374 374 0 0 0-80.6-119.5a375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1c-.4.2-.8.3-1.2.5c-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 0 0-80.6 119.5A371.7 371.7 0 0 0 136 901.8a8 8 0 0 0 8 8.2h60c4.4 0 7.9-3.5 8-7.8c2-77.2 33-149.5 87.8-204.3c56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 0 0 8-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"
-                fill="black"
-              />
-            </svg>
-          </span>
-          <span class=" navbar-icon d-lg-none">
-            <svg
-              aria-hidden="true"
-              role="img"
-              width="25px"
-              height="25px"
-              preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 24 24"
-            >
-              <g fill="none">
-                <path
-                  d="M7 3C4.239 3 2 5.216 2 7.95c0 2.207.875 7.445 9.488 12.74a.985.985 0 0 0 1.024 0C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3s-5 3-5 3s-2.239-3-5-3z"
-                  stroke="black"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </g>
-            </svg>
-          </span>
+                  d="M858.5 763.6a374 374 0 0 0-80.6-119.5a375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1c-.4.2-.8.3-1.2.5c-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 0 0-80.6 119.5A371.7 371.7 0 0 0 136 901.8a8 8 0 0 0 8 8.2h60c4.4 0 7.9-3.5 8-7.8c2-77.2 33-149.5 87.8-204.3c56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 0 0 8-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"
+                  fill="black" />
+              </svg>
+            </span>
+            <span class=" navbar-icon d-lg-none">
+              <svg aria-hidden="true" role="img" width="25px" height="25px" preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24">
+                <g fill="none">
+                  <path
+                    d="M7 3C4.239 3 2 5.216 2 7.95c0 2.207.875 7.445 9.488 12.74a.985.985 0 0 0 1.024 0C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3s-5 3-5 3s-2.239-3-5-3z"
+                    stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </g>
+              </svg>
+            </span>
           </div>
-       </div>
-        <button   
-          class="navbar-toggler d-none "
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        </div>
+        <button class="navbar-toggler d-none " type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-       
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 pt-lg-0 pt-4">
             <!-- <li
@@ -162,188 +119,99 @@
           </ul>
 
           <span class="pe-3">
-            <svg
-              aria-hidden="true"
-              role="img"
-              width="1em"
-              height="1em"
-              preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 20 20"
-            >
+            <svg aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 20 20">
               <g fill="none">
                 <path
                   d="M8.5 3a5.5 5.5 0 0 1 4.383 8.823l4.147 4.147a.75.75 0 0 1-.976 1.133l-.084-.073l-4.147-4.147A5.5 5.5 0 1 1 8.5 3zm0 1.5a4 4 0 1 0 0 8a4 4 0 0 0 0-8z"
-                  fill="black"
-                />
+                  fill="black" />
               </g>
             </svg>
           </span>
 
-          <span
-            class="navbar-input d-inline-block"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasTop"
-            aria-controls="offcanvasTop"
-            >Search</span
-          >
-          <span
-            class="mx-lg-3 cursor-pointer navbar-icon"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasRight"
-            aria-controls="offcanvasRight"
-            ><svg
-              aria-hidden="true"
-              role="img"
-              width="25px"
-              height="25px"
-              preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 1024 1024"
-            >
+          <span class="navbar-input d-inline-block" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+            aria-controls="offcanvasTop">Search</span>
+          <span class="mx-lg-3 cursor-pointer navbar-icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"><svg aria-hidden="true" role="img" width="25px" height="25px"
+              preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
               <path
                 d="M858.5 763.6a374 374 0 0 0-80.6-119.5a375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1c-.4.2-.8.3-1.2.5c-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 0 0-80.6 119.5A371.7 371.7 0 0 0 136 901.8a8 8 0 0 0 8 8.2h60c4.4 0 7.9-3.5 8-7.8c2-77.2 33-149.5 87.8-204.3c56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 0 0 8-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"
-                fill="black"
-              />
+                fill="black" />
             </svg>
           </span>
           <span class="px-lg-2 px-1 navbar-icon">
-            <svg
-              aria-hidden="true"
-              role="img"
-              width="25px"
-              height="25px"
-              preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 24 24"
-            >
+            <svg aria-hidden="true" role="img" width="25px" height="25px" preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24">
               <g fill="none">
                 <path
                   d="M7 3C4.239 3 2 5.216 2 7.95c0 2.207.875 7.445 9.488 12.74a.985.985 0 0 0 1.024 0C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3s-5 3-5 3s-2.239-3-5-3z"
-                  stroke="black"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
+                  stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
               </g>
             </svg>
           </span>
 
-          <span
-            class="px-2 navbar-icon"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasRight2"
-            aria-controls="offcanvasRight"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              aria-hidden="true"
-              role="img"
-              width="25px"
-              height="25px"
-              preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 576 512"
-            >
+          <span class="px-2 navbar-icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2"
+            aria-controls="offcanvasRight">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+              role="img" width="25px" height="25px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 576 512">
               <path
                 d="M576 216v16c0 13.255-10.745 24-24 24h-8l-26.113 182.788C514.509 462.435 494.257 480 470.37 480H105.63c-23.887 0-44.139-17.565-47.518-41.212L32 256h-8c-13.255 0-24-10.745-24-24v-16c0-13.255 10.745-24 24-24h67.341l106.78-146.821c10.395-14.292 30.407-17.453 44.701-7.058c14.293 10.395 17.453 30.408 7.058 44.701L170.477 192h235.046L326.12 82.821c-10.395-14.292-7.234-34.306 7.059-44.701c14.291-10.395 34.306-7.235 44.701 7.058L484.659 192H552c13.255 0 24 10.745 24 24zM312 392V280c0-13.255-10.745-24-24-24s-24 10.745-24 24v112c0 13.255 10.745 24 24 24s24-10.745 24-24zm112 0V280c0-13.255-10.745-24-24-24s-24 10.745-24 24v112c0 13.255 10.745 24 24 24s24-10.745 24-24zm-224 0V280c0-13.255-10.745-24-24-24s-24 10.745-24 24v112c0 13.255 10.745 24 24 24s24-10.745 24-24z"
-                fill="black"
-              />
+                fill="black" />
             </svg>
           </span>
         </div>
       </div>
     </nav>
     <!-- SECOND NAVBAR -->
-    <div class="position-relative">
-      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="position-relative  sec-navbar">
+      <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid mx-3">
-          <a class="navbar-brand fw-bold" id="logo">New</a>
+          <a class="navbar-brand fw-bold" id="logo">Sweatshirts & Hoodies</a>
           <div class="d-flex">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
             <span class="view-text d-lg-block d-none">View</span>
-            <span
-              class="mx-2 cursor-pointer number-text d-inline-block text-center d-lg-block d-none"
-              >2
+            <span class="mx-2 cursor-pointer number-text d-inline-block text-center d-lg-block d-none">2
             </span>
-            <span
-              class="mx-2 number-text cursor-pointer d-inline-block text-center d-lg-block d-none"
-              >4</span
-            >
-            <span
-              class="
+            <span class="mx-2 number-text cursor-pointer d-inline-block text-center d-lg-block d-none">4</span>
+            <span class="
                 mx-2
                 cursor-pointer
                 left-right-arrow
                 cursor-pointer
                 d-inline-block
                 text-center
-              "
-              id="left-right"
-              ><svg
-                aria-hidden="true"
-                role="img"
-                width="1em"
-                height="1em"
-                preserveAspectRatio="xMidYMid meet"
-                viewBox="0 0 24 24"
-              >
+              " id="left-right"><svg aria-hidden="true" role="img" width="1em" height="1em"
+                preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
                 <g fill="none">
-                  <path
-                    d="M18 2l3 3l-3 3"
-                    stroke="black"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="M6 22l-3-3l3-3"
-                    stroke="black"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="M21 5H10a7 7 0 0 0-7 7"
-                    stroke="black"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="M3 19h11a7 7 0 0 0 7-7"
-                    stroke="black"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
+                  <path d="M18 2l3 3l-3 3" stroke="black" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M6 22l-3-3l3-3" stroke="black" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M21 5H10a7 7 0 0 0-7 7" stroke="black" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M3 19h11a7 7 0 0 0 7-7" stroke="black" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
                 </g>
               </svg>
             </span>
           </div>
         </div>
       </nav>
-      <ul class="d-flex justify-content-start  mx-4">
-        <li class="header-text">All</li>
-        <li class="header-text mx-4">Street</li>
-        <li class="header-text">Casual</li>
+      <ul class="d-flex animated-list flex-wrap justify-content-start  mx-4">
+        <li class="header-text mb-2 active">All</li>
+        <li class="header-text mb-2 mx-4">Basic</li>
+        <li class="header-text mb-2">Hoodie</li>
+        <li class="header-text mb-2 mx-4">Collaborations</li>
+        <li class="header-text mb-2">Printed</li>
+        <li class="header-text mb-2 mx-4">Zip-up</li>
       </ul>
       <div class="result d-none">
-           <h2 class="fw-bold ps-4">New</h2> 
+        <h2 class="fw-bold ps-4">New</h2>
         <div class="text-end cursor-pointer" id="close-result">
           <span class="cross-icon d-inline-block text-center mx-4 my-3">
-            <svg
-              aria-hidden="true"
-              role="img"
-              width="20px"
-              height="20px"
-              preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 21 21"
-            >
-              <g
-                fill="none"
-                fill-rule="evenodd"
-                stroke="black"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
+            <svg aria-hidden="true" role="img" width="20px" height="20px" preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 21 21">
+              <g fill="none" fill-rule="evenodd" stroke="black" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M15.5 15.5l-10-10z" />
                 <path d="M15.5 5.5l-10 10" />
               </g>
@@ -351,7 +219,8 @@
           </span>
         </div>
         <div class="container">
-          <div class="d-flex flex-sm-row flex-column  justify-content-sm-around justify-content-center align-items-sm-start align-items-center my-5">
+          <div
+            class="d-flex flex-sm-row flex-column  justify-content-sm-around justify-content-center align-items-sm-start align-items-center my-5">
             <div>
               <p class="fw-bold mx-2">Type</p>
 
@@ -396,158 +265,158 @@
               <p class="mx-2 fw-bold">Color</p>
               <p class="new-text">
                 <span class="mx-2">
-                 <span>
-                  <span class="round me-4">
-                    <input type="checkbox" id="checkbox" />
-                    <label for="checkbox"></label>
+                  <span>
+                    <span class="round me-4">
+                      <input type="checkbox" id="checkbox" />
+                      <label for="checkbox"></label>
+                    </span>
                   </span>
-                </span>
-                Red <span class="d-inline-block rectangle-red my-1"></span>
-              </p>
-              <p class="new-text">
-                <span class="mx-2">
-                 <span>
-                  <span class="round me-4">
-                    <input type="checkbox" id="checkbox" />
-                    <label for="checkbox"></label>
-                  </span>
-                </span>
-                White <span class="d-inline-block rectangle-white my-1"></span>
-              </p>
-              <p class="new-text">
-                <span class="mx-2">
-                 <span>
-                  <span class="round me-4">
-                    <input type="checkbox" id="checkbox" />
-                    <label for="checkbox"></label>
-                  </span>
-                </span>
-                Brown <span class="d-inline-block rectangle-brown my-1"></span>
+                  Red <span class="d-inline-block rectangle-red my-1"></span>
               </p>
               <p class="new-text">
                 <span class="mx-2">
                   <span>
-                  <span class="round me-4">
-                    <input type="checkbox" id="checkbox" />
-                    <label for="checkbox"></label>
+                    <span class="round me-4">
+                      <input type="checkbox" id="checkbox" />
+                      <label for="checkbox"></label>
+                    </span>
                   </span>
-                </span>
-                Blue <span class="d-inline-block rectangle-blue my-1"></span>
-              </p>
-              <p class="new-text">
-                <span class="mx-2">
-                 <span>
-                  <span class="round me-4">
-                    <input type="checkbox" id="checkbox" />
-                    <label for="checkbox"></label>
-                  </span>
-                </span>
-                Black <span class="d-inline-block rectangle-black my-1"></span>
-              </p>
-              <p class="new-text">
-                <span class="mx-2">
-                 <span>
-                  <span class="round me-4">
-                    <input type="checkbox" id="checkbox" />
-                    <label for="checkbox"></label>
-                  </span>
-                </span>
-                Grey <span class="d-inline-block rectangle-grey my-1"></span>
+                  White <span class="d-inline-block rectangle-white my-1"></span>
               </p>
               <p class="new-text">
                 <span class="mx-2">
                   <span>
-                  <span class="round me-4">
-                    <input type="checkbox" id="checkbox" />
-                    <label for="checkbox"></label>
+                    <span class="round me-4">
+                      <input type="checkbox" id="checkbox" />
+                      <label for="checkbox"></label>
+                    </span>
                   </span>
-                </span>
-                Pink <span class="d-inline-block rectangle-pink my-1"></span>
+                  Brown <span class="d-inline-block rectangle-brown my-1"></span>
               </p>
               <p class="new-text">
                 <span class="mx-2">
-                 <span>
-                  <span class="round me-4">
-                    <input type="checkbox" id="checkbox" />
-                    <label for="checkbox"></label>
+                  <span>
+                    <span class="round me-4">
+                      <input type="checkbox" id="checkbox" />
+                      <label for="checkbox"></label>
+                    </span>
                   </span>
-                </span>
-                Violet
-                <span class="d-inline-block rectangle-violet my-1"></span>
+                  Blue <span class="d-inline-block rectangle-blue my-1"></span>
               </p>
               <p class="new-text">
                 <span class="mx-2">
-                 <span>
-                  <span class="round me-4">
-                    <input type="checkbox" id="checkbox" />
-                    <label for="checkbox"></label>
+                  <span>
+                    <span class="round me-4">
+                      <input type="checkbox" id="checkbox" />
+                      <label for="checkbox"></label>
+                    </span>
                   </span>
-                </span>
-                Orange
-                <span class="d-inline-block rectangle-orange my-1"></span>
+                  Black <span class="d-inline-block rectangle-black my-1"></span>
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <span>
+                    <span class="round me-4">
+                      <input type="checkbox" id="checkbox" />
+                      <label for="checkbox"></label>
+                    </span>
+                  </span>
+                  Grey <span class="d-inline-block rectangle-grey my-1"></span>
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <span>
+                    <span class="round me-4">
+                      <input type="checkbox" id="checkbox" />
+                      <label for="checkbox"></label>
+                    </span>
+                  </span>
+                  Pink <span class="d-inline-block rectangle-pink my-1"></span>
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <span>
+                    <span class="round me-4">
+                      <input type="checkbox" id="checkbox" />
+                      <label for="checkbox"></label>
+                    </span>
+                  </span>
+                  Violet
+                  <span class="d-inline-block rectangle-violet my-1"></span>
+              </p>
+              <p class="new-text">
+                <span class="mx-2">
+                  <span>
+                    <span class="round me-4">
+                      <input type="checkbox" id="checkbox" />
+                      <label for="checkbox"></label>
+                    </span>
+                  </span>
+                  Orange
+                  <span class="d-inline-block rectangle-orange my-1"></span>
               </p>
             </div>
             <div>
               <p class="mx-2 fw-bold">Size</p>
               <p class="new-text">
                 <span class="mx-2">
-                 <span>
-                  <span class="round me-4">
-                    <input type="checkbox" id="checkbox" />
-                    <label for="checkbox"></label>
+                  <span>
+                    <span class="round me-4">
+                      <input type="checkbox" id="checkbox" />
+                      <label for="checkbox"></label>
+                    </span>
                   </span>
-                </span>
-                XXS
+                  XXS
               </p>
               <p class="new-text">
                 <span class="mx-2">
-                 <span>
-                  <span class="round me-4">
-                    <input type="checkbox" id="checkbox" />
-                    <label for="checkbox"></label>
+                  <span>
+                    <span class="round me-4">
+                      <input type="checkbox" id="checkbox" />
+                      <label for="checkbox"></label>
+                    </span>
                   </span>
-                </span>
-                XS
+                  XS
               </p>
               <p class="new-text">
                 <span class="mx-2">
-              <span>
-                  <span class="round me-4">
-                    <input type="checkbox" id="checkbox" />
-                    <label for="checkbox"></label>
+                  <span>
+                    <span class="round me-4">
+                      <input type="checkbox" id="checkbox" />
+                      <label for="checkbox"></label>
+                    </span>
                   </span>
-                </span>
-                S
+                  S
               </p>
               <p class="new-text">
                 <span class="mx-2">
-                <span>
-                  <span class="round me-4">
-                    <input type="checkbox" id="checkbox" />
-                    <label for="checkbox"></label>
+                  <span>
+                    <span class="round me-4">
+                      <input type="checkbox" id="checkbox" />
+                      <label for="checkbox"></label>
+                    </span>
                   </span>
-                </span>
-                M
+                  M
               </p>
               <p class="new-text">
                 <span class="mx-2">
-                <span>
-                  <span class="round me-4">
-                    <input type="checkbox" id="checkbox" />
-                    <label for="checkbox"></label>
+                  <span>
+                    <span class="round me-4">
+                      <input type="checkbox" id="checkbox" />
+                      <label for="checkbox"></label>
+                    </span>
                   </span>
-                </span>
-                XL
+                  XL
               </p>
               <p class="new-text">
                 <span class="mx-2">
-                 <span>
-                  <span class="round me-4">
-                    <input type="checkbox" id="checkbox" />
-                    <label for="checkbox"></label>
+                  <span>
+                    <span class="round me-4">
+                      <input type="checkbox" id="checkbox" />
+                      <label for="checkbox"></label>
+                    </span>
                   </span>
-                </span>
-                XXL
+                  XXL
               </p>
             </div>
             <div>
@@ -562,8 +431,8 @@
                 Up to $30
               </p>
               <p class="new-text">
-              
-               <span>
+
+                <span>
                   <span class="round me-4">
                     <input type="checkbox" id="checkbox" />
                     <label for="checkbox"></label>
@@ -581,7 +450,7 @@
                 Up to $50
               </p>
               <p class="new-text">
-                 <span>
+                <span>
                   <span class="round me-4">
                     <input type="checkbox" id="checkbox" />
                     <label for="checkbox"></label>
@@ -600,46 +469,28 @@
               </p>
               <div class="mt-5">
                 <p class="fw-bold">
-                   <span>
-                  <span class="round me-4">
-                    <input type="checkbox" id="checkbox" />
-                    <label for="checkbox"></label>
+                  <span>
+                    <span class="round me-4">
+                      <input type="checkbox" id="checkbox" />
+                      <label for="checkbox"></label>
+                    </span>
                   </span>
-                </span>
                   New In
                 </p>
                 <p class="fw-bold">
                   <span>
-                  <span class="round me-4">
-                    <input type="checkbox" id="checkbox" />
-                    <label for="checkbox"></label>
+                    <span class="round me-4">
+                      <input type="checkbox" id="checkbox" />
+                      <label for="checkbox"></label>
+                    </span>
                   </span>
-                </span>
                   Join Life
-                  <span
-                    ><svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      aria-hidden="true"
-                      role="img"
-                      width="1em"
-                      height="1em"
-                      preserveAspectRatio="xMidYMid meet"
-                      viewBox="0 0 48 48"
-                    >
-                      <g
-                        fill="none"
-                        stroke="#52a852"
-                        stroke-width="4"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      >
-                        <path
-                          d="M31 43s-13 1-20-7S4 4 4 4s24-1 32 5s6 23 6 23"
-                        />
-                        <path
-                          d="M44 44s-11.18-8.449-18-16c-6.82-7.552-10-15-10-15M26 28l1-13M26 28l-10-1"
-                        />
+                  <span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                      aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 48 48">
+                      <g fill="none" stroke="#52a852" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M31 43s-13 1-20-7S4 4 4 4s24-1 32 5s6 23 6 23" />
+                        <path d="M44 44s-11.18-8.449-18-16c-6.82-7.552-10-15-10-15M26 28l1-13M26 28l-10-1" />
                       </g>
                     </svg>
                   </span>
@@ -653,835 +504,849 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- HOVER SIDE BAR -->
-    <div class="hover-sidebar1 px-3">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-7 pe-0">
-            <h3 class="hover-sidebar-text mt-2">New</h3>
-            <h3 class="hover-sidebar-text-red my-3">Sale up to 40% off</h3>
-            <h3 class="hover-sidebar-text mt-4 pt-3">
-              Clothes<svg
-                class="mx-3"
-                width="110"
-                height="4"
-                viewBox="0 0 95 1"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <line y1="0.5" x2="95" y2="0.5" stroke="gray" />
+  <!-- HOVER SIDE BAR -->
+  <div class="hover-sidebar1 px-3">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-7 pe-0">
+          <h3 class="hover-sidebar-text mt-2">New</h3>
+          <h3 class="hover-sidebar-text-red my-3">Sale up to 40% off</h3>
+          <h3 class="hover-sidebar-text mt-4 pt-3">
+            Clothes<svg class="mx-3" width="110" height="4" viewBox="0 0 95 1" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <line y1="0.5" x2="95" y2="0.5" stroke="gray" />
+            </svg>
+          </h3>
+          <h3 class="hover-sidebar-text my-3">Shoes</h3>
+          <h3 class="hover-sidebar-text my-3">Accessories</h3>
+          <h3 class="hover-sidebar-text my-3">Collaborations®</h3>
+          <h3 class="hover-sidebar-text my-3">Squid Game</h3>
+          <h3 class="hover-sidebar-text my-3">Leather-effect</h3>
+          <h3 class="hover-sidebar-text my-3">
+            Join Life
+            <span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+                role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 48 48">
+                <g fill="none" stroke="#52a852" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M31 43s-13 1-20-7S4 4 4 4s24-1 32 5s6 23 6 23" />
+                  <path d="M44 44s-11.18-8.449-18-16c-6.82-7.552-10-15-10-15M26 28l1-13M26 28l-10-1" />
+                </g>
               </svg>
-            </h3>
-            <h3 class="hover-sidebar-text my-3">Shoes</h3>
-            <h3 class="hover-sidebar-text my-3">Accessories</h3>
-            <h3 class="hover-sidebar-text my-3">Collaborations®</h3>
-            <h3 class="hover-sidebar-text my-3">Squid Game</h3>
-            <h3 class="hover-sidebar-text my-3">Leather-effect</h3>
-            <h3 class="hover-sidebar-text my-3">
-              Join Life
-              <span
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  aria-hidden="true"
-                  role="img"
-                  width="1em"
-                  height="1em"
-                  preserveAspectRatio="xMidYMid meet"
-                  viewBox="0 0 48 48"
-                >
-                  <g
-                    fill="none"
-                    stroke="#52a852"
-                    stroke-width="4"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path d="M31 43s-13 1-20-7S4 4 4 4s24-1 32 5s6 23 6 23" />
-                    <path
-                      d="M44 44s-11.18-8.449-18-16c-6.82-7.552-10-15-10-15M26 28l1-13M26 28l-10-1"
-                    />
-                  </g>
-                </svg>
-              </span>
-            </h3>
-            <h3 class="hover-sidebar-text mt-4 pt-3">#bershkastyle Gallery</h3>
-            <h3 class="hover-sidebar-text my-3">Bershka Creators</h3>
-          </div>
-          <div class="col-5 ps-0">
-            <p class="hover-sidebar-para mt-2">Best sellers</p>
-            <p class="hover-sidebar-para mt-4 pt-2">Outerwear</p>
-            <p class="hover-sidebar-para">Overshirts</p>
-            <p class="hover-sidebar-para">Sweatshirts & Hoodies</p>
-            <p class="hover-sidebar-para">Sweaters and cardigans</p>
-            <p class="hover-sidebar-para">Vests</p>
-            <p class="hover-sidebar-para">T-shirts</p>
-            <p class="hover-sidebar-para">Shirts</p>
-            <p class="hover-sidebar-para">Pants</p>
-            <p class="hover-sidebar-para">Jeans</p>
-            <p class="hover-sidebar-para">Shorts</p>
-            <p class="hover-sidebar-para">Packs</p>
-            <p class="hover-sidebar-para">Twin sets</p>
-            <p class="hover-sidebar-para mt-4 pt-2">Going Out</p>
-            <p class="hover-sidebar-para">Varsity</p>
-            <p class="hover-sidebar-para">Gift Card</p>
-          </div>
+            </span>
+          </h3>
+          <h3 class="hover-sidebar-text mt-4 pt-3">#bershkastyle Gallery</h3>
+          <h3 class="hover-sidebar-text my-3">Bershka Creators</h3>
+        </div>
+        <div class="col-5 ps-0">
+          <p class="hover-sidebar-para mt-2">Best sellers</p>
+          <p class="hover-sidebar-para mt-4 pt-2">Outerwear</p>
+          <p class="hover-sidebar-para">Overshirts</p>
+          <p class="hover-sidebar-para">Sweatshirts & Hoodies</p>
+          <p class="hover-sidebar-para">Sweaters and cardigans</p>
+          <p class="hover-sidebar-para">Vests</p>
+          <p class="hover-sidebar-para">T-shirts</p>
+          <p class="hover-sidebar-para">Shirts</p>
+          <p class="hover-sidebar-para">Pants</p>
+          <p class="hover-sidebar-para">Jeans</p>
+          <p class="hover-sidebar-para">Shorts</p>
+          <p class="hover-sidebar-para">Packs</p>
+          <p class="hover-sidebar-para">Twin sets</p>
+          <p class="hover-sidebar-para mt-4 pt-2">Going Out</p>
+          <p class="hover-sidebar-para">Varsity</p>
+          <p class="hover-sidebar-para">Gift Card</p>
         </div>
       </div>
     </div>
+  </div>
 
-    <!--==================================== CAROUSEL-SECTION ====================================-->
-    
+  <!--==================================== CAROUSEL-SECTION ====================================-->
 
-  <div class="container mt-5 pt-5">
-<div class="row justify-content-center">
-    <div class="col-lg-7 col-md-10 col-sm-12 bootstrap-carousel">
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/2221/538/629/2221538629_1_1_3.jpg?t=1637229870856" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/2221/538/629/2221538629_2_1_3.jpg?t=1637229870856" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/2221/538/629/2221538629_2_2_3.jpg?t=1637229870856" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
- <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/2221/538/629/2221538629_2_3_3.jpg?t=1637229870856" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
- <div class="row py-3">
-  <div class="col-8 flex-column  d-flex ">
-    <p class="mb-1 carousel-text text-sm-end text-start ">Printed Hoodies</p>
-  <p class="fw-bold mb-1 carousel-text text-sm-end me-5 text-start">49.00$</p>
-  </div>
-   <div class="col-4 d-flex justify-content-end">
-    <svg  aria-hidden="true" role="img" width="3em" height="3em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"><path d="M923 283.6a260.04 260.04 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.34 265.34 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39c-10 6.1-19.5 12.8-28.5 20.1c-9-7.3-18.5-14-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9zM512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3z"
-         fill="black"/></svg>
-</div>
 
-</div>
-</div>
+  <section class=" Carousel-section">
+    <div class="container  ">
+      <div class="row justify-content-center">
+        <div class="col-lg-7 col-md-10 col-sm-12 bootstrap-carousel">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://static.bershka.net/4/photos2/2021/I/0/2/p/2221/538/629/2221538629_1_1_3.jpg?t=1637229870856"
+                  class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://static.bershka.net/4/photos2/2021/I/0/2/p/2221/538/629/2221538629_2_1_3.jpg?t=1637229870856"
+                  class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://static.bershka.net/4/photos2/2021/I/0/2/p/2221/538/629/2221538629_2_2_3.jpg?t=1637229870856"
+                  class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://static.bershka.net/4/photos2/2021/I/0/2/p/2221/538/629/2221538629_2_3_3.jpg?t=1637229870856"
+                  class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="row py-3">
+            <div class="col-8 flex-column  d-flex ">
+              <p class="mb-1 carousel-text text-sm-end text-start ">Printed Hoodies</p>
+              <p class="fw-bold mb-1 carousel-text text-sm-end me-5 text-start">49.00$</p>
+            </div>
+            <div class="col-4 d-flex justify-content-end">
+              <svg aria-hidden="true" role="img" width="3em" height="3em" preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 1024 1024">
+                <path
+                  d="M923 283.6a260.04 260.04 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.34 265.34 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39c-10 6.1-19.5 12.8-28.5 20.1c-9-7.3-18.5-14-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9zM512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3z"
+                  fill="black" /></svg>
+            </div>
 
-</div>
+          </div>
+        </div>
 
-  </div>
-   <div class="container mt-sm-5 pt-sm-5">
-<div class="row justify-content-center">
-    <div class="col-md-6 col-sm-12 ">
-          <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_2_4_3.jpg?t=1636472547962" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_1_1_3.jpg?t=1637229890899" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_2_1_3.jpg?t=1637229890899" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
- <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_2_2_3.jpg?t=1637229890899" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-<div class="d-flex justify-content-between py-3">
-  <div>
-    <p class="mb-1 carousel-text fw-bold">Comming Soon</p>
-<p class=" mb-1 carousel-text">Glitter foil anime print hoodie with double sleeves</p>
-<p class="fw-bold mb-1 carousel-text">49.00$</p>
-  </div>
-<div>
-    <svg  aria-hidden="true" role="img" width="3em" height="3em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"><path d="M923 283.6a260.04 260.04 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.34 265.34 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39c-10 6.1-19.5 12.8-28.5 20.1c-9-7.3-18.5-14-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9zM512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3z"
-         fill="black"/></svg>
-</div>
-
-</div>
-</div>
-<div class="col-md-6 col-sm-12">
-          <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
- <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_2_2_3.jpg?t=1637229890899" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_2_1_3.jpg?t=1637229890899" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_1_1_3.jpg?t=1637229890899" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_2_4_3.jpg?t=1636472547962" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-<div class="d-flex justify-content-between py-3">
-  <div>
-    <p class="mb-1 carousel-text fw-bold">Comming Soon</p>
-<p class=" mb-1 carousel-text">Glitter foil anime print hoodie with double sleeves</p>
-<p class="fw-bold mb-1 carousel-text">49.00$</p>
-  </div>
-<div>
-    <svg  aria-hidden="true" role="img" width="3em" height="3em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"><path d="M923 283.6a260.04 260.04 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.34 265.34 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39c-10 6.1-19.5 12.8-28.5 20.1c-9-7.3-18.5-14-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9zM512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3z"
-         fill="black"/></svg>
-</div>
-
-</div>
-</div>
-</div>
-  </div>
-   <div class="container mt-5 pt-5">
-<div class="row justify-content-center">
-    <div class="col-lg-7 col-md-10 col-sm-12 bootstrap-carousel">
-    <div id="carouselExampleControls4" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7359/538/902//01/7359538902_2_4_3.jpg?t=1634726658869" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7359/538/902//01/7359538902_1_1_3.jpg?t=1630048854943" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7359/538/902//01/7359538902_2_1_3.jpg?t=1630048854943" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
- <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7359/538/902//01/7359538902_2_2_3.jpg?t=1630048854943" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
- <div class="row py-3">
-  <div class="col-8 flex-column  d-flex ">
-    <p class="mb-1 carousel-text text-sm-end text-start ">Printed Hoodies</p>
-  <p class="fw-bold mb-1 carousel-text text-sm-end me-5 text-start">49.00$</p>
-  </div>
-   <div class="col-4 d-flex justify-content-end">
-    <svg  aria-hidden="true" role="img" width="3em" height="3em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"><path d="M923 283.6a260.04 260.04 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.34 265.34 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39c-10 6.1-19.5 12.8-28.5 20.1c-9-7.3-18.5-14-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9zM512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3z"
-         fill="black"/></svg>
-</div>
-
-</div>
-</div>
-
-</div>
-
-  </div>
-<div class="container mt-sm-5 pt-sm-5">
-<div class="row justify-content-center">
-    <div class="col-md-6 col-sm-12 ">
-          <div id="carouselExampleControls5" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7392/583/800//01/7392583800_2_4_3.jpg?t=1634805437146" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7392/583/800//01/7392583800_1_1_3.jpg?t=1634805437146" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7392/583/800//01/7392583800_2_1_3.jpg?t=1634805437146" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
- <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7392/583/800//01/7392583800_2_2_3.jpg?t=1634805437146" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls5" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-<div class="d-flex justify-content-between py-3">
-  <div>
-    <p class="mb-1 carousel-text fw-bold">Comming Soon</p>
-<p class=" mb-1 carousel-text">Glitter foil anime print hoodie with double sleeves</p>
-<p class="fw-bold mb-1 carousel-text">49.00$</p>
-  </div>
-<div>
-    <svg  aria-hidden="true" role="img" width="3em" height="3em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"><path d="M923 283.6a260.04 260.04 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.34 265.34 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39c-10 6.1-19.5 12.8-28.5 20.1c-9-7.3-18.5-14-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9zM512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3z"
-         fill="black"/></svg>
-</div>
-
-</div>
-</div>
-<div class="col-md-6 col-sm-12">
-          <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
- <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_2_2_3.jpg?t=1637229890899" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_2_1_3.jpg?t=1637229890899" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_1_1_3.jpg?t=1637229890899" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_2_4_3.jpg?t=1636472547962" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-<div class="d-flex justify-content-between py-3">
-  <div>
-    <p class="mb-1 carousel-text fw-bold">Comming Soon</p>
-<p class=" mb-1 carousel-text">Glitter foil anime print hoodie with double sleeves</p>
-<p class="fw-bold mb-1 carousel-text">49.00$</p>
-  </div>
-<div>
-    <svg  aria-hidden="true" role="img" width="3em" height="3em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"><path d="M923 283.6a260.04 260.04 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.34 265.34 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39c-10 6.1-19.5 12.8-28.5 20.1c-9-7.3-18.5-14-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9zM512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3z"
-         fill="black"/></svg>
-</div>
-
-</div>
-</div>
-</div>
-  </div>
-   
-    <!-- FOOTER -->
-    <footer class="py-lg-5 py-5 mx-4">
-      <div class="border-top my-sm-5 my-2">
       </div>
-      <div class="container-fluid">
-        <div class="row justify-content-between text-center text-lg-start">
-          <div class="col-lg-3 col-12">
-            <p class="footer-heading">Can we help you?</p>
-            <p class="footer-para mb-0 mt-3 pt-2">
-              <span class="fw-bold text-gray">
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 512 448"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M144 176C126.3 176 112 190.3 112 208C112 225.7 126.3 240 144 240C161.7 240 176 225.7 176 208C176 190.3 161.7 176 144 176ZM256 176C238.3 176 224 190.3 224 208C224 225.7 238.3 240 256 240C273.7 240 288 225.7 288 208C288 190.3 273.7 176 256 176ZM368 176C350.3 176 336 190.3 336 208C336 225.7 350.3 240 368 240C385.7 240 400 225.7 400 208C400 190.3 385.7 176 368 176ZM256 0C114.6 0 -3.80501e-05 93.1 -3.80501e-05 208C-3.80501e-05 255.6 19.9 299.2 52.9 334.3C38 373.7 6.99996 407.1 6.49996 407.5C-0.100038 414.5 -1.90004 424.7 1.89996 433.5C5.69996 442.3 14.4 448 24 448C85.5 448 134 422.3 163.1 401.7C192 410.8 223.2 416 256 416C397.4 416 512 322.9 512 208C512 93.1 397.4 0 256 0ZM256 368C229.3 368 202.9 363.9 177.6 355.9L154.9 348.7L135.4 362.5C121.1 372.6 101.5 383.9 77.9 391.5C85.2 379.4 92.3 365.8 97.8 351.3L108.4 323.2L87.8 301.4C69.7 282.1 48 250.2 48 208C48 119.8 141.3 48 256 48C370.7 48 464 119.8 464 208C464 296.2 370.7 368 256 368Z"
-                    fill="#797878"
-                  />
-                </svg>
-                Start chat
-              </span>
-              <span class="text-orange"> Out of service </span>
-            </p>
-            <p class="footer-para">
-              Mondays from 8:30pm to 5:29am From Tuesdays to Fridays from 5:30am
-              to 5:30am and 8:30pm to 5:29am Saturdays from 5:30am to 5:30am
-            </p>
-            <p class="footer-para mb-0 mt-4 pt-2">
-              <a class="footer-link" href="">
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M11 6C11.7956 6 12.5587 6.31607 13.1213 6.87868C13.6839 7.44129 14 8.20435 14 9C14 9.26522 14.1054 9.51957 14.2929 9.70711C14.4804 9.89464 14.7348 10 15 10C15.2652 10 15.5196 9.89464 15.7071 9.70711C15.8946 9.51957 16 9.26522 16 9C16 7.67392 15.4732 6.40215 14.5355 5.46447C13.5979 4.52678 12.3261 4 11 4C10.7348 4 10.4804 4.10536 10.2929 4.29289C10.1054 4.48043 10 4.73478 10 5C10 5.26522 10.1054 5.51957 10.2929 5.70711C10.4804 5.89464 10.7348 6 11 6V6Z"
-                    fill="black"
-                  />
-                  <path
-                    d="M11 2C12.8565 2 14.637 2.7375 15.9497 4.05025C17.2625 5.36301 18 7.14348 18 9C18 9.26522 18.1054 9.51957 18.2929 9.70711C18.4804 9.89464 18.7348 10 19 10C19.2652 10 19.5196 9.89464 19.7071 9.70711C19.8946 9.51957 20 9.26522 20 9C20 6.61305 19.0518 4.32387 17.364 2.63604C15.6761 0.948211 13.3869 0 11 0C10.7348 0 10.4804 0.105357 10.2929 0.292893C10.1054 0.48043 10 0.734784 10 1C10 1.26522 10.1054 1.51957 10.2929 1.70711C10.4804 1.89464 10.7348 2 11 2V2ZM19.75 13.91C19.695 13.7495 19.6 13.6056 19.4741 13.4919C19.3481 13.3781 19.1953 13.2984 19.03 13.26L13.03 11.89C12.8671 11.8531 12.6976 11.8575 12.5369 11.9029C12.3762 11.9484 12.2294 12.0333 12.11 12.15C11.97 12.28 11.96 12.29 11.31 13.53C9.1532 12.5362 7.42499 10.8009 6.44 8.64C7.71 8 7.72 8 7.85 7.85C7.96671 7.73056 8.05165 7.58379 8.09706 7.42308C8.14248 7.26238 8.14693 7.09286 8.11 6.93L6.74 1C6.70165 0.834696 6.62186 0.681871 6.50814 0.555912C6.39443 0.429952 6.25053 0.335002 6.09 0.28C5.85647 0.196589 5.61531 0.1363 5.37 0.0999999C5.11725 0.0413952 4.85933 0.00789934 4.6 0C3.38 0 2.20998 0.484642 1.34731 1.34731C0.484642 2.20998 0 3.38 0 4.6C0.00529192 8.68271 1.62949 12.5967 4.5164 15.4836C7.40331 18.3705 11.3173 19.9947 15.4 20C16.0041 20 16.6022 19.881 17.1603 19.6498C17.7184 19.4187 18.2255 19.0798 18.6527 18.6527C19.0798 18.2255 19.4187 17.7184 19.6498 17.1603C19.881 16.6022 20 16.0041 20 15.4C20.0003 15.1455 19.9802 14.8913 19.94 14.64C19.898 14.3916 19.8344 14.1474 19.75 13.91V13.91Z"
-                    fill="black"
-                  />
-                </svg>
-                855 336 2909
-              </a>
-            </p>
-            <p class="footer-para">
-              From Mondays to Fridays from 10:00 to 19:00.
-            </p>
-            <p class="footer-para mb-0 mt-4 pt-2">
-              <a class="footer-link" href="">
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 12 10"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M0 3.038V8C0 8.53043 0.210714 9.03914 0.585786 9.41421C0.960859 9.78929 1.46957 10 2 10H10C10.5304 10 11.0391 9.78929 11.4142 9.41421C11.7893 9.03914 12 8.53043 12 8V2C12 1.46957 11.7893 0.960859 11.4142 0.585786C11.0391 0.210714 10.5304 0 10 0H2C1.46957 0 0.960859 0.210714 0.585786 0.585786C0.210714 0.960859 0 1.46957 0 2V3.038ZM2 1H10C10.2652 1 10.5196 1.10536 10.7071 1.29289C10.8946 1.48043 11 1.73478 11 2V2.74L6 5.432L1 2.74V2C1 1.73478 1.10536 1.48043 1.29289 1.29289C1.48043 1.10536 1.73478 1 2 1V1ZM1 3.876L5.763 6.44C5.83584 6.47921 5.91727 6.49974 6 6.49974C6.08273 6.49974 6.16416 6.47921 6.237 6.44L11 3.876V8C11 8.26522 10.8946 8.51957 10.7071 8.70711C10.5196 8.89464 10.2652 9 10 9H2C1.73478 9 1.48043 8.89464 1.29289 8.70711C1.10536 8.51957 1 8.26522 1 8V3.876Z"
-                    fill="black"
-                  />
-                </svg>
-                Send email
-              </a>
-            </p>
-            <p class="footer-para">We'll reply asap</p>
-          </div>
-          <div class="col-lg-2 col-sm-4 col-12 mt-4 mt-lg-0">
-            <ul>
-              <span class="footer-heading"> Help </span>
-              <li class="mb-2 mt-3">
-                <a class="footer-link" href=""> Shop online </a>
-              </li>
-              <li class="my-2">
-                <a class="footer-link" href=""> Payment </a>
-              </li>
-              <li class="my-2">
-                <a class="footer-link" href=""> Shipping </a>
-              </li>
-              <li class="my-2">
-                <a class="footer-link" href=""> Returns </a>
-              </li>
-              <li class="my-2">
-                <a class="footer-link" href=""> gift Card </a>
-              </li>
-              <li class="my-2">
-                <a class="footer-link" href=""> Guest </a>
-              </li>
-              <li class="my-2">
-                <a class="footer-link" href=""> Purchase </a>
-              </li>
-              <li class="my-2">
-                <a class="footer-link" href=""> Electronic </a>
-              </li>
-              <li class="my-2">
-                <a class="footer-link" href=""> Receipt </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-sm-4 col-12 mt-4 mt-lg-0">
-            <ul>
-              <span class="footer-heading pe-xl-5"> We are Bershka </span>
-              <li class="mb-2 mt-3">
-                <a class="footer-link" href=""> About Bershka </a>
-              </li>
-              <li class="my-2">
-                <a class="footer-link" href=""> Join Life </a>
-              </li>
-              <li class="my-2">
-                <a class="footer-link" href=""> Work with us </a>
-              </li>
-              <li class="my-2">
-                <a class="footer-link" href=""> Press </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-sm-4 col-12 mt-4 mt-lg-0">
-            <ul>
-              <span class="footer-heading"> You might be interested in </span>
-              <li class="mb-2 mt-3">
-                <a class="footer-link" href=""> Sweaters and cardigans </a>
-              </li>
-              <li class="my-2">
-                <a class="footer-link" href=""> Outerwear </a>
-              </li>
-              <li class="my-2">
-                <a class="footer-link" href=""> Sweatshirts and hoodies </a>
-              </li>
-              <li class="my-2">
-                <a class="footer-link" href=""> Pants </a>
-              </li>
-              <li class="my-2">
-                <a class="footer-link" href=""> Vests </a>
-              </li>
-              <li class="my-2">
-                <a class="footer-link" href=""> Outerwear </a>
-              </li>
-              <li class="my-2">
-                <a class="footer-link" href=""> Sweatshirts & Hoodies </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-xl-2 col-12 d-flex  justify-content-lg-start justify-content-center">
-            <div class="max-width-200">
-              <a class="footer-link">
-                <svg
-                  class="mx-2 my-2"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 896 896"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M448 0C200.6 0 0 200.6 0 448C0 695.4 200.6 896 448 896C695.4 896 896 695.4 896 448C896 200.6 695.4 0 448 0ZM663.3 337.7C663.6 342.4 663.6 347.3 663.6 352.1C663.6 498.9 551.8 668 347.5 668C284.5 668 226.1 649.7 176.9 618.2C185.9 619.2 194.5 619.6 203.7 619.6C255.7 619.6 303.5 602 341.6 572.2C292.8 571.2 251.8 539.2 237.8 495.2C254.9 497.7 270.3 497.7 287.9 493.2C262.773 488.095 240.188 474.448 223.982 454.578C207.776 434.708 198.949 409.841 199 384.2V382.8C213.7 391.1 231 396.2 249.1 396.9C233.884 386.759 221.406 373.021 212.771 356.903C204.136 340.785 199.612 322.785 199.6 304.5C199.6 283.8 205 264.9 214.7 248.5C242.59 282.834 277.393 310.914 316.846 330.917C356.3 350.919 399.521 362.395 443.7 364.6C428 289.1 484.4 228 552.2 228C584.2 228 613 241.4 633.3 263C658.4 258.3 682.4 248.9 703.8 236.3C695.5 262 678.1 283.7 655 297.4C677.4 295 699 288.8 719 280.1C703.9 302.3 685 322 663.3 337.7V337.7Z"
-                    fill="black"
-                  />
-                </svg>
-              </a>
-              <a class="footer-link" href="">
-                <svg
-                  class="mx-2 my-2"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 800 800"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M400 266.7C326.6 266.7 266.7 326.6 266.7 400C266.7 473.4 326.6 533.3 400 533.3C473.4 533.3 533.3 473.4 533.3 400C533.3 326.6 473.4 266.7 400 266.7ZM799.8 400C799.8 344.8 800.3 290.1 797.2 235C794.1 171 779.5 114.2 732.7 67.4002C685.8 20.5002 629.1 6.00025 565.1 2.90025C509.9 -0.199749 455.2 0.300252 400.1 0.300252C344.9 0.300252 290.2 -0.199749 235.1 2.90025C171.1 6.00025 114.3 20.6002 67.4999 67.4002C20.5999 114.3 6.09986 171 2.99986 235C-0.10014 290.2 0.399862 344.9 0.399862 400C0.399862 455.1 -0.10014 509.9 2.99986 565C6.09986 629 20.6999 685.8 67.4999 732.6C114.4 779.5 171.1 794 235.1 797.1C290.3 800.2 345 799.7 400.1 799.7C455.3 799.7 510 800.2 565.1 797.1C629.1 794 685.9 779.4 732.7 732.6C779.6 685.7 794.1 629 797.2 565C800.4 509.9 799.8 455.2 799.8 400V400ZM400 605.1C286.5 605.1 194.9 513.5 194.9 400C194.9 286.5 286.5 194.9 400 194.9C513.5 194.9 605.1 286.5 605.1 400C605.1 513.5 513.5 605.1 400 605.1ZM613.5 234.4C587 234.4 565.6 213 565.6 186.5C565.6 160 587 138.6 613.5 138.6C640 138.6 661.4 160 661.4 186.5C661.408 192.793 660.174 199.025 657.77 204.84C655.365 210.655 651.837 215.939 647.388 220.388C642.938 224.838 637.655 228.366 631.84 230.77C626.025 233.175 619.792 234.408 613.5 234.4V234.4Z"
-                    fill="black"
-                  />
-                </svg>
-              </a>
-              <a class="footer-link" href="">
-                <svg
-                  class="mx-2"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 416 416"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M208 0C93.31 0 0 93.31 0 208C0 322.69 93.31 416 208 416C322.69 416 416 322.69 416 208C416 93.31 322.69 0 208 0ZM208 336C187.1 336 170.48 327.14 168.25 308.42C168.191 307.861 168.251 307.295 168.425 306.76C168.599 306.225 168.885 305.733 169.262 305.316C169.64 304.899 170.101 304.566 170.616 304.339C171.131 304.112 171.687 303.997 172.25 304H243.7C244.268 303.996 244.831 304.113 245.35 304.343C245.87 304.574 246.334 304.912 246.713 305.336C247.091 305.76 247.375 306.259 247.545 306.802C247.715 307.344 247.768 307.916 247.7 308.48C245.15 326.85 228.68 336 208 336ZM306 288H110C98.16 288 92 273 98.81 265C115.14 245.66 126.68 237.53 126.68 184.2C126.68 135.33 152.42 117.99 173.68 109.53C175.143 108.92 176.462 108.011 177.552 106.86C178.643 105.71 179.48 104.344 180.01 102.85C183.7 90.6 194.14 80 208 80C221.86 80 232.28 90.6 236 102.86C236.533 104.353 237.373 105.719 238.465 106.869C239.556 108.02 240.876 108.929 242.34 109.54C263.55 117.98 289.34 135.35 289.34 184.21C289.34 237.54 300.87 245.67 317.2 265.01C323.94 273 317.77 288 306 288V288Z"
-                    fill="black"
-                  />
-                </svg>
-              </a>
-              <a class="footer-link" href="">
-                <svg
-                  class="mx-2 my-2"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M0 12.067C0 18.033 4.333 22.994 10 24V15.333H7V12H10V9.333C10 6.333 11.933 4.667 14.667 4.667C15.533 4.667 16.467 4.8 17.333 4.933V8H15.8C14.333 8 14 8.733 14 9.667V12H17.2L16.667 15.333H14V24C19.667 22.994 24 18.034 24 12.067C24 5.43 18.6 0 12 0C5.4 0 0 5.43 0 12.067Z"
-                    fill="black"
-                  />
-                </svg>
-              </a>
-              <a class="footer-link" href="">
-                <svg
-                  class="mx-2 my-2"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M11.6034 9.83339L9.35739 8.78539C9.16139 8.69439 9.00039 8.79639 9.00039 9.01339V10.9874C9.00039 11.2044 9.16139 11.3064 9.35739 11.2154L11.6024 10.1674C11.7994 10.0754 11.7994 9.92539 11.6034 9.83339ZM10.0004 0.400391C4.69839 0.400391 0.400391 4.69839 0.400391 10.0004C0.400391 15.3024 4.69839 19.6004 10.0004 19.6004C15.3024 19.6004 19.6004 15.3024 19.6004 10.0004C19.6004 4.69839 15.3024 0.400391 10.0004 0.400391ZM10.0004 13.9004C5.08639 13.9004 5.00039 13.4574 5.00039 10.0004C5.00039 6.54339 5.08639 6.10039 10.0004 6.10039C14.9144 6.10039 15.0004 6.54339 15.0004 10.0004C15.0004 13.4574 14.9144 13.9004 10.0004 13.9004Z"
-                    fill="black"
-                  />
-                </svg>
-              </a>
-              <a class="footer-link" href="">
-                <svg
-                  class="mx-2 my-2"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 800 800"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M400 266.7C326.6 266.7 266.7 326.6 266.7 400C266.7 473.4 326.6 533.3 400 533.3C473.4 533.3 533.3 473.4 533.3 400C533.3 326.6 473.4 266.7 400 266.7ZM799.8 400C799.8 344.8 800.3 290.1 797.2 235C794.1 171 779.5 114.2 732.7 67.4002C685.8 20.5002 629.1 6.00025 565.1 2.90025C509.9 -0.199749 455.2 0.300252 400.1 0.300252C344.9 0.300252 290.2 -0.199749 235.1 2.90025C171.1 6.00025 114.3 20.6002 67.4999 67.4002C20.5999 114.3 6.09986 171 2.99986 235C-0.10014 290.2 0.399862 344.9 0.399862 400C0.399862 455.1 -0.10014 509.9 2.99986 565C6.09986 629 20.6999 685.8 67.4999 732.6C114.4 779.5 171.1 794 235.1 797.1C290.3 800.2 345 799.7 400.1 799.7C455.3 799.7 510 800.2 565.1 797.1C629.1 794 685.9 779.4 732.7 732.6C779.6 685.7 794.1 629 797.2 565C800.4 509.9 799.8 455.2 799.8 400V400ZM400 605.1C286.5 605.1 194.9 513.5 194.9 400C194.9 286.5 286.5 194.9 400 194.9C513.5 194.9 605.1 286.5 605.1 400C605.1 513.5 513.5 605.1 400 605.1ZM613.5 234.4C587 234.4 565.6 213 565.6 186.5C565.6 160 587 138.6 613.5 138.6C640 138.6 661.4 160 661.4 186.5C661.408 192.793 660.174 199.025 657.77 204.84C655.365 210.655 651.837 215.939 647.388 220.388C642.938 224.838 637.655 228.366 631.84 230.77C626.025 233.175 619.792 234.408 613.5 234.4V234.4Z"
-                    fill="black"
-                  />
-                </svg>
-              </a>
-              <a class="footer-link" href="">
-                <svg
-                  class="mx-2 my-2"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 416 416"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M208 0C93.31 0 0 93.31 0 208C0 322.69 93.31 416 208 416C322.69 416 416 322.69 416 208C416 93.31 322.69 0 208 0ZM208 336C187.1 336 170.48 327.14 168.25 308.42C168.191 307.861 168.251 307.295 168.425 306.76C168.599 306.225 168.885 305.733 169.262 305.316C169.64 304.899 170.101 304.566 170.616 304.339C171.131 304.112 171.687 303.997 172.25 304H243.7C244.268 303.996 244.831 304.113 245.35 304.343C245.87 304.574 246.334 304.912 246.713 305.336C247.091 305.76 247.375 306.259 247.545 306.802C247.715 307.344 247.768 307.916 247.7 308.48C245.15 326.85 228.68 336 208 336ZM306 288H110C98.16 288 92 273 98.81 265C115.14 245.66 126.68 237.53 126.68 184.2C126.68 135.33 152.42 117.99 173.68 109.53C175.143 108.92 176.462 108.011 177.552 106.86C178.643 105.71 179.48 104.344 180.01 102.85C183.7 90.6 194.14 80 208 80C221.86 80 232.28 90.6 236 102.86C236.533 104.353 237.373 105.719 238.465 106.869C239.556 108.02 240.876 108.929 242.34 109.54C263.55 117.98 289.34 135.35 289.34 184.21C289.34 237.54 300.87 245.67 317.2 265.01C323.94 273 317.77 288 306 288V288Z"
-                    fill="black"
-                  />
-                </svg>
-              </a>
+
+    </div>
+  </section>
+  <div class="container mt-sm-5 pt-sm-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-sm-12 ">
+        <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_2_4_3.jpg?t=1636472547962"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_1_1_3.jpg?t=1637229890899"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_2_1_3.jpg?t=1637229890899"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_2_2_3.jpg?t=1637229890899"
+                class="d-block w-100" alt="...">
             </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="d-flex justify-content-between py-3">
+          <div>
+            <p class="mb-1 carousel-text fw-bold">Comming Soon</p>
+            <p class=" mb-1 carousel-text">Glitter foil anime print hoodie with double sleeves</p>
+            <p class="fw-bold mb-1 carousel-text">49.00$</p>
+          </div>
+          <div>
+            <svg aria-hidden="true" role="img" width="3em" height="3em" preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 1024 1024">
+              <path
+                d="M923 283.6a260.04 260.04 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.34 265.34 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39c-10 6.1-19.5 12.8-28.5 20.1c-9-7.3-18.5-14-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9zM512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3z"
+                fill="black" /></svg>
+          </div>
+
         </div>
       </div>
-      <div class="border-bottom my-3">
+      <div class="col-md-6 col-sm-12">
+        <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_2_2_3.jpg?t=1637229890899"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_2_1_3.jpg?t=1637229890899"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_1_1_3.jpg?t=1637229890899"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_2_4_3.jpg?t=1636472547962"
+                class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="d-flex justify-content-between py-3">
+          <div>
+            <p class="mb-1 carousel-text fw-bold">Comming Soon</p>
+            <p class=" mb-1 carousel-text">Glitter foil anime print hoodie with double sleeves</p>
+            <p class="fw-bold mb-1 carousel-text">49.00$</p>
+          </div>
+          <div>
+            <svg aria-hidden="true" role="img" width="3em" height="3em" preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 1024 1024">
+              <path
+                d="M923 283.6a260.04 260.04 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.34 265.34 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39c-10 6.1-19.5 12.8-28.5 20.1c-9-7.3-18.5-14-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9zM512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3z"
+                fill="black" /></svg>
+          </div>
+
+        </div>
       </div>
+    </div>
+  </div>
+  <div class="container mt-5 pt-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-7 col-md-10 col-sm-12 bootstrap-carousel">
+        <div id="carouselExampleControls4" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7359/538/902//01/7359538902_2_4_3.jpg?t=1634726658869"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7359/538/902//01/7359538902_1_1_3.jpg?t=1630048854943"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7359/538/902//01/7359538902_2_1_3.jpg?t=1630048854943"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7359/538/902//01/7359538902_2_2_3.jpg?t=1630048854943"
+                class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls4"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="row py-3">
+          <div class="col-8 flex-column  d-flex ">
+            <p class="mb-1 carousel-text text-sm-end text-start ">Printed Hoodies</p>
+            <p class="fw-bold mb-1 carousel-text text-sm-end me-5 text-start">49.00$</p>
+          </div>
+          <div class="col-4 d-flex justify-content-end">
+            <svg aria-hidden="true" role="img" width="3em" height="3em" preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 1024 1024">
+              <path
+                d="M923 283.6a260.04 260.04 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.34 265.34 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39c-10 6.1-19.5 12.8-28.5 20.1c-9-7.3-18.5-14-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9zM512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3z"
+                fill="black" /></svg>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="container mt-sm-5 pt-sm-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-sm-12 ">
+        <div id="carouselExampleControls5" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7392/583/800//01/7392583800_2_4_3.jpg?t=1634805437146"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7392/583/800//01/7392583800_1_1_3.jpg?t=1634805437146"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7392/583/800//01/7392583800_2_1_3.jpg?t=1634805437146"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7392/583/800//01/7392583800_2_2_3.jpg?t=1634805437146"
+                class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls5"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="d-flex justify-content-between py-3">
+          <div>
+            <p class="mb-1 carousel-text fw-bold">Comming Soon</p>
+            <p class=" mb-1 carousel-text">Glitter foil anime print hoodie with double sleeves</p>
+            <p class="fw-bold mb-1 carousel-text">49.00$</p>
+          </div>
+          <div>
+            <svg aria-hidden="true" role="img" width="3em" height="3em" preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 1024 1024">
+              <path
+                d="M923 283.6a260.04 260.04 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.34 265.34 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39c-10 6.1-19.5 12.8-28.5 20.1c-9-7.3-18.5-14-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9zM512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3z"
+                fill="black" /></svg>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_2_2_3.jpg?t=1637229890899"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_2_1_3.jpg?t=1637229890899"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_1_1_3.jpg?t=1637229890899"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://static.bershka.net/4/photos2/2021/I/0/2/p/7291/922/800/7291922800_2_4_3.jpg?t=1636472547962"
+                class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="d-flex justify-content-between py-3">
+          <div>
+            <p class="mb-1 carousel-text fw-bold">Comming Soon</p>
+            <p class=" mb-1 carousel-text">Glitter foil anime print hoodie with double sleeves</p>
+            <p class="fw-bold mb-1 carousel-text">49.00$</p>
+          </div>
+          <div>
+            <svg aria-hidden="true" role="img" width="3em" height="3em" preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 1024 1024">
+              <path
+                d="M923 283.6a260.04 260.04 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.34 265.34 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39c-10 6.1-19.5 12.8-28.5 20.1c-9-7.3-18.5-14-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.44 258.44 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9zM512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3z"
+                fill="black" /></svg>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="py-lg-5 py-5 mx-4">
+    <div class="border-top my-sm-5 my-2">
+    </div>
+    <div class="container-fluid">
+      <div class="row justify-content-between text-center text-lg-start">
+        <div class="col-lg-3 col-12">
+          <p class="footer-heading">Can we help you?</p>
+          <p class="footer-para mb-0 mt-3 pt-2">
+            <span class="fw-bold text-gray">
+              <svg width="20" height="20" viewBox="0 0 512 448" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M144 176C126.3 176 112 190.3 112 208C112 225.7 126.3 240 144 240C161.7 240 176 225.7 176 208C176 190.3 161.7 176 144 176ZM256 176C238.3 176 224 190.3 224 208C224 225.7 238.3 240 256 240C273.7 240 288 225.7 288 208C288 190.3 273.7 176 256 176ZM368 176C350.3 176 336 190.3 336 208C336 225.7 350.3 240 368 240C385.7 240 400 225.7 400 208C400 190.3 385.7 176 368 176ZM256 0C114.6 0 -3.80501e-05 93.1 -3.80501e-05 208C-3.80501e-05 255.6 19.9 299.2 52.9 334.3C38 373.7 6.99996 407.1 6.49996 407.5C-0.100038 414.5 -1.90004 424.7 1.89996 433.5C5.69996 442.3 14.4 448 24 448C85.5 448 134 422.3 163.1 401.7C192 410.8 223.2 416 256 416C397.4 416 512 322.9 512 208C512 93.1 397.4 0 256 0ZM256 368C229.3 368 202.9 363.9 177.6 355.9L154.9 348.7L135.4 362.5C121.1 372.6 101.5 383.9 77.9 391.5C85.2 379.4 92.3 365.8 97.8 351.3L108.4 323.2L87.8 301.4C69.7 282.1 48 250.2 48 208C48 119.8 141.3 48 256 48C370.7 48 464 119.8 464 208C464 296.2 370.7 368 256 368Z"
+                  fill="#797878" />
+              </svg>
+              Start chat
+            </span>
+            <span class="text-orange"> Out of service </span>
+          </p>
+          <p class="footer-para">
+            Mondays from 8:30pm to 5:29am From Tuesdays to Fridays from 5:30am
+            to 5:30am and 8:30pm to 5:29am Saturdays from 5:30am to 5:30am
+          </p>
+          <p class="footer-para mb-0 mt-4 pt-2">
+            <a class="footer-link" href="">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M11 6C11.7956 6 12.5587 6.31607 13.1213 6.87868C13.6839 7.44129 14 8.20435 14 9C14 9.26522 14.1054 9.51957 14.2929 9.70711C14.4804 9.89464 14.7348 10 15 10C15.2652 10 15.5196 9.89464 15.7071 9.70711C15.8946 9.51957 16 9.26522 16 9C16 7.67392 15.4732 6.40215 14.5355 5.46447C13.5979 4.52678 12.3261 4 11 4C10.7348 4 10.4804 4.10536 10.2929 4.29289C10.1054 4.48043 10 4.73478 10 5C10 5.26522 10.1054 5.51957 10.2929 5.70711C10.4804 5.89464 10.7348 6 11 6V6Z"
+                  fill="black" />
+                <path
+                  d="M11 2C12.8565 2 14.637 2.7375 15.9497 4.05025C17.2625 5.36301 18 7.14348 18 9C18 9.26522 18.1054 9.51957 18.2929 9.70711C18.4804 9.89464 18.7348 10 19 10C19.2652 10 19.5196 9.89464 19.7071 9.70711C19.8946 9.51957 20 9.26522 20 9C20 6.61305 19.0518 4.32387 17.364 2.63604C15.6761 0.948211 13.3869 0 11 0C10.7348 0 10.4804 0.105357 10.2929 0.292893C10.1054 0.48043 10 0.734784 10 1C10 1.26522 10.1054 1.51957 10.2929 1.70711C10.4804 1.89464 10.7348 2 11 2V2ZM19.75 13.91C19.695 13.7495 19.6 13.6056 19.4741 13.4919C19.3481 13.3781 19.1953 13.2984 19.03 13.26L13.03 11.89C12.8671 11.8531 12.6976 11.8575 12.5369 11.9029C12.3762 11.9484 12.2294 12.0333 12.11 12.15C11.97 12.28 11.96 12.29 11.31 13.53C9.1532 12.5362 7.42499 10.8009 6.44 8.64C7.71 8 7.72 8 7.85 7.85C7.96671 7.73056 8.05165 7.58379 8.09706 7.42308C8.14248 7.26238 8.14693 7.09286 8.11 6.93L6.74 1C6.70165 0.834696 6.62186 0.681871 6.50814 0.555912C6.39443 0.429952 6.25053 0.335002 6.09 0.28C5.85647 0.196589 5.61531 0.1363 5.37 0.0999999C5.11725 0.0413952 4.85933 0.00789934 4.6 0C3.38 0 2.20998 0.484642 1.34731 1.34731C0.484642 2.20998 0 3.38 0 4.6C0.00529192 8.68271 1.62949 12.5967 4.5164 15.4836C7.40331 18.3705 11.3173 19.9947 15.4 20C16.0041 20 16.6022 19.881 17.1603 19.6498C17.7184 19.4187 18.2255 19.0798 18.6527 18.6527C19.0798 18.2255 19.4187 17.7184 19.6498 17.1603C19.881 16.6022 20 16.0041 20 15.4C20.0003 15.1455 19.9802 14.8913 19.94 14.64C19.898 14.3916 19.8344 14.1474 19.75 13.91V13.91Z"
+                  fill="black" />
+              </svg>
+              855 336 2909
+            </a>
+          </p>
+          <p class="footer-para">
+            From Mondays to Fridays from 10:00 to 19:00.
+          </p>
+          <p class="footer-para mb-0 mt-4 pt-2">
+            <a class="footer-link" href="">
+              <svg width="20" height="20" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0 3.038V8C0 8.53043 0.210714 9.03914 0.585786 9.41421C0.960859 9.78929 1.46957 10 2 10H10C10.5304 10 11.0391 9.78929 11.4142 9.41421C11.7893 9.03914 12 8.53043 12 8V2C12 1.46957 11.7893 0.960859 11.4142 0.585786C11.0391 0.210714 10.5304 0 10 0H2C1.46957 0 0.960859 0.210714 0.585786 0.585786C0.210714 0.960859 0 1.46957 0 2V3.038ZM2 1H10C10.2652 1 10.5196 1.10536 10.7071 1.29289C10.8946 1.48043 11 1.73478 11 2V2.74L6 5.432L1 2.74V2C1 1.73478 1.10536 1.48043 1.29289 1.29289C1.48043 1.10536 1.73478 1 2 1V1ZM1 3.876L5.763 6.44C5.83584 6.47921 5.91727 6.49974 6 6.49974C6.08273 6.49974 6.16416 6.47921 6.237 6.44L11 3.876V8C11 8.26522 10.8946 8.51957 10.7071 8.70711C10.5196 8.89464 10.2652 9 10 9H2C1.73478 9 1.48043 8.89464 1.29289 8.70711C1.10536 8.51957 1 8.26522 1 8V3.876Z"
+                  fill="black" />
+              </svg>
+              Send email
+            </a>
+          </p>
+          <p class="footer-para">We'll reply asap</p>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-12 mt-4 mt-lg-0">
+          <ul>
+            <span class="footer-heading"> Help </span>
+            <li class="mb-2 mt-3">
+              <a class="footer-link" href=""> Shop online </a>
+            </li>
+            <li class="my-2">
+              <a class="footer-link" href=""> Payment </a>
+            </li>
+            <li class="my-2">
+              <a class="footer-link" href=""> Shipping </a>
+            </li>
+            <li class="my-2">
+              <a class="footer-link" href=""> Returns </a>
+            </li>
+            <li class="my-2">
+              <a class="footer-link" href=""> gift Card </a>
+            </li>
+            <li class="my-2">
+              <a class="footer-link" href=""> Guest </a>
+            </li>
+            <li class="my-2">
+              <a class="footer-link" href=""> Purchase </a>
+            </li>
+            <li class="my-2">
+              <a class="footer-link" href=""> Electronic </a>
+            </li>
+            <li class="my-2">
+              <a class="footer-link" href=""> Receipt </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-12 mt-4 mt-lg-0">
+          <ul>
+            <span class="footer-heading pe-xl-5"> We are Bershka </span>
+            <li class="mb-2 mt-3">
+              <a class="footer-link" href=""> About Bershka </a>
+            </li>
+            <li class="my-2">
+              <a class="footer-link" href=""> Join Life </a>
+            </li>
+            <li class="my-2">
+              <a class="footer-link" href=""> Work with us </a>
+            </li>
+            <li class="my-2">
+              <a class="footer-link" href=""> Press </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-12 mt-4 mt-lg-0">
+          <ul>
+            <span class="footer-heading"> You might be interested in </span>
+            <li class="mb-2 mt-3">
+              <a class="footer-link" href=""> Sweaters and cardigans </a>
+            </li>
+            <li class="my-2">
+              <a class="footer-link" href=""> Outerwear </a>
+            </li>
+            <li class="my-2">
+              <a class="footer-link" href=""> Sweatshirts and hoodies </a>
+            </li>
+            <li class="my-2">
+              <a class="footer-link" href=""> Pants </a>
+            </li>
+            <li class="my-2">
+              <a class="footer-link" href=""> Vests </a>
+            </li>
+            <li class="my-2">
+              <a class="footer-link" href=""> Outerwear </a>
+            </li>
+            <li class="my-2">
+              <a class="footer-link" href=""> Sweatshirts & Hoodies </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xl-2 col-12 d-flex  justify-content-lg-start justify-content-center">
+          <div class="max-width-200">
+            <a class="footer-link">
+              <svg class="mx-2 my-2" width="20" height="20" viewBox="0 0 896 896" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M448 0C200.6 0 0 200.6 0 448C0 695.4 200.6 896 448 896C695.4 896 896 695.4 896 448C896 200.6 695.4 0 448 0ZM663.3 337.7C663.6 342.4 663.6 347.3 663.6 352.1C663.6 498.9 551.8 668 347.5 668C284.5 668 226.1 649.7 176.9 618.2C185.9 619.2 194.5 619.6 203.7 619.6C255.7 619.6 303.5 602 341.6 572.2C292.8 571.2 251.8 539.2 237.8 495.2C254.9 497.7 270.3 497.7 287.9 493.2C262.773 488.095 240.188 474.448 223.982 454.578C207.776 434.708 198.949 409.841 199 384.2V382.8C213.7 391.1 231 396.2 249.1 396.9C233.884 386.759 221.406 373.021 212.771 356.903C204.136 340.785 199.612 322.785 199.6 304.5C199.6 283.8 205 264.9 214.7 248.5C242.59 282.834 277.393 310.914 316.846 330.917C356.3 350.919 399.521 362.395 443.7 364.6C428 289.1 484.4 228 552.2 228C584.2 228 613 241.4 633.3 263C658.4 258.3 682.4 248.9 703.8 236.3C695.5 262 678.1 283.7 655 297.4C677.4 295 699 288.8 719 280.1C703.9 302.3 685 322 663.3 337.7V337.7Z"
+                  fill="black" />
+              </svg>
+            </a>
+            <a class="footer-link" href="">
+              <svg class="mx-2 my-2" width="20" height="20" viewBox="0 0 800 800" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M400 266.7C326.6 266.7 266.7 326.6 266.7 400C266.7 473.4 326.6 533.3 400 533.3C473.4 533.3 533.3 473.4 533.3 400C533.3 326.6 473.4 266.7 400 266.7ZM799.8 400C799.8 344.8 800.3 290.1 797.2 235C794.1 171 779.5 114.2 732.7 67.4002C685.8 20.5002 629.1 6.00025 565.1 2.90025C509.9 -0.199749 455.2 0.300252 400.1 0.300252C344.9 0.300252 290.2 -0.199749 235.1 2.90025C171.1 6.00025 114.3 20.6002 67.4999 67.4002C20.5999 114.3 6.09986 171 2.99986 235C-0.10014 290.2 0.399862 344.9 0.399862 400C0.399862 455.1 -0.10014 509.9 2.99986 565C6.09986 629 20.6999 685.8 67.4999 732.6C114.4 779.5 171.1 794 235.1 797.1C290.3 800.2 345 799.7 400.1 799.7C455.3 799.7 510 800.2 565.1 797.1C629.1 794 685.9 779.4 732.7 732.6C779.6 685.7 794.1 629 797.2 565C800.4 509.9 799.8 455.2 799.8 400V400ZM400 605.1C286.5 605.1 194.9 513.5 194.9 400C194.9 286.5 286.5 194.9 400 194.9C513.5 194.9 605.1 286.5 605.1 400C605.1 513.5 513.5 605.1 400 605.1ZM613.5 234.4C587 234.4 565.6 213 565.6 186.5C565.6 160 587 138.6 613.5 138.6C640 138.6 661.4 160 661.4 186.5C661.408 192.793 660.174 199.025 657.77 204.84C655.365 210.655 651.837 215.939 647.388 220.388C642.938 224.838 637.655 228.366 631.84 230.77C626.025 233.175 619.792 234.408 613.5 234.4V234.4Z"
+                  fill="black" />
+              </svg>
+            </a>
+            <a class="footer-link" href="">
+              <svg class="mx-2" width="20" height="20" viewBox="0 0 416 416" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M208 0C93.31 0 0 93.31 0 208C0 322.69 93.31 416 208 416C322.69 416 416 322.69 416 208C416 93.31 322.69 0 208 0ZM208 336C187.1 336 170.48 327.14 168.25 308.42C168.191 307.861 168.251 307.295 168.425 306.76C168.599 306.225 168.885 305.733 169.262 305.316C169.64 304.899 170.101 304.566 170.616 304.339C171.131 304.112 171.687 303.997 172.25 304H243.7C244.268 303.996 244.831 304.113 245.35 304.343C245.87 304.574 246.334 304.912 246.713 305.336C247.091 305.76 247.375 306.259 247.545 306.802C247.715 307.344 247.768 307.916 247.7 308.48C245.15 326.85 228.68 336 208 336ZM306 288H110C98.16 288 92 273 98.81 265C115.14 245.66 126.68 237.53 126.68 184.2C126.68 135.33 152.42 117.99 173.68 109.53C175.143 108.92 176.462 108.011 177.552 106.86C178.643 105.71 179.48 104.344 180.01 102.85C183.7 90.6 194.14 80 208 80C221.86 80 232.28 90.6 236 102.86C236.533 104.353 237.373 105.719 238.465 106.869C239.556 108.02 240.876 108.929 242.34 109.54C263.55 117.98 289.34 135.35 289.34 184.21C289.34 237.54 300.87 245.67 317.2 265.01C323.94 273 317.77 288 306 288V288Z"
+                  fill="black" />
+              </svg>
+            </a>
+            <a class="footer-link" href="">
+              <svg class="mx-2 my-2" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M0 12.067C0 18.033 4.333 22.994 10 24V15.333H7V12H10V9.333C10 6.333 11.933 4.667 14.667 4.667C15.533 4.667 16.467 4.8 17.333 4.933V8H15.8C14.333 8 14 8.733 14 9.667V12H17.2L16.667 15.333H14V24C19.667 22.994 24 18.034 24 12.067C24 5.43 18.6 0 12 0C5.4 0 0 5.43 0 12.067Z"
+                  fill="black" />
+              </svg>
+            </a>
+            <a class="footer-link" href="">
+              <svg class="mx-2 my-2" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M11.6034 9.83339L9.35739 8.78539C9.16139 8.69439 9.00039 8.79639 9.00039 9.01339V10.9874C9.00039 11.2044 9.16139 11.3064 9.35739 11.2154L11.6024 10.1674C11.7994 10.0754 11.7994 9.92539 11.6034 9.83339ZM10.0004 0.400391C4.69839 0.400391 0.400391 4.69839 0.400391 10.0004C0.400391 15.3024 4.69839 19.6004 10.0004 19.6004C15.3024 19.6004 19.6004 15.3024 19.6004 10.0004C19.6004 4.69839 15.3024 0.400391 10.0004 0.400391ZM10.0004 13.9004C5.08639 13.9004 5.00039 13.4574 5.00039 10.0004C5.00039 6.54339 5.08639 6.10039 10.0004 6.10039C14.9144 6.10039 15.0004 6.54339 15.0004 10.0004C15.0004 13.4574 14.9144 13.9004 10.0004 13.9004Z"
+                  fill="black" />
+              </svg>
+            </a>
+            <a class="footer-link" href="">
+              <svg class="mx-2 my-2" width="20" height="20" viewBox="0 0 800 800" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M400 266.7C326.6 266.7 266.7 326.6 266.7 400C266.7 473.4 326.6 533.3 400 533.3C473.4 533.3 533.3 473.4 533.3 400C533.3 326.6 473.4 266.7 400 266.7ZM799.8 400C799.8 344.8 800.3 290.1 797.2 235C794.1 171 779.5 114.2 732.7 67.4002C685.8 20.5002 629.1 6.00025 565.1 2.90025C509.9 -0.199749 455.2 0.300252 400.1 0.300252C344.9 0.300252 290.2 -0.199749 235.1 2.90025C171.1 6.00025 114.3 20.6002 67.4999 67.4002C20.5999 114.3 6.09986 171 2.99986 235C-0.10014 290.2 0.399862 344.9 0.399862 400C0.399862 455.1 -0.10014 509.9 2.99986 565C6.09986 629 20.6999 685.8 67.4999 732.6C114.4 779.5 171.1 794 235.1 797.1C290.3 800.2 345 799.7 400.1 799.7C455.3 799.7 510 800.2 565.1 797.1C629.1 794 685.9 779.4 732.7 732.6C779.6 685.7 794.1 629 797.2 565C800.4 509.9 799.8 455.2 799.8 400V400ZM400 605.1C286.5 605.1 194.9 513.5 194.9 400C194.9 286.5 286.5 194.9 400 194.9C513.5 194.9 605.1 286.5 605.1 400C605.1 513.5 513.5 605.1 400 605.1ZM613.5 234.4C587 234.4 565.6 213 565.6 186.5C565.6 160 587 138.6 613.5 138.6C640 138.6 661.4 160 661.4 186.5C661.408 192.793 660.174 199.025 657.77 204.84C655.365 210.655 651.837 215.939 647.388 220.388C642.938 224.838 637.655 228.366 631.84 230.77C626.025 233.175 619.792 234.408 613.5 234.4V234.4Z"
+                  fill="black" />
+              </svg>
+            </a>
+            <a class="footer-link" href="">
+              <svg class="mx-2 my-2" width="20" height="20" viewBox="0 0 416 416" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M208 0C93.31 0 0 93.31 0 208C0 322.69 93.31 416 208 416C322.69 416 416 322.69 416 208C416 93.31 322.69 0 208 0ZM208 336C187.1 336 170.48 327.14 168.25 308.42C168.191 307.861 168.251 307.295 168.425 306.76C168.599 306.225 168.885 305.733 169.262 305.316C169.64 304.899 170.101 304.566 170.616 304.339C171.131 304.112 171.687 303.997 172.25 304H243.7C244.268 303.996 244.831 304.113 245.35 304.343C245.87 304.574 246.334 304.912 246.713 305.336C247.091 305.76 247.375 306.259 247.545 306.802C247.715 307.344 247.768 307.916 247.7 308.48C245.15 326.85 228.68 336 208 336ZM306 288H110C98.16 288 92 273 98.81 265C115.14 245.66 126.68 237.53 126.68 184.2C126.68 135.33 152.42 117.99 173.68 109.53C175.143 108.92 176.462 108.011 177.552 106.86C178.643 105.71 179.48 104.344 180.01 102.85C183.7 90.6 194.14 80 208 80C221.86 80 232.28 90.6 236 102.86C236.533 104.353 237.373 105.719 238.465 106.869C239.556 108.02 240.876 108.929 242.34 109.54C263.55 117.98 289.34 135.35 289.34 184.21C289.34 237.54 300.87 245.67 317.2 265.01C323.94 273 317.77 288 306 288V288Z"
+                  fill="black" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="border-bottom my-3">
+    </div>
     <div class="d-flex flex-lg-row flex-column justify-content-between  align-items-lg-start align-items-center">
       <div>
-              <div class="d-flex flex-md-row flex-column align-items-center">
-        <p class="mb-2 ">
-     Terms and condition of purchase 
-        </p>
-        <p class="mb-2   mx-3">
-    Privacy policy
-        </p>
-       <p class="mb-2   mx-3">
- Intreast Based Advertising
-       </p>
-    </div>
-      <div class="d-flex flex-md-row flex-column align-items-center">
-        <p class="mb-2  ">
-   Accessibility statement 
-        </p>
-        <p class="mb-2   mx-3">
-California Privacy Rights 
-        </p>
-       <p class="mb-2   mx-3">
- California Supply Chains Act
-       </p>
-    </div>
-       <div class=" d-flex flex-md-row flex-column align-items-center">
-        <p class="mb-2  ">
-   Accessibility statement 
-        </p>
-        <p class="mb-2   mx-3">
-Cookie settings 
-        </p>
-       <p class="mb-2   mx-3">
- Site Map
-       </p>
-    </div>
+        <div class="d-flex flex-md-row flex-column align-items-center">
+          <p class="mb-2 ">
+            Terms and condition of purchase
+          </p>
+          <p class="mb-2   mx-3">
+            Privacy policy
+          </p>
+          <p class="mb-2   mx-3">
+            Intreast Based Advertising
+          </p>
+        </div>
+        <div class="d-flex flex-md-row flex-column align-items-center">
+          <p class="mb-2  ">
+            Accessibility statement
+          </p>
+          <p class="mb-2   mx-3">
+            California Privacy Rights
+          </p>
+          <p class="mb-2   mx-3">
+            California Supply Chains Act
+          </p>
+        </div>
+        <div class=" d-flex flex-md-row flex-column align-items-center">
+          <p class="mb-2  ">
+            Accessibility statement
+          </p>
+          <p class="mb-2   mx-3">
+            Cookie settings
+          </p>
+          <p class="mb-2   mx-3">
+            Site Map
+          </p>
+        </div>
       </div>
-    <div class="d-flex mt-lg-0 mt-4">
-        <span class="mx-sm-2"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 48 48"><g fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path clip-rule="evenodd" d="M24 44c11.046 0 20-8.954 20-20S35.046 4 24 4S4 12.954 4 24s8.954 20 20 20z"/><path d="M4 24h40"/><path clip-rule="evenodd" d="M24 44c4.418 0 8-8.954 8-20S28.418 4 24 4s-8 8.954-8 20s3.582 20 8 20z"/><path d="M9.858 10.142A19.937 19.937 0 0 0 24 16v0a19.937 19.937 0 0 0 14.142-5.858M38.142 37.858A19.937 19.937 0 0 0 24 32a19.937 19.937 0 0 0-14.142 5.858"/></g></svg></span>
+      <div class="d-flex mt-lg-0 mt-4">
+        <span class="mx-sm-2"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 48 48">
+            <g fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+              <path clip-rule="evenodd"
+                d="M24 44c11.046 0 20-8.954 20-20S35.046 4 24 4S4 12.954 4 24s8.954 20 20 20z" />
+              <path d="M4 24h40" />
+              <path clip-rule="evenodd" d="M24 44c4.418 0 8-8.954 8-20S28.418 4 24 4s-8 8.954-8 20s3.582 20 8 20z" />
+              <path
+                d="M9.858 10.142A19.937 19.937 0 0 0 24 16v0a19.937 19.937 0 0 0 14.142-5.858M38.142 37.858A19.937 19.937 0 0 0 24 32a19.937 19.937 0 0 0-14.142 5.858" />
+            </g>
+          </svg></span>
         <p class="mb-0 fw-bold">United States</p>
         <span class="d-inline block mx-sm-2  fw-bold">|</span>
-         <p class="mb-0 fw-bold">English</p>
-         <p class="footer-para mb-0 mx-sm-3  pt-sm-1" >2021 Bershka</p>
-    </div>
-    </div>
-    </footer>
-
-    <!-- TOP SIDEBAR -->
-
-    <div
-      class="offcanvas offcanvas-top"
-      tabindex="-1"
-      id="offcanvasTop"
-      aria-labelledby="offcanvasTopLabel"
-    >
-      <div class="offcanvas-header mx-5">
-        <h5 id="offcanvasTopLabel" class="fw-bold">Bershka</h5>
-        <button
-          type="button"
-          class="btn-close text-reset"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        ></button>
+        <p class="mb-0 fw-bold">English</p>
+        <p class="footer-para mb-0 mx-sm-3  pt-sm-1">2021 Bershka</p>
       </div>
-      <div class="offcanvas-body">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <div class="top-sidebar">
-                <input
-                  class="border-0 w-100"
-                  type="text"
-                  placeholder="What are you looking for ?"
-                />
-              </div>
-              <h5 class="top-sidebar-heading mt-4">Most searched</h5>
-              <ul class="list-unstyled">
-                <li class="top-sidebar-para my-3">Jeans</li>
-                <li class="top-sidebar-para my-3">Tops</li>
-                <li class="top-sidebar-para my-3">Boots</li>
-                <li class="top-sidebar-para my-3">Dress</li>
-                <li class="top-sidebar-para my-3">Coat</li>
-              </ul>
+    </div>
+  </footer>
+
+  <!-- TOP SIDEBAR -->
+
+  <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+    <div class="offcanvas-header mx-5">
+      <h5 id="offcanvasTopLabel" class="fw-bold">Bershka</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="top-sidebar">
+              <input class="border-0 w-100" type="text" placeholder="What are you looking for ?" />
             </div>
+            <h5 class="top-sidebar-heading mt-4">Most searched</h5>
+            <ul class="list-unstyled">
+              <li class="top-sidebar-para my-3">Jeans</li>
+              <li class="top-sidebar-para my-3">Tops</li>
+              <li class="top-sidebar-para my-3">Boots</li>
+              <li class="top-sidebar-para my-3">Dress</li>
+              <li class="top-sidebar-para my-3">Coat</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-    <!-- RIGHT SIDEBAR -->
+  </div>
+  <!-- RIGHT SIDEBAR -->
 
-    <div
-      class="offcanvas offcanvas-end px-sm-4 px-1"
-      tabindex="-1"
-      id="offcanvasRight"
-      aria-labelledby="offcanvasRightLabel"
-    >
-      <div class="offcanvas-header ms-auto">
-        <button
-          type="button"
-          class="btn-close text-reset"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        ></button>
-      </div>
-      <div
-        class="
+  <div class="offcanvas offcanvas-end px-sm-4 px-1" tabindex="-1" id="offcanvasRight"
+    aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header ms-auto">
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="
           
           offcanvas-body
          
-        "
-      >
-        <div>
-          <img class="w-100"
-           
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8i0ok-Wg-icI1y_K84uIvnM9Djz81Yl3QdA&usqp=CAU"
-            alt=""
-          />
-        </div>
-        <h3 class="login-heading text-center">Log in or create an account</h3>
-        <div class="mt-3 mb-3">
-          <button class="facebook-btn">Login with Facebook</button>
-        </div>
-        <p class="login-small-text text-center">
-          By logging/signing in with my social login, I agree to connect my
-          account in accordance with the
-          <span class="bold-text"> Privacy Policy </span>
-        </p>
-        <div class=" my-3 fs-18 w-100 d-flex align-items-center justify-content-center">
-                    <span class="line d-inline-block"></span>
-                    <span class="d-inline-block mx-2">OR</span>
-                    <span class="line d-inline-block"></span>
-                  </div>
-      
-        <div class="mt-4">
-          <input type="email" placeholder="Email" class="login-input w-100" />
-        </div>
-        <div class="mt-4">
-          <input
-            type="password"
-            placeholder="Password"
-            class="login-input w-100"
-          />
-        </div>
-        <div class="d-flex justify-content-between mt-4 align-items-center ">
-          <div>
-             <input type="checkbox" />
-            <label class="lable-para" for=""> Continue session </label>
-          </div>
-          <div>
-            <p class="forgot-text mb-0">Forgotten your password?</p>
-          </div>
-        </div>
-        <div class="mt-4 mb-3">
-          <button class="login-btn w-100">LOG IN</button>
-        </div>
-        <p class="lable-para text-center">
-          Don't have an account? <span class="bold-text"> Register </span>
-        </p>
+        ">
+      <div>
+        <img class="w-100"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8i0ok-Wg-icI1y_K84uIvnM9Djz81Yl3QdA&usqp=CAU"
+          alt="" />
       </div>
-    </div>
-    <!-- SECOND RIGHT SIDE BAR -->
+      <h3 class="login-heading text-center">Log in or create an account</h3>
+      <div class="mt-3 mb-3">
+        <button class="facebook-btn">Login with Facebook</button>
+      </div>
+      <p class="login-small-text text-center">
+        By logging/signing in with my social login, I agree to connect my
+        account in accordance with the
+        <span class="bold-text"> Privacy Policy </span>
+      </p>
+      <div class=" my-3 fs-18 w-100 d-flex align-items-center justify-content-center">
+        <span class="line d-inline-block"></span>
+        <span class="d-inline-block mx-2">OR</span>
+        <span class="line d-inline-block"></span>
+      </div>
 
-    <div
-      class="offcanvas offcanvas-end px-4"
-      tabindex="-1"
-      id="offcanvasRight2"
-      aria-labelledby="offcanvasRightLabel"
-    >
-      <div class="offcanvas-header ms-auto">
-        <button
-          type="button"
-          class="btn-close text-reset"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        ></button>
+      <div class="mt-4">
+        <input type="email" placeholder="Email" class="login-input w-100" />
       </div>
-      <h5 id="offcanvasRightLabel " class="fw-bold">My Basket</h5>
-      <div
-        class="
+      <div class="mt-4">
+        <input type="password" placeholder="Password" class="login-input w-100" />
+      </div>
+      <div class="d-flex justify-content-between mt-4 align-items-center ">
+        <div>
+          <input type="checkbox" />
+          <label class="lable-para" for=""> Continue session </label>
+        </div>
+        <div>
+          <p class="forgot-text mb-0">Forgotten your password?</p>
+        </div>
+      </div>
+      <div class="mt-4 mb-3">
+        <button class="login-btn w-100">LOG IN</button>
+      </div>
+      <p class="lable-para text-center">
+        Don't have an account? <span class="bold-text"> Register </span>
+      </p>
+    </div>
+  </div>
+  <!-- SECOND RIGHT SIDE BAR -->
+
+  <div class="offcanvas offcanvas-end px-4" tabindex="-1" id="offcanvasRight2" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header ms-auto">
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <h5 id="offcanvasRightLabel " class="fw-bold">My Basket</h5>
+    <div class="
           offcanvas-body
           d-flex
           justify-content-center
           align-items-center
           flex-column
-        "
-      >
-        <div>
-          <img
-            class="w-100 mw-200"
-            src="https://st3.depositphotos.com/8615356/12642/v/950/depositphotos_126420510-stock-illustration-shopping-bag-cartoon-character-design.jpg"
-            alt=""
-          />
-        </div>
-        <h3 class="basket-heading my-3">Empty basket</h3>
-        <p class="basket-para text-center">
-          Your basket is still empty, discover everything we’ve got for you
-        </p>
-        <div class="mt-4">
-          <button class="discover-btn">DISCOVER</button>
-        </div>
+        ">
+      <div>
+        <img class="w-100 mw-200"
+          src="https://st3.depositphotos.com/8615356/12642/v/950/depositphotos_126420510-stock-illustration-shopping-bag-cartoon-character-design.jpg"
+          alt="" />
+      </div>
+      <h3 class="basket-heading my-3">Empty basket</h3>
+      <p class="basket-para text-center">
+        Your basket is still empty, discover everything we’ve got for you
+      </p>
+      <div class="mt-4">
+        <button class="discover-btn">DISCOVER</button>
       </div>
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 
-    <!--JQUERY SCRIPTS-->
-    <script>
-      $(document).ready(function () {
-        $(".logo").mouseover(function () {
-          $(".hover-sidebar1").addClass("hover-sidebar");
-        });
-        $(".logo").mouseout(function () {
-          $(".hover-sidebar1").removeClass("hover-sidebar");
-        });
+  <!--JQUERY SCRIPTS-->
+  <script>
+    $(document).ready(function () {
+      $(".logo").mouseover(function () {
+        $(".hover-sidebar1").addClass("hover-sidebar");
+        $(".side-overlay").addClass("active");
+        document.body.style.overflow = 'hidden';
+        $(".fixed").addClass("bg-white")
       });
-    </script>
-    <script>
-      $(document).ready(function () {
-        $("#left-right").click(function () {
-          console.log("sdfghjk");
-          $(".result").addClass("d-block");
-          $(".result").removeClass("d-none");
-        });
+      $(" .anim-menu").click(function () {
+        $(".hover-sidebar1").addClass("hover-sidebar");
+        $(".side-overlay").addClass("active");
+        $(".fixed").addClass("bg-white")
+        document.body.style.overflow = 'hidden';
+
       });
-    </script>
-    <script>
-      $(document).ready(function () {
-        $("#close-result").click(function () {
-          console.log("sdfghjk");
-          $(".result").addClass("d-none");
-        });
+
+    });
+  </script>
+  <!-- hover-sidebar1 -->
+  <script>
+    $(document).ready(function () {
+      $(".hover-sidebar1").mouseover(function () {
+        $(".hover-sidebar1").addClass("hover-sidebar");
+        $(".fixed").addClass("bg-white")
       });
-    </script>
-    
-    
-  </body>
+      $(".side-overlay").mouseover(function () {
+        $(".hover-sidebar1").removeClass("hover-sidebar");
+        $(".side-overlay").removeClass("active");
+        document.body.style.overflow = 'auto';
+        $(".fixed").removeClass("bg-white")
+      });
+    });
+
+    // side - overlay
+  </script>
+  <script>
+    $(document).ready(function () {
+      $("#left-right").click(function () {
+        console.log("sdfghjk");
+        $(".result").addClass("d-block");
+        $(".result").removeClass("d-none");
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      $("#close-result").click(function () {
+        console.log("sdfghjk");
+        $(".result").addClass("d-none");
+      });
+    });
+  </script>
+  <script>
+    const secNavbar = document.querySelector(".sec-navbar")
+    const topHeader = document.querySelector(".top-header")
+    const carouselSec = document.querySelector(".Carousel-section")
+    const animMenu = document.querySelector(".anim-menu")
+
+    window.addEventListener("scroll", scrollHandler)
+    window.addEventListener("resize", resizeHandler)
+    let innerWidth = window.screen.availWidth;
+
+    function resizeHandler() {
+      innerWidth = window.screen.availWidth;
+
+    }
+
+    function scrollHandler() {
+      const pos = window.scrollY
+      if (pos > 5) {
+        topHeader.classList.add("isScroll")
+        secNavbar.classList.add("isAnimated")
+        carouselSec.classList.add("isCarousel")
+      } else {
+        topHeader.classList.remove("isScroll")
+        secNavbar.classList.remove("isAnimated")
+        carouselSec.classList.remove("isCarousel")
+      }
+
+      if (innerWidth < 992) {
+
+        animMenu.classList.add("d-none")
+        topHeader.classList.add("bg-white");
+        secNavbar.classList.add("bg-white")
+      } else {
+
+        topHeader.classList.remove("bg-white");
+        secNavbar.classList.remove("bg-white")
+      }
+    }
+  </script>
+
+
+</body>
+
 </html>
