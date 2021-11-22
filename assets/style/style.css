@@ -580,10 +580,10 @@ ul {
   color: #8c8c8c;
 }
 
-<<<<<<< HEAD .max-width-200 {
+HEAD .max-width-200 {
   max-width: 200px;
 }
-=======>>>>>>>e2b342d09a07fe8326bfde0264757c61ad8880e5 svg {
+svg {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
