@@ -58,6 +58,7 @@ body {
 .navbar-input {
   border-bottom: 1px solid var(--color-black);
   width: 300px;
+  font-size: var(--font-sm);
 }
 
 @media (max-width: 991px) {
@@ -668,12 +669,17 @@ svg {
 /* bootsrtap */
 @media (min-width: 991px) {
   .bootstrap-carousel .carousel-control-next {
-    right: -229px;
+    right: -200px;
   }
 
   .bootstrap-carousel .carousel-control-prev {
-    left: -229px;
+    left: -200px;
   }
+}
+
+.carousel-inner {
+  max-width: 535px;
+  margin: auto;
 }
 
 .carousel-text {
@@ -686,8 +692,13 @@ svg {
 
 .dot {
   position: relative;
-  padding-left: 30px;
+  padding-left: 25px;
   line-height: 32px;
+  font-size: var(--font-sm);
+}
+
+.dot-2 {
+  font-size: var(--font-sm);
 }
 
 .mw-950 {
@@ -698,7 +709,7 @@ svg {
   position: absolute;
   content: ".";
   /* background-color: var(--color-black); */
-  top: -6px;
+  top: -10px;
   left: 10px;
 }
 
@@ -717,7 +728,8 @@ svg {
   }
 
   .dot::after {
-    top: -5px;
+    top: -10px;
+    left: 5px;
   }
 }
 
