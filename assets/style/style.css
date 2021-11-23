@@ -920,3 +920,11 @@ svg {
   width: 20px;
   height: 20px;
 }
+
+.z-30 {
+  z-index: 30;
+}
+
+.z-40 {
+  z-index: 40;
+}
