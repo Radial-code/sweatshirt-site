@@ -57,7 +57,7 @@ body {
 
 .navbar-input {
   border-bottom: 1px solid var(--color-black);
-  width: 300px;
+  width: 220px;
   font-size: var(--font-sm);
 }
 
@@ -498,11 +498,13 @@ input:focus {
 
 .left-right-arrow {
   background-color: var(--color-white);
-  height: 27px;
-  width: 27px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
-
-  box-shadow: 0 0 2px rgb(0 0 0 / 15%);
+  box-shadow: 0 0 4px rgb(0 0 0 / 15%);
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
 }
 
 /*===================== RECTANGLE-CSS =====================*/
@@ -557,6 +559,7 @@ input:focus {
 
 .new-text {
   color: var(--color-dim-grey);
+  font-size: var(--font-sm);
 }
 
 .hover-sidebar-text-red {
@@ -602,6 +605,7 @@ input:focus {
   color: var(--color-black);
   font-size: var(--font-sm);
   font-weight: 400;
+  cursor: pointer;
 }
 
 .footer-link:hover {
@@ -669,17 +673,25 @@ svg {
 /* bootsrtap */
 @media (min-width: 991px) {
   .bootstrap-carousel .carousel-control-next {
-    right: -200px;
+    right: -220px;
   }
 
   .bootstrap-carousel .carousel-control-prev {
-    left: -200px;
+    left: -220px;
   }
 }
 
 .carousel-inner {
   max-width: 535px;
   margin: auto;
+}
+
+.carousel-control-next {
+  right: 40px;
+}
+
+.carousel-control-prev {
+  left: 40px;
 }
 
 .carousel-text {
@@ -695,14 +707,16 @@ svg {
   padding-left: 25px;
   line-height: 32px;
   font-size: var(--font-sm);
+  cursor: pointer;
 }
 
 .dot-2 {
   font-size: var(--font-sm);
+  cursor: pointer;
 }
 
-.mw-950 {
-  max-width: 950px;
+.mw-800 {
+  max-width: 800px;
 }
 
 .dot::after {
@@ -882,11 +896,13 @@ svg {
 .bg-accordion-black .footer-link {
   font-size: var(--font-sm);
   color: var(--color-white) !important;
+  cursor: pointer;
 }
 
 .bg-accordion-black .footer-link:hover {
   color: var(--color-white);
   opacity: 0.7;
+  cursor: pointer;
 }
 
 .carousel-item {
