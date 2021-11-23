@@ -654,7 +654,7 @@ svg {
   transition: all 0.3s ease-in-out;
 }
 
-svg:hover {
+footer svg:hover {
   transform: translate(0, -5px);
   transition: all 0.3s ease-in-out;
 }
@@ -726,8 +726,8 @@ svg:hover {
   cursor: pointer;
 }
 
-.mw-800 {
-  max-width: 800px;
+.mw-1050 {
+  max-width: 1050px;
 }
 
 .dot::after {

@@ -93,7 +93,6 @@
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 pt-lg-0 pt-4">
             <!-- <li
@@ -117,7 +116,6 @@
               <a class="nav-link navbar-button logo"> Men</a>
             </li> -->
           </ul>
-
           <span class="pe-3">
             <svg aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
               viewBox="0 0 20 20">
@@ -128,7 +126,6 @@
               </g>
             </svg>
           </span>
-
           <span class="navbar-input d-inline-block" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
             aria-controls="offcanvasTop">Search</span>
           <span class="mx-lg-3 cursor-pointer navbar-icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
@@ -508,7 +505,6 @@
       </div>
     </div>
   </div>
-
   <!--================================================= HOVER SIDE BAR =================================================-->
   <div class="hover-sidebar1 px-3">
     <div class="container-fluid">
@@ -562,10 +558,7 @@
       </div>
     </div>
   </div>
-
   <!--==================================== CAROUSEL-SECTION ====================================-->
-
-
   <section class=" Carousel-section">
     <div class="container  ">
       <div class="row justify-content-center">
@@ -899,7 +892,7 @@
   </div>
   <!--======================================= LAST-SECTION =======================================-->
   <div class="container-fluid mt-5 pt-lg-5">
-    <div class="px-4 pt-5">
+    <div class="px-sm-4 px-2 pt-5">
       <h1 class="footer-heading">
         Men’s Sweatshirts and Hoodies
       </h1>
@@ -908,19 +901,19 @@
         become your favorites.
       </p>
       <p class="last-text">
-        <span class="">
+        <span class="ms-1 ms-sm-0">
           Basics
         </span>
-        <span class="ms-3">
+        <span class="ms-sm-3 ms-1">
           Hoodie
         </span>
-        <span class="ms-3">
+        <span class="ms-sm-3 ms-1">
           Collaborations&#174;
         </span>
-        <span class="ms-3">
+        <span class="ms-sm-3 ms-1">
           Printed
         </span>
-        <span class="ms-3">
+        <span class="ms-sm-3 ms-1">
           Zip-up
         </span>
 
@@ -928,7 +921,7 @@
     </div>
   </div>
   <!--================================================= FOOTER =================================================-->
-  <footer class="py-lg-5 py-5 mx-4 d-none d-lg-block">
+  <footer class="pt-lg-5 pb-3 mx-4 d-none d-lg-block">
     <div class="border-top my-sm-5 my-2">
     </div>
     <div class="container-fluid">
@@ -1120,7 +1113,7 @@
     <div class="border-bottom my-3">
     </div>
     <div class="d-flex flex-lg-row flex-column justify-content-between  align-items-lg-start align-items-center">
-      <div class="mw-800">
+      <div class="mw-1050">
         <span class="dot-2 ">
           Terms and condition of purchase
         </span>
@@ -1465,17 +1458,12 @@
     </div>
   </div>
   <!--==================================================== RIGHT SIDEBAR ====================================================-->
-
   <div class="offcanvas offcanvas-end px-sm-4 px-1" tabindex="-1" id="offcanvasRight"
     aria-labelledby="offcanvasRightLabel">
     <div class="offcanvas-header ms-auto">
       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
-    <div class="
-          
-          offcanvas-body
-         
-        ">
+    <div class="offcanvas-body">
       <div>
         <img class="w-100"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8i0ok-Wg-icI1y_K84uIvnM9Djz81Yl3QdA&usqp=CAU"
@@ -1495,7 +1483,6 @@
         <span class="d-inline-block mx-2">OR</span>
         <span class="line d-inline-block"></span>
       </div>
-
       <div class="mt-4">
         <input type="email" placeholder="Email" class="login-input w-100" />
       </div>
@@ -1520,7 +1507,6 @@
     </div>
   </div>
   <!--================================================= SECOND RIGHT SIDE BAR =================================================-->
-
   <div class="offcanvas offcanvas-end px-4" tabindex="-1" id="offcanvasRight2" aria-labelledby="offcanvasRightLabel">
     <div class="offcanvas-header ms-auto">
       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -1551,8 +1537,6 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
   </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-
   <!--===========================================JQUERY SCRIPTS===========================================-->
   <script>
     $(document).ready(function () {
@@ -1567,9 +1551,7 @@
         $(".side-overlay").addClass("active");
         $(".fixed").addClass("bg-white")
         document.body.style.overflow = 'hidden';
-
       });
-
     });
   </script>
   <!-- hover-sidebar1 -->
@@ -1613,7 +1595,6 @@
     const topHeader = document.querySelector(".top-header")
     const carouselSec = document.querySelector(".Carousel-section")
     const animMenu = document.querySelector(".anim-menu")
-
     window.addEventListener("scroll", scrollHandler)
     window.addEventListener("resize", resizeHandler)
     let innerWidth = window.screen.availWidth;
@@ -1633,21 +1614,16 @@
         secNavbar.classList.remove("isAnimated")
         carouselSec.classList.remove("isCarousel")
       }
-
       if (innerWidth < 992) {
-
         animMenu.classList.add("d-none")
         topHeader.classList.add("bg-white");
         secNavbar.classList.add("bg-white")
       } else {
-
         topHeader.classList.remove("bg-white");
         secNavbar.classList.remove("bg-white")
       }
     }
   </script>
-
-
 </body>
 
 </html>
