@@ -672,11 +672,11 @@ svg {
 /* bootsrtap */
 @media (min-width: 991px) {
   .bootstrap-carousel .carousel-control-next {
-    right: -200px;
+    right: -220px;
   }
 
   .bootstrap-carousel .carousel-control-prev {
-    left: -200px;
+    left: -220px;
   }
 }
 
