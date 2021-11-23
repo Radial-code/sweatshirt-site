@@ -198,16 +198,16 @@ body {
   width: 12px;
 }
 
-.round input[type="checkbox"] {
+.round input[type="radio"] {
   display: none;
 }
 
-.round input[type="checkbox"]:checked+label {
+.round input[type="radio"]:checked+label {
   background-color: var(--color-fern);
   border-color: var(--color-fern);
 }
 
-.round input[type="checkbox"]:checked+label:after {
+.round input[type="radio"]:checked+label:after {
   opacity: 1;
 }
 
@@ -357,7 +357,7 @@ input:focus {
 @media (max-width: 991px) {
   .sweat-shirt-text {
     white-space: nowrap;
-    width: 170px;
+    width: 50%;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -445,7 +445,7 @@ input:focus {
 
 /*====================================== NAVBAR-CSS ======================================*/
 .offcanvas-top {
-  height: 45vh;
+  min-height: 400px;
 }
 
 .btn-close:focus {
@@ -505,6 +505,10 @@ input:focus {
   display: flex !important;
   align-items: center;
   justify-content: center;
+}
+
+.offcanvas-body {
+  overflow: hidden;
 }
 
 /*===================== RECTANGLE-CSS =====================*/
