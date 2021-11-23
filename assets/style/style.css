@@ -639,10 +639,10 @@ svg {
   transition: all 0.3s ease-in-out;
 }
 
-/* svg:hover {
+svg:hover {
   transform: translate(0, -5px);
   transition: all 0.3s ease-in-out;
-} */
+}
 
 .text-orange {
   color: var(--color-orange);
@@ -901,7 +901,7 @@ svg {
   cursor: pointer;
 }
 
-.carousel-item {
+.footer-link svg .carousel-item {
   transition: none;
 }
 
