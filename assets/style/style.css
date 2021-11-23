@@ -1,7 +1,7 @@
 :root {
   /* FONT SIZE */
   --font-xs: 11px;
-  --font-sm: 14px;
+  --font-sm: 13px;
   --font-sub-sm: 14px;
   --font-sub-md: 17px;
   --font-lg: 21px;
@@ -612,9 +612,19 @@ input:focus {
   cursor: pointer;
 }
 
+.footer-link-2 {
+  font-size: var(--font-sm);
+  font-weight: 400;
+}
+
 .footer-link:hover {
   color: var(--color-black);
   opacity: 0.8;
+}
+
+.last-text {
+  font-size: var(--font-sub-md);
+  font-weight: 400;
 }
 
 ul {
@@ -623,7 +633,7 @@ ul {
 }
 
 .footer-heading {
-  font-size: var(--font-md);
+  font-size: var(--font-sub-md);
   font-weight: 700;
   color: var(--color-black);
 }
