@@ -10,10 +10,8 @@
   --font-md: 18px;
 
   /* COLOR  */
-  --bg-black: #000000;
+  --color-black: #000000;
   --color-white: #ffffff;
-  --bg-gray-76: #c2c2c2;
-  --bg-Hawkes-blue: #d8d9db;
   --color-dim-grey: #636363;
   --color-very-light-grey: #ccc;
   --color-fern: #66bb6a;
@@ -58,7 +56,7 @@ body {
 }
 
 .navbar-input {
-  border-bottom: 1px solid var(--bg-black);
+  border-bottom: 1px solid var(--color-black);
   width: 300px;
 }
 
@@ -85,19 +83,19 @@ body {
 
 .header-text.active {
   font-weight: 700;
-  color: var(--bg-black);
+  color: var(--color-black);
 }
 
 .header-text:hover {
-  color: var(--bg-black);
+  color: var(--color-black);
 }
 
 .navbar-button {
-  color: var(--bg-black);
+  color: var(--color-black);
 }
 
 .navbar-button:hover {
-  background-color: var(--bg-black);
+  background-color: var(--color-black);
   color: var(--color-white);
   border-radius: 5px;
 }
@@ -234,7 +232,7 @@ input:focus {
 }
 
 .top-sidebar-para:hover {
-  color: var(--bg-black);
+  color: var(--color-black);
   cursor: pointer;
 }
 
@@ -251,14 +249,14 @@ input:focus {
 .top-sidebar-heading {
   font-size: var(--font-lg);
   font-weight: 500;
-  color: var(--bg-black);
+  color: var(--color-black);
 }
 
 .hover-sidebar-text {
   font-size: var(--font-lg);
   font-weight: 600;
   cursor: pointer;
-  color: var(--bg-black);
+  color: var(--color-black);
   transition: all 0.3s ease-in-out;
 }
 
@@ -269,7 +267,7 @@ input:focus {
 .hover-sidebar-para {
   font-size: var(--font-sm);
   font-weight: 400;
-  color: var(--bg-black);
+  color: var(--color-black);
   /* margin-top: 10px; */
   margin-bottom: 9px;
   transition: all 0.3s ease-in-out;
@@ -293,7 +291,7 @@ input:focus {
 
 .slick-next:before,
 .slick-prev:before {
-  background-color: var(--bg-black);
+  background-color: var(--color-black);
   border-radius: 50%;
 }
 
@@ -315,7 +313,7 @@ input:focus {
 }
 
 .discover-btn {
-  background-color: var(--bg-black);
+  background-color: var(--color-black);
   color: var(--color-white);
   padding: 10px 32px;
   border: 1px solid transparent;
@@ -325,21 +323,21 @@ input:focus {
 
 .discover-btn:hover {
   background-color: transparent;
-  color: var(--bg-black);
-  border: 1px solid var(--bg-black);
+  color: var(--color-black);
+  border: 1px solid var(--color-black);
   transition: all 0.3s ease-in-out;
 }
 
 .basket-heading {
   font-size: var(--font-sub-md);
   font-weight: 500;
-  color: var(--bg-black);
+  color: var(--color-black);
 }
 
 .basket-para {
   font-size: 15px;
   font-weight: 400;
-  color: var(--bg-black);
+  color: var(--color-black);
 }
 
 .line {
@@ -352,7 +350,7 @@ input:focus {
 .my-basket {
   font-size: var(--font-xl);
   font-weight: 500;
-  color: var(--bg-black);
+  color: var(--color-black);
 }
 
 @media (max-width: 991px) {
@@ -380,12 +378,12 @@ input:focus {
 .login-heading {
   font-size: var(--font-lg);
   font-weight: 500;
-  color: var(--bg-black);
+  color: var(--color-black);
 }
 
 .login-small-text {
   font-size: var(--font-xs);
-  color: var(--bg-black);
+  color: var(--color-black);
   font-weight: 400;
 }
 
@@ -397,7 +395,7 @@ input:focus {
 .login-para {
   font-size: var(--font-sm);
   font-weight: 400;
-  color: var(--bg-black);
+  color: var(--color-black);
 }
 
 .login-input {
@@ -416,18 +414,18 @@ input:focus {
 .lable-para {
   font-size: 12px;
   font-weight: 400;
-  color: var(--bg-black);
+  color: var(--color-black);
   cursor: pointer;
 }
 
 .forgot-text {
   font-size: 12px;
-  color: var(--bg-black);
+  color: var(--color-black);
   font-weight: 600;
 }
 
 .login-btn {
-  background-color: var(--bg-black);
+  background-color: var(--color-black);
   color: var(--color-white);
   padding: 10px 32px;
   border: 1px solid transparent;
@@ -439,8 +437,8 @@ input:focus {
 
 .login-btn:hover {
   background-color: transparent;
-  color: var(--bg-black);
-  border: 1px solid var(--bg-black);
+  color: var(--color-black);
+  border: 1px solid var(--color-black);
   transition: all 0.3s ease-in-out;
 }
 
@@ -455,14 +453,14 @@ input:focus {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: var(--bg-black);
+  color: var(--color-black);
   padding: 5px;
   font-weight: 400;
   border-radius: 5px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  background-color: var(--bg-black);
+  background-color: var(--color-black);
   color: var(--color-white);
   border-radius: 5px;
   padding: 5px;
@@ -493,7 +491,7 @@ input:focus {
 }
 
 .number-text:hover {
-  background-color: var(--bg-black);
+  background-color: var(--color-black);
   color: var(--color-white);
 }
 
@@ -533,7 +531,7 @@ input:focus {
 }
 
 .rectangle-black {
-  background-color: var(--bg-black);
+  background-color: var(--color-black);
   border: 0.8px solid transparent;
   border-radius: 3px;
   width: 16px;
@@ -600,13 +598,13 @@ input:focus {
 /*================================== footer ==================================*/
 .footer-link {
   text-decoration: none;
-  color: var(--bg-black);
+  color: var(--color-black);
   font-size: var(--font-sm);
   font-weight: 400;
 }
 
 .footer-link:hover {
-  color: var(--bg-black);
+  color: var(--color-black);
   opacity: 0.8;
 }
 
@@ -618,7 +616,7 @@ ul {
 .footer-heading {
   font-size: var(--font-md);
   font-weight: 700;
-  color: var(--bg-black);
+  color: var(--color-black);
 }
 
 .footer-para {
@@ -699,7 +697,7 @@ svg {
 .dot::after {
   position: absolute;
   content: ".";
-  /* background-color: var(--bg-black); */
+  /* background-color: var(--color-black); */
   top: -6px;
   left: 10px;
 }
@@ -790,14 +788,14 @@ svg {
 
 /*================================================== ACCORDION-CSS ==================================================*/
 .bg-accordion-black .accordion-button:not(.collapsed) {
-  background-color: var(--bg-black);
+  background-color: var(--color-black);
   color: var(--color-white);
   border: 1px solid transparent;
   box-shadow: none;
 }
 
 .bg-accordion-black .accordion-item:first-of-type .accordion-button {
-  background-color: var(--bg-black);
+  background-color: var(--color-black);
 }
 
 .bg-accordion-black .accordion-button:not(.collapsed)::after {
@@ -811,7 +809,7 @@ svg {
 }
 
 .bg-accordion-black a {
-  color: var(--bg-black) !important;
+  color: var(--color-black) !important;
 }
 
 .bg-accordion-black .accordion-button::after {
@@ -829,13 +827,13 @@ svg {
 }
 
 .bg-accordion-black .accordion-body {
-  background-color: var(--bg-black);
+  background-color: var(--color-black);
 }
 
 .bg-accordion-black .accordion-button {
   transition: none;
   color: var(--color-white);
-  background-color: var(--bg-black);
+  background-color: var(--color-black);
   box-shadow: none !important;
   border: none;
   border-color: transparent;
@@ -848,7 +846,7 @@ svg {
 .bg-accordion-black .accordion-item {
   border-top: 1px solid var(--color-white) !important;
   border-bottom: 1px solid var(--color-white) !important;
-  background-color: var(--bg-black);
+  background-color: var(--color-black);
 }
 
 .bg-accordion-black .collapsing {
@@ -858,7 +856,7 @@ svg {
 }
 
 .bg-accordion-black {
-  background-color: var(--bg-black);
+  background-color: var(--color-black);
 }
 
 .bg-accordion-black a {
