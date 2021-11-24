@@ -472,10 +472,10 @@ input:focus {
   transition: 0.2s;
 }
 
-.navbar-icon:hover {
+/* .navbar-icon:hover {
   cursor: pointer;
   transform: scale(1.3);
-}
+} */
 
 
 .view-text {
