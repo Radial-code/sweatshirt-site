@@ -475,7 +475,7 @@
                       <label for="New"></label>
                     </span>
                   </span>
-                  New In
+                  <label for="New">New In</label>
                 </p>
                 <p class="fw-bold">
                   <span>
@@ -1609,19 +1609,23 @@
         topHeader.classList.add("isScroll")
         secNavbar.classList.add("isAnimated")
         carouselSec.classList.add("isCarousel")
+
       } else {
         topHeader.classList.remove("isScroll")
         secNavbar.classList.remove("isAnimated")
         carouselSec.classList.remove("isCarousel")
+
       }
       if (innerWidth < 992) {
         animMenu.classList.add("d-none")
         topHeader.classList.add("bg-white");
         secNavbar.classList.add("bg-white")
+
       } else {
         topHeader.classList.remove("bg-white");
         secNavbar.classList.remove("bg-white")
       }
+
     }
   </script>
 </body>
