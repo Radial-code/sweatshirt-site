@@ -152,7 +152,6 @@ body {
 
 .result {
   background-color: var(--color-white);
-  /* height: 400px; */
   box-shadow: 0 3px 5px 0 rgb(0 0 0 / 5%);
   width: 100%;
   z-index: 2;
@@ -209,17 +208,6 @@ body {
 
 .round input[type="radio"]:checked+label:after {
   opacity: 1;
-}
-
-/*===================================== .offcanvas-backdrop.show===================================== {
-  opacity: ;
-} */
-.top-sidebar {
-  border-bottom: 1px solid var(--color-silver);
-  font-size: var(--font-xxl);
-  font-weight: 400;
-  color: var(--color-silver);
-  /* padding-bottom: 20px; */
 }
 
 input:focus {
